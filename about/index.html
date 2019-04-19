@@ -215,31 +215,6 @@
                   carouselResize();
               </script>
             
-              
-                <div class="item" style="max-height:600px; overflow: hidden;">
-              
-                <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
-              </div>
-
-              <!-- 自适应大图 -->
-              <script>
-              	  var carouselResize = function() {
-              	  	  var h = document.body.clientHeight / 3;
-	                  var img2 = new Image();
-	                  var imageTag2 = document.getElementById("carousel-img2");
-	                  img2.src = imageTag2.src;
-	                  img2.onload=function(){
-	                    if (img2.width / img2.height <= document.body.clientWidth / h) {
-	                      imageTag2.style.width = document.body.clientWidth + "px";
-	                    } else {
-	                      imageTag2.style.height = h + "px";
-	                      imageTag2.style.marginLeft = -(h * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
-	                    }
-	                  };
-              	  };
-                  carouselResize();
-              </script>
-            
         </div>
 
         <!-- Controls -->
@@ -309,7 +284,7 @@ var a = new Donate({
       <div>
         <ul class="post-copyright">
           <li class="post-copyright-author">
-          <strong>Post author:  </strong>Pris NLP Team
+          <strong>Post author:  </strong>Pris NLP Group
           </li>
           <li class="post-copyright-link">
           <strong>Post link:  </strong>
@@ -524,7 +499,7 @@ var a = new Donate({
             Hexo
           </div>
           <div class="panel-body">
-            Copyright © 2019 Pris NLP Team All Rights Reserved.
+            Copyright © 2019 Pris NLP Group All Rights Reserved.
           </div>
         </div>
       </div>
