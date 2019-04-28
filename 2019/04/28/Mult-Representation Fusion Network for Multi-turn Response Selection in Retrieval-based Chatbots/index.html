@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>multi-representation fusion network for multi-turn response selection in retrieval-based chatbots | PRIS NLP Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="Response SelectionChatbot">
+  
+  
+  
+  
+  <meta name="description" content="Introduction方向：检索式多轮对话的回复选择 从Multi-view引入交互，到SMN完全基于交互，再到DAM多层交互，在检索式对话回复选择任务中基于交互的思想越来越有效，且交互的粒度越多越work。 在基于检索的多轮聊天机器人的回复选择中，作者考虑 多种类型表示 的context-response匹配。这些表示对context和response在word、n-gram和utteranc">
+<meta name="keywords" content="Response Selection,Chatbot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Multi-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots">
+<meta property="og:url" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots/index.html">
+<meta property="og:site_name" content="PRIS NLP Group">
+<meta property="og:description" content="Introduction方向：检索式多轮对话的回复选择 从Multi-view引入交互，到SMN完全基于交互，再到DAM多层交互，在检索式对话回复选择任务中基于交互的思想越来越有效，且交互的粒度越多越work。 在基于检索的多轮聊天机器人的回复选择中，作者考虑 多种类型表示 的context-response匹配。这些表示对context和response在word、n-gram和utteranc">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-1ddb3e4c7a99b6d348bfd720411c75c1_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-c062176e3ee000503848f80f6152c71a_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-4d233295446b0070b0c06c9834c1820b_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-7e44b575a030d954d466612dd6cef71f_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-ce17967eca155dea7590ee7ed02d3b2e_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-fcc6ec4009ef1a69e3df3b4a522e27b0_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-ba7fb19a2990003d21576a19903f7bfa_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-b1151edab8dc2fc577d2028adb0de163_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-3b29252b265f4b45d5103121d86ac98d_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-9d2658166c1ad559cdee2faf79c15f7d_b.png">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-61f57d8596389d91732f1b1f9b2199aa_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-7534117083129d9ba3cf55d796303c40_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-9f755b8d08ae53bc168ec817e42119c1_b.jpg">
+<meta property="og:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-b192cb1bc44e6ecbfd491a1ae2345174_b.jpg">
+<meta property="og:updated_time" content="2019-04-28T14:18:59.716Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Multi-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots">
+<meta name="twitter:description" content="Introduction方向：检索式多轮对话的回复选择 从Multi-view引入交互，到SMN完全基于交互，再到DAM多层交互，在检索式对话回复选择任务中基于交互的思想越来越有效，且交互的粒度越多越work。 在基于检索的多轮聊天机器人的回复选择中，作者考虑 多种类型表示 的context-response匹配。这些表示对context和response在word、n-gram和utteranc">
+<meta name="twitter:image" content="https://pris-nlp.github.io/2019/04/28/Mult-Representation%20Fusion%20Network%20for%20Multi-turn%20Response%20Selection%20in%20Retrieval-based%20Chatbots/63214453_assets/v2-1ddb3e4c7a99b6d348bfd720411c75c1_b.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="PRIS NLP Group" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/css/dialog.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css">
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css">
+  
+
+</head>
+</html>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="
+                 margin-top: 0px;" href="#" data-toggle="modal" data-target="#myModal">
+                  <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/member">member</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/publication">publication</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/blog">research blog</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/event">event</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/resource">resource</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder>
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div></li>
+            </ul></div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-Mult-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      Multi-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2019/04/28/Mult-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots/" class="article-date">
+	  <time datetime="2019-04-28T14:17:00.000Z" itemprop="datePublished">2019-04-28</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a><strong>Introduction</strong></h2><p><strong>方向：检索式多轮对话的回复选择</strong></p>
+<p>从Multi-view引入交互，到SMN完全基于交互，再到DAM多层交互，在检索式对话回复选择任务中基于交互的思想越来越有效，且交互的粒度越多越work。</p>
+<p>在基于检索的多轮聊天机器人的回复选择中，作者考虑 <strong>多种类型表示</strong> 的context-<br>response匹配。这些表示对context和response在word、n-gram和utterance子序列等不同粒度信息上进行语义编码，并捕获单词之间的短期和长期依赖关系。有了这么多的表示，如何在深度神经网络中融合它们以进行匹配以及它们如何有助于匹配成为了一个研究点。为此，作者提出了一种多表示融合网络（以下简称MRFN），其中这些表示可以在<br><strong>早期阶段，中间阶段或最后阶段</strong><br>融合到匹配中。作者在两个数据集上比较了不同的表示和融合策略，实验结果表明，后期融合总是优于早期融合，并且通过在最后阶段融合表示，这篇论文提出的模型明显优于现有方法，并在两个数据集上实现了SOTA。通过消融实验，证明了每种表示对于匹配的影响，这也说明了如何在实际系​​统中选择它们。</p>
+<p>本文的贡献:（1）提出了融合多种表示类型的MRFN模型; （2）提出了三种表示的融合策略; （3）在数据集上实现了SOTA;<br>（4）通过实验，将不同类型的表示对于匹配的贡献做了直观的解释。</p>
+<h2 id="Symbols"><a href="#Symbols" class="headerlink" title="Symbols"></a><strong>Symbols</strong></h2><p>$\displaystyle U_{i}^{k}$  ：第i个utterance的第k个类型的表示，  $\displaystyle k \in {1,<br>…, K}$  ；</p>
+<p>$\displaystyle e^{k}<em>{i,j}、e^{k}</em>{r,j}$  ：第i个utterance和response的第k个类型表示的第j个词；</p>
+<p>$\displaystyle U_{i}^{<em>}$  和  $\displaystyle R^{</em>}$  ：K种表示信息的拼接结果；</p>
+<p>$\displaystyle \hat{e}<em>{i,j}、\hat{e}</em>{r,j}$  ：  $\displaystyle U_{i}^{<em>}$  和<br>$\displaystyle R^{</em>}$  的第j行，即第k个词；</p>
+<h2 id="Model"><a href="#Model" class="headerlink" title="Model"></a><strong>Model</strong></h2><ol>
+<li><strong>Representations</strong></li>
+</ol>
+<ul>
+<li><strong>Word Representations 编码每个word的语义信息</strong></li>
+</ul>
+<p>· Character-based Word Embedding 使用字符级编码加CNN减弱OOV问题</p>
+<p>· Word2Vec 使用常规的word embedding</p>
+<ul>
+<li><strong>Contextual Representations 捕捉单词之间的短期依赖</strong></li>
+</ul>
+<p>· Sequential Representation 在词嵌入基础上使用GRU获取句子中子序列信息</p>
+<p>· Local Representation 在字符嵌入基础上使用CNN获取句子中的n-gram信息</p>
+<ul>
+<li><strong>Attention-based Representations 编码单词的重要性和单词之间的长期依赖性</strong></li>
+</ul>
+<p>· Multi-head Attention 使用多个self-attention的融合来获取不同子空间上的信息</p>
+<p>· Cross Attention 使用每个utterance和response之间的交互信息  </p>
+<p><strong>2. MRFN</strong></p>
+<p><img src="./63214453_assets/v2-1ddb3e4c7a99b6d348bfd720411c75c1_b.jpg" alt></p>
+<ul>
+<li><strong>Fusing at an early stage (FES)</strong></li>
+</ul>
+<p>将utterance和response的K种表示信息拼接起来，通过类似于cross attention的计算公式计算得到中间状态<br>$\displaystyle \bar{e}_{i,j}$  ：</p>
+<p><img src="./63214453_assets/v2-c062176e3ee000503848f80f6152c71a_b.jpg" alt><br><img src="./63214453_assets/v2-4d233295446b0070b0c06c9834c1820b_b.jpg" alt></p>
+<p>然后使用 <strong><em>SUBMULT+NN</em> </strong> [1]交互方法得到  $\displaystyle t_{i,j}$  ，  $\displaystyle<br>T^{*}_{i}$  ：</p>
+<p><img src="./63214453_assets/v2-7e44b575a030d954d466612dd6cef71f_b.jpg" alt></p>
+<p>每个utterance经过  $\displaystyle GRU_{t}$  得到一个匹配向量  $\displaystyle v_{i}$  ：</p>
+<p><img src="./63214453_assets/v2-ce17967eca155dea7590ee7ed02d3b2e_b.png" alt></p>
+<p>整个context再经过另一个  $\displaystyle GRU_{v}$  得到  $\displaystyle h^{v}_{m}$  ：</p>
+<p><img src="./63214453_assets/v2-fcc6ec4009ef1a69e3df3b4a522e27b0_b.png" alt></p>
+<p>再经过一个MLP，得到最终的匹配分数：</p>
+<p><img src="./63214453_assets/v2-ba7fb19a2990003d21576a19903f7bfa_b.png" alt></p>
+<ul>
+<li><strong>Fusion at an intermediate stage (FIS)</strong></li>
+</ul>
+<p>和FES不同的是，FIS的utterance和response的交互在每个类型的表示上进行，得到K个交互表示  $\displaystyle<br>T^{k}<em>{i}$  ，拼接之后得到  $\displaystyle T^{*}</em>{i}$  。</p>
+<ul>
+<li><strong>Fusion at the last stage (FLS)</strong></li>
+</ul>
+<p>FLS将  $\displaystyle (c,r)$  的匹配分为K个pipeline，其中每个pipeline将一种类型的表示作为输入，并输出<br>$\displaystyle g^{k}(c,r)$  。每一种表示的  $\displaystyle U^{k}<em>{i}$  和<br>$\displaystyle R^{k }$  计算得到  $\displaystyle T^{k}</em>{i}$  ，接一个  $\displaystyle<br>GRU_{t}$  网络得到  $\displaystyle v^{k}<em>{i}$  ，整个context接一个  $\displaystyle<br>GRU</em>{v}$  网络和MLP得到  $\displaystyle g^{k}(c,r)$  ，最后得到匹配分数：</p>
+<p><img src="./63214453_assets/v2-b1151edab8dc2fc577d2028adb0de163_b.png" alt></p>
+<ul>
+<li><strong>Learning</strong></li>
+</ul>
+<p>FES/FIS: cross entropy.</p>
+<p><img src="./63214453_assets/v2-3b29252b265f4b45d5103121d86ac98d_b.png" alt></p>
+<p>FLS: K pipelines.</p>
+<p><img src="./63214453_assets/v2-9d2658166c1ad559cdee2faf79c15f7d_b.png" alt></p>
+<h2 id="Experiment"><a href="#Experiment" class="headerlink" title="Experiment"></a><strong>Experiment</strong></h2><p><strong>1. 对比实验</strong></p>
+<p><img src="./63214453_assets/v2-61f57d8596389d91732f1b1f9b2199aa_b.jpg" alt></p>
+<p>和之前存在的一些模型对比 <strong>，</strong> 可以看出 <strong>FLS</strong> 效果比 <strong>DAM</strong> 提升比较显著； <strong>FIS</strong> 和 <strong>DAM</strong><br>相差无几，在Douban数据集上略微好一点； <strong>FES</strong> 效果较差。融合策略效果上：  $\displaystyle MRFN_{FES}</p>
+<p>&lt;MRFN_{FIS}&lt;MRFN_{FLS}$</p>
+<p><strong>2. 消融实验</strong></p>
+<p><img src="./63214453_assets/v2-7534117083129d9ba3cf55d796303c40_b.jpg" alt></p>
+<p>可以发现每一种类型的表示都很有用，但是去掉其中一个只会带来轻微的变化，这可能是由于不同类型 <strong>表示信息的冗余和重叠</strong> ；self-<br>attention表示的效果在两个中英文数据集上最好，character<br>embedding在英文数据集上效果好；Contextual和Attention比Word表示信息效果好，Contextual表示信息在模型上表现最好。</p>
+<p><strong>3. 模型拓展性</strong>  </p>
+<p><img src="./63214453_assets/v2-9f755b8d08ae53bc168ec817e42119c1_b.jpg" alt></p>
+<p>把融合的三种策略移植到到 <strong>SMN</strong> 模型上也得到了不错的效果，尤其是FLS策略。</p>
+<p>4. 其他</p>
+<p><img src="./63214453_assets/v2-b192cb1bc44e6ecbfd491a1ae2345174_b.jpg" alt></p>
+<p>作者还实验探究了各个类型表示在不同对话轮数、不同对话长度上的作用占比以及变化。</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a><strong>Conclusion</strong></h2><ol>
+<li>在原来SMN、DAM模型两种表示粒度的基础上提出了三种粒度6种表示； </li>
+<li>提出了多表示匹配-聚合(Matching-Aggregation)的三种融合策略； </li>
+<li>验证了各种表示的作用，并验证了context轮次、平均对话长度变化时各个表示的作用情况； </li>
+<li>提出的多表示匹配-聚合策略可推广到其他模型，并在SMN模型上进行实验； </li>
+<li>比DAM模型快1.9x的训练速度，1.7x的测试速度。 </li>
+<li>深层的contextual representations和堆叠的attention-based representations未来值得研究。 </li>
+</ol>
+<p>【参考】</p>
+<p>[1] ShuohangWang and Jing Jiang. 2017. A Compare-Aggregate Model for Matching<br>Text Sequences. In ICLR</p>
+<p>[2] <a href="https://zhuanlan.zhihu.com/p/56281175" target="_blank" rel="noopener"> 灰墙：浅谈多轮检索式对话最近的两篇SOTA-『MRFN』&amp;『IMN』
+</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div id="donation_div"></div>
+
+<script src="/js/vdonate.js"></script>
+<script>
+var a = new Donate({
+  title: 'We need more GPUs!', // 可选参数，打赏标题
+  btnText: 'Donate', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png',
+  alipayImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg'
+});
+</script>
+      
+      
+      <div>
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+          <strong>Post author:  </strong>Helic He
+          </li>
+          <li class="post-copyright-link">
+          <strong>Post link:  </strong>
+          <a href="/2019/04/28/Mult-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots/" target="_blank" title="Multi-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots">https://pris-nlp.github.io/2019/04/28/Mult-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>Copyright Notice:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+          </li>
+         
+        </ul>
+<div>
+</div></div>
+      
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+      
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chatbot/">Chatbot</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Response-Selection/">Response Selection</a></li></ul>
+
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/04/21/hexo_blog_template/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo Blog Template</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="toc-sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Symbols"><span class="nav-number">2.</span> <span class="nav-text">Symbols</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Model"><span class="nav-number">3.</span> <span class="nav-text">Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Experiment"><span class="nav-number">4.</span> <span class="nav-text">Experiment</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-number">5.</span> <span class="nav-text">Conclusion</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2019 PRIS NLP Group All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/member" class="mobile-nav-link">Member</a>
+  
+    <a href="/publication" class="mobile-nav-link">Publication</a>
+  
+    <a href="/categories/blog" class="mobile-nav-link">Research Blog</a>
+  
+    <a href="/categories/event" class="mobile-nav-link">Event</a>
+  
+    <a href="/resource" class="mobile-nav-link">Resource</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+  <script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            PRIS NLP Group
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 Helic He All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
+  
+</body>
+</html>
