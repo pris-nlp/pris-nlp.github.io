@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>improving question answering over incomplete kbs with knowledge-aware reader | PRIS NLP Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="Question AnsweringGraph Attention">
+  
+  
+  
+  
+  <meta name="description" content="本文提出了基于不完整KB与文本文档的QA模型，主要有两个创新点：（1）通过图注意力机制来获取question-related  knowledge进而辅助实体编码；（2）在编码文本时，设计了新型gate mechanism来融合KB实体知识。  From: ACL 2019 Paper link: https://drive.google.com/open?id=1j4DY9Sd089DTzyVa">
+<meta name="keywords" content="Question Answering,Graph Attention">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader">
+<meta property="og:url" content="https://pris-nlp.github.io/2019/08/28/Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader/index.html">
+<meta property="og:site_name" content="PRIS NLP Group">
+<meta property="og:description" content="本文提出了基于不完整KB与文本文档的QA模型，主要有两个创新点：（1）通过图注意力机制来获取question-related  knowledge进而辅助实体编码；（2）在编码文本时，设计了新型gate mechanism来融合KB实体知识。  From: ACL 2019 Paper link: https://drive.google.com/open?id=1j4DY9Sd089DTzyVa">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="http://imglf6.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMa3ZKUEFzaXh3b01RY1Q1MkNwSHhjb3dHY0k5WHRURVZRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
+<meta property="og:image" content="http://imglf5.nosdn0.126.net/img/bG1jbzEvdHVjVjJrRE42Rm03TjZra0pvbk9Ta3FVK0pHVk9POVNZWkRLa0NNeDNXakp4RVRBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+<meta property="og:image" content="http://imglf4.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMcjFYMXRhREUzSEZ4M201R1hNUHJma3FrZndaT1hhb09RPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+<meta property="og:image" content="http://imglf3.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMbjJEYWtNcGR3Sit0dkJiUW94U0ZFTHhQUUlKQmJzTkV3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
+<meta property="og:image" content="http://imglf6.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMbUNVdzdVdytwRGJZVmlJUWF5WSswRUlQY1o5ZG1ud3FnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+<meta property="og:updated_time" content="2019-09-17T04:20:19.628Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader">
+<meta name="twitter:description" content="本文提出了基于不完整KB与文本文档的QA模型，主要有两个创新点：（1）通过图注意力机制来获取question-related  knowledge进而辅助实体编码；（2）在编码文本时，设计了新型gate mechanism来融合KB实体知识。  From: ACL 2019 Paper link: https://drive.google.com/open?id=1j4DY9Sd089DTzyVa">
+<meta name="twitter:image" content="http://imglf6.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMa3ZKUEFzaXh3b01RY1Q1MkNwSHhjb3dHY0k5WHRURVZRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
+  
+    <link rel="alternate" href="/atom.xml" title="PRIS NLP Group" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/css/dialog.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css">
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css">
+  
+
+</head>
+</html>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="
+                 margin-top: 0px;" href="#" data-toggle="modal" data-target="#myModal">
+                  <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/member">member</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/publication">publication</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/blog">research blog</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/event">event</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/resource">resource</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder>
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div></li>
+            </ul></div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2019/08/28/Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader/" class="article-date">
+	  <time datetime="2019-08-28T09:40:00.000Z" itemprop="datePublished">2019-08-28</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本文提出了基于不完整KB与文本文档的QA模型，主要有两个创新点：（1）通过图注意力机制来获取question-related  knowledge进而辅助实体编码；（2）在编码文本时，设计了新型gate mechanism来融合KB实体知识。</p>
+<blockquote>
+<p>From: ACL 2019</p>
+<p>Paper link: <a href="https://drive.google.com/open?id=1j4DY9Sd089DTzyVaRquf8fRYwIWhzMRY" target="_blank" rel="noopener">https://drive.google.com/open?id=1j4DY9Sd089DTzyVaRquf8fRYwIWhzMRY</a></p>
+<p>Code link: <a href="https://github.com/xwhan/Knowledge-Aware-Reader" target="_blank" rel="noopener">https://github.com/xwhan/Knowledge-Aware-Reader</a></p>
+<p>Origin: <a href="https://helicqin.github.io/2019/08/28/Improving%20Question%20Answering%20over%20Incomplete%20KBs%20with%20Knowledge-Aware%20Reader/" target="_blank" rel="noopener">https://helicqin.github.io/2019/08/28/Improving%20Question%20Answering%20over%20Incomplete%20KBs%20with%20Knowledge-Aware%20Reader/</a></p>
+</blockquote>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>在问答系统中，知识库（Knowledge Base，KB）用于辅助机器的理解。但是，KB 常常是不完整的，并且针对开放性问题，KB 不可能覆盖到所有的信息。另一方面，人们可以使用大规模的网络文本作为知识来源，并且也取得了一些成绩，但是这些工作更多的针对的是单文档，针对多文档的工作目前还相对较少。作者推测一个可能的原因就是虽然这些文本可以提供更大规模的只是覆盖，但是缺少背景知识，这么多的文档反而会引入很高的噪声。因此作者考虑将这部分整合起来，通过不完整的 KB 获取必要的和问题相关的背景知识，基于这些信息在多文档中抽取合适的信息并最终回答答案。</p>
+<p><img src="http://imglf6.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMa3ZKUEFzaXh3b01RY1Q1MkNwSHhjb3dHY0k5WHRURVZRPT0.png?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0" alt></p>
+<h2 id="Model"><a href="#Model" class="headerlink" title="Model"></a>Model</h2><p>模型主要包括：</p>
+<ul>
+<li>graph-attention based KB reader</li>
+<li>knowledge-aware text reader   </li>
+</ul>
+<p><img src="http://imglf5.nosdn0.126.net/img/bG1jbzEvdHVjVjJrRE42Rm03TjZra0pvbk9Ta3FVK0pHVk9POVNZWkRLa0NNeDNXakp4RVRBPT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0" alt></p>
+<h3 id="SubGraph-Reader-SGREADER"><a href="#SubGraph-Reader-SGREADER" class="headerlink" title="SubGraph Reader(SGREADER)"></a>SubGraph Reader(SGREADER)</h3><p>SGREADER的作用是为每一个实体节点输出一个向量表征，通过编码其邻居节点和关系信息得到。主要考虑以下两个因素：（1）邻居关系与问题的相关性；（2）邻居节点是否为问题中出现过的topic entity。</p>
+<p><strong>Question-Relation  Matching</strong> 作者首先通过一个 LSTM 处理问题，得到问题$\left\{w_{1}^{q}, w_{2}^{q}, \dots, w_{l_{q}}^{q}\right\}$的隐层状态表示$\mathbf{h}^{\mathbf{q}} \in \mathbb{R}^{l_{q} \times d_{h}}$，同时使用相同的 LSTM 得到关系$\left\{w_{1}^{r}, w_{2}^{r}, \dots, w_{l_{r}}^{r}\right\}$的隐层状态表示$\mathbf{h}^{\mathbf{r}} \in \mathbb{R}^{l_{r} \times d_{h}}$。接下来作者使用 self-attention 得到关系的语义表示：<br>$$<br>\vec{r}=\sum_{i} \alpha_{i} \vec{h}_{i}^{r}, \alpha_{i} \propto \exp \left(\vec{w}_{r} \cdot \vec{h}_{i}^{r}\right)<br>$$<br>其中$\vec{w}_{r}$是训练参数。由于问题需要和不同的关系进行匹配，而每个关系只关注到问题的其中一部分信息，因此，作者使用得到的关系表示对问题的每个token对应的隐层状态进行注意力计算，得到问题的语义表示，然后内积得到关系与问题的匹配分数：<br>$$<br>s_{r}=\vec{r} \cdot \sum_{j} \beta_{j} \vec{h}_{j}^{q}, \beta_{j} \propto \exp \left(\vec{r} \cdot \vec{h}_{j}^{q}\right)<br>$$</p>
+<p><strong>Extra  Attention  over  Topic  Entity  Neighbors</strong> 同时，作者还发现topic entity的binary  indicator  feature非常有用，如果一个节点连接到topic entity，那么对应 KB 中的三元组将会比那些非topic entity连接的节点更有用，因此在邻居节点$(r_{i}, e_{i})$上的注意力值最终表示为：</p>
+<p>$$<br>\tilde{s}_{\left(r_{i}, e_{i}\right)} \propto \exp \left(I\left[e_{i} \in \mathcal{E}_{0}\right]+s_{r_{i}}\right)<br>$$</p>
+<p><strong>Information  Propagation  from  Neighbors</strong> 最终每个实体$e$可以通过如下方式计算出来：</p>
+<p>$$<br>\overrightarrow{e^{\prime}}=\gamma^{e} \vec{e}+\left(1-\gamma^{e}\right) \sum_{\left(e_{i}, r_{i}\right) \in N_{e}} \tilde{s}_{\left(r_{i}, e_{i}\right)} \sigma\left(\mathbf{W}_{e}\left[\vec{r}_{i} ; \vec{e}_{i}\right]\right)<br>$$<br>其中$\vec{e}$, $\vec{e}_{i}$ 是预先计算的图编码，$\mathbf{W}_{\mathbf{c}} \in \mathbb{R}^{h_{d} \times 2 h_{d}}$，$N_{e}$ 是节点$e$所有的邻居节点。</p>
+<p>$$<br>\gamma^{e}=g\left(\vec{e}, \sum_{\left(e_{i}, r_{i}\right) \in N_{e}} \tilde{s}_{\left(r_{i}, e_{i}\right)} \sigma\left(\mathbf{W}_{\mathbf{e}}\left[\vec{r}_{i} ; \vec{e}_{i}\right]\right)\right)<br>$$<br>其中$g(x, y)=\operatorname{sigmoid}(\mathbf{W}[x ; y]) \in(0,1)$</p>
+<h3 id="Knowledge-Aware-Text-Reader-KAREADER"><a href="#Knowledge-Aware-Text-Reader-KAREADER" class="headerlink" title="Knowledge-Aware Text Reader(KAREADER)"></a>Knowledge-Aware Text Reader(KAREADER)</h3><p>在上个模块，我们得到了每个子图实体的 embedding 表示，那么在这部分要做的就是利用这些表示增强对问题和文档的理解，从而得到最后的答案。这部分作者使用了一个现有的做阅读理解的模型。</p>
+<p>首先是利用学习到的知识对问题进行更新表示。作者首先利用 self-attention 得到问题的原始表示$\vec{q}=\sum_{i}b_{i}\vec{h}_{i}^{q}$，然后获取问题的topic entity知识$\overrightarrow{e^{q}}=\sum_{e \in \mathcal{E}_{0}} \vec{e}^{\prime} /\left|\mathcal{E}_{0}\right|$，然后使用一个门结构将这些信息进行融合：</p>
+<p>$$<br>\overrightarrow{q^{\prime}}=\gamma^{q} \vec{q}+\left(1-\gamma^{q}\right) \tanh \left(\mathbf{W}^{\mathbf{q}}\left[\vec{q}, \vec{e}^{q}, \vec{q}-\vec{e}^{q}\right]\right)<br>$$</p>
+<p>其中 $\gamma^{q}=sigmoid\left(\mathbf{W}^{\mathrm{gq}}\left[\vec{q}, \vec{e}^{q}, \vec{q}-\vec{e}^{q}\right]\right)$。</p>
+<p>得到了对问题的更新表示之后，就是使用学习到的知识对文档进行增强表示，首先对文档使用 Bi-LSTM 进行处理，作者设计了一种新的基于问题表示的门机制，该结构允许模型能够动态选择跟问题相关的输入，从而得到更好的文档语义表示。<br>$$<br>\begin{aligned} \vec{i}_{w_{i}}^{d} =\gamma^{d} \vec{e}_{w_{i}}+\left(1-\gamma^{d}\right) \vec{f}_{w_{i}}^{d}, \text { where }  \gamma^{d} =\operatorname{sigmoid}\left(\mathbf{W}^{\mathrm{gd}}\left[\vec{q} \cdot \vec{e}^{\prime}_{w_{i}} ; \vec{q} \cdot \vec{f}_{w_{i}}^{d}\right]\right) \end{aligned}<br>$$<br>其中$w_{i}^{d}$是一个输入token，$\vec{f}_{w_{i}}^{d}$是其对应的token feature，$\vec{e}^{\prime}_{w_{i}}$是SGREADER学习的实体表示（如果这个token不是KB中的实体，则只有token feature）。</p>
+<p>最后作者将从 Text Reader 中得到的信息进行融合，首先使用一个 co-attention 计算问题和 Bi-LSTM 的隐层状态的相关程度$\lambda_{i}=\vec{q^{\prime}}^{T} \vec{h}_{w_{i}}^{d}$，然后对这些隐层状态进行加权和$\vec{d}=\sum_{i} \lambda_{i} \vec{h}_{w_{i}}^{d}$，对于多个包含实体的文档，作者使用了均值池化得到最后的表示$\vec{e}_{d}=\frac{1}{\left|\mathcal{D}^{e}\right|} \sum_{d \in \mathcal{D}^{e}} \vec{d}$。</p>
+<h3 id="Answer-Prediction"><a href="#Answer-Prediction" class="headerlink" title="Answer  Prediction"></a>Answer  Prediction</h3><p>作者使用实体表征和问题向量进行匹配得到最后的输出：</p>
+<p>$$<br>s^{e}=\sigma_{s}\left(\overrightarrow{q^{\prime}}^{T} \mathbf{W}_{s}\left[\overrightarrow{e^{\prime}} ; \vec{e}_{d}\right]\right)<br>$$</p>
+<h2 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a>Experiments</h2><p>作者在一个公开数据集 WebQSP 上进行模型的效果验证，同时为了更好的验证模型的效果，作者还人为控制了 KB 的完整程度。</p>
+<p><img src="http://imglf4.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMcjFYMXRhREUzSEZ4M201R1hNUHJma3FrZndaT1hhb09RPT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0" alt="Table  1:  Comparisons  with  Key-Value  Memory  Networks  and  GRAFT-Nets  under  different  KB  settings."></p>
+<p><strong>Ablation  Study</strong><br><img src="http://imglf3.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMbjJEYWtNcGR3Sit0dkJiUW94U0ZFTHhQUUlKQmJzTkV3PT0.png?imageView&amp;thumbnail=500x0&amp;quality=96&amp;stripmeta=0" alt="Table  2:  Ablation  on  dev  under  the  30%  KB  setting."></p>
+<p><img src="http://imglf6.nosdn0.126.net/img/bG1jbzEvdHVjVjJYR2VBOFIvc0dMbUNVdzdVdytwRGJZVmlJUWF5WSswRUlQY1o5ZG1ud3FnPT0.png?imageView&amp;thumbnail=1680x0&amp;quality=96&amp;stripmeta=0" alt></p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>本文提出了基于不完整KB与文本文档的QA模型，主要有两个创新点：（1）通过图注意力机制来获取question-related  knowledge进而辅助实体编码；（2）在编码文本时，设计了新型gate mechanism来融合KB实体知识。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div id="donation_div"></div>
+
+<script src="/js/vdonate.js"></script>
+<script>
+var a = new Donate({
+  title: 'We need more GPUs!', // 可选参数，打赏标题
+  btnText: 'Donate', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png',
+  alipayImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg'
+});
+</script>
+      
+      
+      <div>
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+          <strong>Post author:  </strong>Helic He
+          </li>
+          <li class="post-copyright-link">
+          <strong>Post link:  </strong>
+          <a href="/2019/08/28/Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader/" target="_blank" title="Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader">https://pris-nlp.github.io/2019/08/28/Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>Copyright Notice:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+          </li>
+         
+        </ul>
+<div>
+</div></div>
+      
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+      
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Graph-Attention/">Graph Attention</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Question-Answering/">Question Answering</a></li></ul>
+
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/09/17/《基于主题模板和结构化卷积解码器生成摘要》阅读笔记/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          《基于主题模板和结构化卷积解码器生成摘要》阅读笔记
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/04/21/hexo_blog_template/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo Blog Template</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="toc-sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Model"><span class="nav-number">2.</span> <span class="nav-text">Model</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#SubGraph-Reader-SGREADER"><span class="nav-number">2.1.</span> <span class="nav-text">SubGraph Reader(SGREADER)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Knowledge-Aware-Text-Reader-KAREADER"><span class="nav-number">2.2.</span> <span class="nav-text">Knowledge-Aware Text Reader(KAREADER)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Answer-Prediction"><span class="nav-number">2.3.</span> <span class="nav-text">Answer  Prediction</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Experiments"><span class="nav-number">3.</span> <span class="nav-text">Experiments</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-number">4.</span> <span class="nav-text">Conclusion</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2019 PRIS NLP Group All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/member" class="mobile-nav-link">Member</a>
+  
+    <a href="/publication" class="mobile-nav-link">Publication</a>
+  
+    <a href="/categories/blog" class="mobile-nav-link">Research Blog</a>
+  
+    <a href="/categories/event" class="mobile-nav-link">Event</a>
+  
+    <a href="/resource" class="mobile-nav-link">Resource</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+  <script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            PRIS NLP Group
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 Helic He All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
+  
+</body>
+</html>
