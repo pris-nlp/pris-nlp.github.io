@@ -11,13 +11,13 @@
   
   
   
-  <meta name="description" content="Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上的多文档摘要问题。  来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/Wi">
+  <meta name="description" content="来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/WikiCatSum  Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上">
 <meta name="keywords" content="Summarization,Abstractive Summarization">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《基于主题模板和结构化卷积解码器生成摘要》阅读笔记">
 <meta property="og:url" content="https://pris-nlp.github.io/2019/09/17/《基于主题模板和结构化卷积解码器生成摘要》阅读笔记/index.html">
 <meta property="og:site_name" content="PRIS NLP Group">
-<meta property="og:description" content="Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上的多文档摘要问题。  来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/Wi">
+<meta property="og:description" content="来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/WikiCatSum  Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上">
 <meta property="og:locale" content="zh-cn">
 <meta property="og:image" content="http://image.sherlocknlp.com/image/20190914/m2FdYXMbjJep.png">
 <meta property="og:image" content="http://image.sherlocknlp.com/image/20190914/8lYE59PakSeE.png">
@@ -27,10 +27,10 @@
 <meta property="og:image" content="http://image.sherlocknlp.com/image/20190914/K8TATIwLLkCa.png">
 <meta property="og:image" content="http://image.sherlocknlp.com/image/20190914/l7QbioMG5vGN.png">
 <meta property="og:image" content="http://image.sherlocknlp.com/image/20190914/j5YhR5mq7AGB.png">
-<meta property="og:updated_time" content="2019-09-17T03:07:14.740Z">
+<meta property="og:updated_time" content="2019-09-17T03:09:43.995Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="《基于主题模板和结构化卷积解码器生成摘要》阅读笔记">
-<meta name="twitter:description" content="Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上的多文档摘要问题。  来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/Wi">
+<meta name="twitter:description" content="来源：ACL 2019 原文链接：https://www.aclweb.org/anthology/P19-1504 代码链接：https://github.com/lauhaide/WikiCatSum  Introduction本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上">
 <meta name="twitter:image" content="http://image.sherlocknlp.com/image/20190914/m2FdYXMbjJep.png">
   
     <link rel="alternate" href="/atom.xml" title="PRIS NLP Group" type="application/atom+xml">
@@ -213,12 +213,12 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上的多文档摘要问题。</p>
-<blockquote>
+        <blockquote>
 <p>来源：ACL 2019</p>
 <p>原文链接：<a href="https://www.aclweb.org/anthology/P19-1504" target="_blank" rel="noopener">https://www.aclweb.org/anthology/P19-1504</a></p>
 <p>代码链接：<a href="https://github.com/lauhaide/WikiCatSum" target="_blank" rel="noopener">https://github.com/lauhaide/WikiCatSum</a></p>
 </blockquote>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>本文基于假设——“将内容结构考虑在内的解码器会使摘要生成的结果更好，同时也会减少通用回复的问题”， 进行了以下研究。虽然文中多次提到多文档摘要，但并不是处理真正意义上的多文档摘要问题。</p>
 <p><img src="http://image.sherlocknlp.com/image/20190914/m2FdYXMbjJep.png" alt="mark"></p>
 <h2 id="Model"><a href="#Model" class="headerlink" title="Model"></a>Model</h2><p>本文模型仍然遵循传统的编码器-解码器架构，将输入文本编码成隐向量后从中解码出最终的摘要文本。模型的总体架构如下：</p>
 <p><img src="http://image.sherlocknlp.com/image/20190914/8lYE59PakSeE.png" alt="mark"></p>
