@@ -224,22 +224,22 @@
 <p><img src="http://image.sherlocknlp.com/image/20190914/8lYE59PakSeE.png" alt="mark"></p>
 <h3 id="CNN-Encoder"><a href="#CNN-Encoder" class="headerlink" title="CNN Encoder"></a>CNN Encoder</h3><p>该模型在使用CNN [Gehring et al., 2017] 将输入文本编码，(作者说这里使用CNN来进行编码的原因是1）有利于并行训练；2）在生成式摘要任务上表现优秀。但后面解码时用的是LSTM，因此并行的效果有待考证)</p>
 <p><img src="http://image.sherlocknlp.com/image/20190914/MzYKxEW3Ydmn.png" alt="mark"></p>
-<h3 id="Hierarchical-Convolutional-Decoder"><a href="#Hierarchical-Convolutional-Decoder" class="headerlink" title="Hierarchical Convolutional Decoder"></a>Hierarchical Convolutional Decoder</h3><p>预测输出$y_{ti}$是通过卷积网络最顶层的输出$P\left(y_{t i} | y_{t{1 : i-1}}\right)=\operatorname{softmax}\left(W_{y}\left(\mathbf{o}<em>{t i}^{L}+\mathbf{c}</em>{t i}^{L}\right)\right)$。决定的该模型通过优化负对数似然$\mathcal{L}_{N L L}$来进行训练</p>
+<h3 id="Hierarchical-Convolutional-Decoder"><a href="#Hierarchical-Convolutional-Decoder" class="headerlink" title="Hierarchical Convolutional Decoder"></a>Hierarchical Convolutional Decoder</h3><p>预测输出$y_{ti}$是通过卷积网络最顶层的输出$P\left(y_{t i} | y_{t\{1 : i-1\}}\right)=\operatorname{softmax}\left(W_{y}\left(\mathbf{o}_{t i}^{L}+\mathbf{c}_{t i}^{L}\right)\right)$。决定的该模型通过优化负对数似然$\mathcal{L}_{N L L}$来进行训练</p>
 <p><img src="http://image.sherlocknlp.com/image/20190914/SSc32OzKIrEy.png" alt="mark"></p>
-<h4 id="Document-level-Decoder"><a href="#Document-level-Decoder" class="headerlink" title="Document-level Decoder"></a>Document-level Decoder</h4><p>在该层会解码出句子表示序列$\left(\mathbf{s}<em>{1}, \cdots, \mathbf{s}</em>{|\mathcal{S}|}\right)$。(但是这里并不清楚$s_t$解码停止条件)</p>
-<p>$\mathbf{h}<em>{t}=\mathrm{LSTM}\left(\mathbf{h}</em>{t-1}, \mathbf{s}_{t-1}\right)$</p>
-<p>$\mathbf{s}<em>{t}=\tanh \left(\mathbf{W}</em>{s}\left[\mathbf{h}<em>{t} ; \mathbf{c}</em>{t}^{s}\right]\right)$</p>
+<h4 id="Document-level-Decoder"><a href="#Document-level-Decoder" class="headerlink" title="Document-level Decoder"></a>Document-level Decoder</h4><p>在该层会解码出句子表示序列$\left(\mathbf{s}_{1}, \cdots, \mathbf{s}_{|\mathcal{S}|}\right)$。(但是这里并不清楚$s_t$解码停止条件)</p>
+<p>$\mathbf{h}_{t}=\mathrm{LSTM}\left(\mathbf{h}_{t-1}, \mathbf{s}_{t-1}\right)$</p>
+<p>$\mathbf{s}_{t}=\tanh \left(\mathbf{W}_{s}\left[\mathbf{h}_{t} ; \mathbf{c}_{t}^{s}\right]\right)$</p>
 <p>这里使用了soft attention [Luong et al., 2015] 的机制，详细原理可以参考<a href="[http://www.sherlocknlp.com/Attention%E6%A8%A1%E5%9E%8B%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0%EF%BC%88%E5%A4%9A%E7%AF%87%E7%BB%8F%E5%85%B8%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB%EF%BC%89/](http://www.sherlocknlp.com/Attention模型方法综述（多篇经典论文解读）/">这篇博客</a>)。</p>
-<p>$\alpha_{t j}^{s}=\frac{\exp \left(\mathbf{h}<em>{t} \cdot \mathbf{z}</em>{j}\right)}{\sum_{j^{\prime}} \exp \left(\mathbf{h}<em>{t} \cdot \mathbf{z}</em>{j^{\prime}}\right)}$</p>
-<p>$\mathbf{c}<em>{t}^{s}=\sum</em>{j=1}^{|\mathcal{X}|} \alpha_{t j}^{s} \mathbf{z}_{j}$</p>
+<p>$\alpha_{t j}^{s}=\frac{\exp \left(\mathbf{h}_{t} \cdot \mathbf{z}_{j}\right)}{\sum_{j^{\prime}} \exp \left(\mathbf{h}_{t} \cdot \mathbf{z}_{j^{\prime}}\right)}$</p>
+<p>$\mathbf{c}_{t}^{s}=\sum_{j=1}^{|\mathcal{X}|} \alpha_{t j}^{s} \mathbf{z}_{j}$</p>
 <h4 id="Sentence-level-Decoder"><a href="#Sentence-level-Decoder" class="headerlink" title="Sentence-level Decoder"></a>Sentence-level Decoder</h4><p>在该部分，作者定义了target摘要句的词表示由 a）词嵌入；b）句内位置向量；c）句子位置向量，三部分组成。</p>
-<p>$\mathbf{g}<em>{t i}=\operatorname{emb}\left(y</em>{t i}\right)+\mathbf{e}<em>{i}+\mathbf{e}</em>{t}$</p>
-<p>每个摘要句子$s_{t}=\left(y_{t 1}, \dots, y_{t\left|s_{t}\right|}\right)$都是由sentence-level decoder生成的。<br>$$<br>\left{\mathbf{o}<em>{t 1}^{l}, \cdots, \mathbf{o}</em>{t n}^{l}\right}=\operatorname{conv}\left(\left{\mathbf{o}<em>{t 1}^{\prime l-1}, \cdots, \mathbf{o}</em>{t n}^{\prime l-1}\right)\right.<br>$$</p>
-<p>$$<br>\mathbf{d}<em>{t i}^{l}=W</em>{d}^{l}\left(\mathbf{o}<em>{t i}^{l}+\mathbf{s}</em>{t}\right)+\mathbf{g}_{t i}<br>$$</p>
-<p>$$<br>a_{t i j}^{l}=\frac{\exp \left(\mathbf{d}<em>{t i}^{l} \cdot \mathbf{z}</em>{j}\right)}{\sum_{j^{\prime}} \exp \left(\mathbf{d}<em>{t i}^{l} \cdot \mathbf{z}</em>{j^{\prime}}\right)}<br>$$</p>
-<p>$$<br>\mathbf{c}<em>{t i}^{l}=\sum</em>{j=1}^{|\mathcal{X}|} a_{t i j}^{l}\left(\mathbf{z}<em>{j}+\mathbf{e}</em>{j}\right)<br>$$</p>
-<p>$$<br>\mathbf{o}<em>{t i}^{\prime l}=\mathbf{o}</em>{t i}^{l}+\mathbf{s}<em>{t}+\mathbf{c}</em>{t i}^{l}<br>$$</p>
-<h3 id="Topic-Guidance"><a href="#Topic-Guidance" class="headerlink" title="Topic Guidance"></a>Topic Guidance</h3><p>在主题判别模块，本文将每个句子看做一个文档，并利用LDA模型分析其中隐含的主题列表K，并为每一个句子打上最可能的主题标签。目的是是document-level decoder更能与主题相关。在这里，作者设计了一个辅助任务用document-level decoder得到的隐层表示来预测主题$k_{t}$，$P\left(k_{t} | s_{1 : t-1}\right)=\operatorname{softmax}\left(W_{k}\left(\mathbf{s}<em>{t}\right)\right)$ （这里不太清楚为什么不是$P(k</em>{t} | s_{t})$ ）。</p>
+<p>$\mathbf{g}_{t i}=\operatorname{emb}\left(y_{t i}\right)+\mathbf{e}_{i}+\mathbf{e}_{t}$</p>
+<p>每个摘要句子$s_{t}=\left(y_{t 1}, \dots, y_{t\left|s_{t}\right|}\right)$都是由sentence-level decoder生成的。<br>$$<br>\left\{\mathbf{o}_{t 1}^{l}, \cdots, \mathbf{o}_{t n}^{l}\right\}=\operatorname{conv}\left(\left\{\mathbf{o}_{t 1}^{\prime l-1}, \cdots, \mathbf{o}_{t n}^{\prime l-1}\right)\right.<br>$$</p>
+<p>$$<br>\mathbf{d}_{t i}^{l}=W_{d}^{l}\left(\mathbf{o}_{t i}^{l}+\mathbf{s}_{t}\right)+\mathbf{g}_{t i}<br>$$</p>
+<p>$$<br>a_{t i j}^{l}=\frac{\exp \left(\mathbf{d}_{t i}^{l} \cdot \mathbf{z}_{j}\right)}{\sum_{j^{\prime}} \exp \left(\mathbf{d}_{t i}^{l} \cdot \mathbf{z}_{j^{\prime}}\right)}<br>$$</p>
+<p>$$<br>\mathbf{c}_{t i}^{l}=\sum_{j=1}^{|\mathcal{X}|} a_{t i j}^{l}\left(\mathbf{z}_{j}+\mathbf{e}_{j}\right)<br>$$</p>
+<p>$$<br>\mathbf{o}_{t i}^{\prime l}=\mathbf{o}_{t i}^{l}+\mathbf{s}_{t}+\mathbf{c}_{t i}^{l}<br>$$</p>
+<h3 id="Topic-Guidance"><a href="#Topic-Guidance" class="headerlink" title="Topic Guidance"></a>Topic Guidance</h3><p>在主题判别模块，本文将每个句子看做一个文档，并利用LDA模型分析其中隐含的主题列表K，并为每一个句子打上最可能的主题标签。目的是是document-level decoder更能与主题相关。在这里，作者设计了一个辅助任务用document-level decoder得到的隐层表示来预测主题$k_{t}$，$P\left(k_{t} | s_{1 : t-1}\right)=\operatorname{softmax}\left(W_{k}\left(\mathbf{s}_{t}\right)\right)$ （这里不太清楚为什么不是$P(k_{t} | s_{t})$ ）。</p>
 <p><img src="http://image.sherlocknlp.com/image/20190914/oIh3aVW4wevv.png" alt="mark"></p>
 <p><strong>符号说明</strong></p>
 <p>$\alpha_{t j}^{s}$：sentence-level decoder中attention的权重</p>
