@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>《对话上下文表示学习的预训练方法》阅读笔记 | PRIS NLP Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="Dialog SystemDialog Context Representation">
+  
+  
+  
+  
+  <meta name="description" content="题目： Pretraining Methods for Dialog Context Representation Learning 来源： ACL 2019 原文链接：  link  转载请注明出处： 学习ML的皮皮虾作者： 徐小红  Introduction多轮对话中对话历史的表示学习是构建对话系统的基础。为了生成更有质量的回复，对话系统需要聚合来自多轮的信息。之前的研究更关注于单领域内对话">
+<meta name="keywords" content="Dialog System,Dialog Context Representation">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《对话上下文表示学习的预训练方法》阅读笔记">
+<meta property="og:url" content="https://pris-nlp.github.io/2019/09/17/《对话上下文表示学习的预训练方法》阅读笔记/index.html">
+<meta property="og:site_name" content="PRIS NLP Group">
+<meta property="og:description" content="题目： Pretraining Methods for Dialog Context Representation Learning 来源： ACL 2019 原文链接：  link  转载请注明出处： 学习ML的皮皮虾作者： 徐小红  Introduction多轮对话中对话历史的表示学习是构建对话系统的基础。为了生成更有质量的回复，对话系统需要聚合来自多轮的信息。之前的研究更关注于单领域内对话">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018127-f14ab580-d95a-11e9-90c1-f89411c32677.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018130-f27be280-d95a-11e9-96ab-25a926728229.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018138-f3ad0f80-d95a-11e9-8de0-97cd175e90b6.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018137-f3147900-d95a-11e9-97f0-56a124d96fd1.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018128-f1e34c00-d95a-11e9-8c14-93ba174e961e.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018134-f27be280-d95a-11e9-9b74-e9bf39381624.jpg">
+<meta property="og:updated_time" content="2019-09-17T14:09:09.176Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="《对话上下文表示学习的预训练方法》阅读笔记">
+<meta name="twitter:description" content="题目： Pretraining Methods for Dialog Context Representation Learning 来源： ACL 2019 原文链接：  link  转载请注明出处： 学习ML的皮皮虾作者： 徐小红  Introduction多轮对话中对话历史的表示学习是构建对话系统的基础。为了生成更有质量的回复，对话系统需要聚合来自多轮的信息。之前的研究更关注于单领域内对话">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="PRIS NLP Group" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.loli.net/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/css/dialog.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css">
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css">
+  
+
+</head>
+</html>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="
+                 margin-top: 0px;" href="#" data-toggle="modal" data-target="#myModal">
+                  <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/member">member</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/publication">publication</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/blog">research blog</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories/event">event</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/resource">resource</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder>
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div></li>
+            </ul></div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-《对话上下文表示学习的预训练方法》阅读笔记" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      《对话上下文表示学习的预训练方法》阅读笔记
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2019/09/17/《对话上下文表示学习的预训练方法》阅读笔记/" class="article-date">
+	  <time datetime="2019-09-17T07:03:52.000Z" itemprop="datePublished">2019-09-17</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p><strong>题目：</strong> Pretraining Methods for Dialog Context Representation Learning<br> <strong>来源：</strong> ACL 2019<br> <strong>原文链接：</strong> <a href="https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1906.00414.pdf" target="_blank" rel="noopener"> link
+</a><br> <strong>转载请注明出处：</strong> 学习ML的皮皮虾<br><strong>作者：</strong> 徐小红</p>
+</blockquote>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>多轮对话中对话历史的表示学习是构建对话系统的基础。为了生成更有质量的回复，对话系统需要聚合来自多轮的信息。之前的研究更关注于单领域内对话系统网络结构的改进，而近年来在大量文本数据上预训练的模型在很多NLP任务中表现突出，比如<br><a href="https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1810.04805" target="_blank" rel="noopener"> BERT </a> 。</p>
+<p>目前预训练方法仍处在起步阶段，我们仍然不能完全了解他们的性质。大多数方法都是基于语言模型的，给一个句子，预测当前词，下一个词或者被mask的词。如Word2Vec，Glove，ELMO等。这些方法将自然语言看作是word<br>token的流，需要复杂的模型利用大规模的语料库和庞杂的计算来发现更高级别的依赖关系。BERT模型也是基于语言模型，但是加入了句子对级别的信息，预测两句话是否是连续的。这种方法在预训练时利用了语句之间的关系。但是，在对话上下文建模这种存在多轮的依赖关系的任务上还并没有行之有效的预训练方法，于是本文在这个方面做了一些尝试。</p>
+<p>对话与其他文本的区别：</p>
+<ul>
+<li>对话必须是语句之间连贯的，并在多轮上达到一个交际的目的。 </li>
+<li>对话在本质上是互动的，说话者之间有反馈，而且说话者轮流进行发言。 </li>
+</ul>
+<h2 id="Model"><a href="#Model" class="headerlink" title="Model"></a>Model</h2><p>本文研究了语句级别的预训练句子表示方法，在四个不同的无监督预训练目标上分别预训练了一个分层对话历史编码器，并在四个下游任务中评估预训练编码器表示对话上下文的质量。其中前两个预训练目标是已有的，后两个是本文作者提出的。</p>
+<p>符号：对话历史：  $\displaystyle c =[u_{1}, u_{2},…,u_{T}]$</p>
+<p>对话回复：  $\displaystyle R=[r_{1},r_{2},…,r_{M}]$</p>
+<p><strong>无监督预训练目标</strong></p>
+<ol>
+<li>检索下一句话</li>
+</ol>
+<p>任务：给定对话历史，从  $\displaystyle K$  个候选回复中选择正确的下一句话。</p>
+<p>使用分级编码器对对话历史进行编码，采用BiLSTM对候选句进行编码。  $\displaystyle K$  个候选句是从  $\displaystyle<br>R$  中根据一定的概率分布选取的子集。</p>
+<p>loss：</p>
+<p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{T} | u_{1},<br>\ldots u_{T-1}\right) \\\ &amp;=-\log \left(\frac{\exp \left(\alpha_{g<br>t}\right)}{\exp \left(\alpha_{g t}\right)+\sum_{j=1}^{K} \exp<br>\left(\alpha_{j}\right)}\right) \end{aligned}$  其中，  $\displaystyle<br>\begin{aligned} \alpha_{g t} &amp;=\mathbf{h}_{\mathbf{T}-\mathbf{1}}^{T}<br>\mathbf{r}_{\mathbf{g} \mathbf{t}} \\\ \alpha_{j}<br>&amp;=\mathbf{h}_{\mathbf{T}-\mathbf{1}}^{T} \mathbf{r}_{\mathbf{j}}<br>\end{aligned}$</p>
+<p>2. 生成下一句话</p>
+<p>任务：给定对话历史，根据对话历史生成下一句话。</p>
+<p>预训练时使用分层Encoder-Decoder结构，在进行下游任务时，仅使用Encoder。</p>
+<p>loss:</p>
+<p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{T} | u_{1},<br>\ldots u_{T-1}\right) \\\ &amp;=-\sum_{k}^{N} \log p\left(w_{k} | w_{&lt;k},<br>\mathbf{h}_{\mathbf{T}-\mathbf{1}}\right) \end{aligned}$</p>
+<p>3. 根据mask的对话历史检索下一句话</p>
+<p>任务：与检索下一句话相同，给定对话历史，从  $\displaystyle K$<br>个候选回复中选择正确的下一句话。区别：1.对话历史中的一句话被随机选择的另一句话替换。2.用替换掉的句子的表示作为对话历史的表示。</p>
+<p>loss：</p>
+<p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{t} | u_{1},<br>\ldots q, \ldots u_{T}\right) \\\ &amp;=-\log \left(\frac{\exp \left(\alpha_{g<br>t}\right)}{\exp \left(\alpha_{g t}\right)+\sum_{j=1}^{K} \exp<br>\left(\alpha_{j}\right)}\right) \end{aligned}$  其中，  $\displaystyle<br>\begin{aligned} \alpha_{g t} &amp;=\mathbf{h}_{\mathrm{t}}^{T}<br>\mathbf{r}_{\mathrm{gt}} \\\ \alpha_{j} &amp;=\mathbf{h}_{\mathrm{t}}^{T}<br>\mathbf{r}_{\mathrm{j}} \end{aligned}$</p>
+<p>这种操作类似于BERT的掩码操作，Bert的mask操作使模型被迫增加对上下文的记忆，而通过mask一整句话，迫使模型在对单句话的表示上加入上下文的信息，使得模型可以学习到对于每一句话的更好的表示。</p>
+<p>4. 识别不一致语句</p>
+<p>任务：识别一段对话历史中不一致的句子。输入是一段对话历史，其中的一句被随机替换掉，模型需要找到被替换的是哪一句。</p>
+<p>loss：</p>
+<p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(t | u_{1}, \ldots<br>q, \ldots u_{T}\right) \\\ &amp;=-\log \left(\frac{\exp<br>\left(\alpha_{t}\right)}{\sum_{j=1}^{T} \exp \left(\alpha_{i}\right)}\right)<br>\end{aligned}$  其中，  $\displaystyle \begin{aligned}<br>\hat{\mathbf{u}}_{\mathbf{i}} &amp;=f_{\mathbf{u}}\left(u_{i}\right) \quad i<br>\in[1, T] \\\\\left[\mathbf{h}_{\mathbf{1}}, \ldots<br>\mathbf{h}_{\mathbf{T}}\right]<br>&amp;=f_{\mathbf{c}}\left(\hat{\mathbf{u}}_{\mathbf{1}}, \ldots<br>\hat{\mathbf{u}}_{\mathbf{T}}\right) \\\ \alpha_{i}<br>&amp;=\mathbf{h}_{\mathbf{T}}^{T} \mathbf{h}_{\mathbf{i}} \quad i \in[1, T]<br>\end{aligned}$</p>
+<p>这个任务的目标是建模单个语句的表示和对话上下文的全局表示的一致性。</p>
+<p><strong>下游任务</strong></p>
+<p>本文选择了以下四个下游任务来测试预训练表示的通用性和有效性。实验数据用的是MultiWoz，其中8422个对话用于训练，1000个用于验证，另外1000个用于测试。</p>
+<ol>
+<li>预测对话状态</li>
+</ol>
+<p>任务：这是一个多分类任务，给定对话历史，预测当前的对话状态。对话状态由27种实体的1784个值的one-hot向量拼接而成。</p>
+<p>这个任务度量了系统维护完整且准确的对话上下文状态表示的能力。由于输出有1784维，这就要求预训练的对话历史表示模型必须有足够强的概括性，才能对对话状态进行准确的预测。</p>
+<p>2. 预测对话行为</p>
+<p>任务：与上个任务类似，是一种多分类任务。给定对话历史，预测系统下一步可能采取的动作，输出是一个32维的对话行为向量。</p>
+<p>3. 生成下一句话</p>
+<p>4. 检索下一句话</p>
+<h2 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a><strong>Experiments</strong></h2><p><strong>实验设置：</strong></p>
+<p>每个模型都训练了15个epoch，选择在验证集上表现最好的模型用于测试。实验中所用参数如下：</p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg" alt></p>
+<p>为了更直接的评估预训练过程中目标设置不同的差异，这里的预训练和fine-tune都是在同一数据集上进行的。</p>
+<p><strong>在完整数据集上的表现</strong></p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018127-f14ab580-d95a-11e9-90c1-f89411c32677.jpg" alt></p>
+<p>该实验是为了测试预训练是否对下游任务有用。表中的第一行对每个任务的模型进行随机初始化。如表一所示，预训练表示展示出了它的有效性和通用性。通过非监督的预训练，模型产生的对话表示提升了很多下游任务的性能。通用性体现在这些下游任务都受益于相同的预训练模型。</p>
+<p>在对话行为预测（DAP）和下一句话生成（NUG）任务上，以识别不一致语句（InI）为目标的预训练模型效果最好。这可能是因为在序列生成模型中全局上下文表示和局部话语表示同样重要。</p>
+<p>在对话行为预测（DAP）任务上，以识别不一致语句（InI）和根据mask的对话历史检索下一句话（MUR）的得分都远远高于基线和其他方法，这可能是因为这两种方法都是训练来学习每个话语的表示，而不仅仅是一个整体的上下文表示。</p>
+<p>在检索下一句话（NUR）任务上，以生成下一句话（NUG）为目标进行预训练时效果最好，这可能是因为生成下一个话语必须捕获的信息与检索下一个话语所需的信息类似。</p>
+<p><strong>收敛性分析</strong></p>
+<p>本文设置了实验观察预训练表示对下游任务在收敛性上的影响。实验证明，预训练过的模型能更快地收敛到更好的效果。</p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018130-f27be280-d95a-11e9-96ab-25a926728229.jpg" alt></p>
+<p><strong>当数据有限时的性能</strong></p>
+<p>一个好的预训练模型应该在下游任务中仅有少量数据的微调的情况下，也能达到很好地效果。本文做了实验验证在微调数据仅有(1%, 2%, 5%, 10% and<br>50%)时，在下游任务上的表现。</p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018138-f3ad0f80-d95a-11e9-8de0-97cd175e90b6.jpg" alt></p>
+<p>上图展示了在下一个句子检索任务中，不同的训练数据时，预训练模型的效果。</p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018137-f3147900-d95a-11e9-97f0-56a124d96fd1.jpg" alt></p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018128-f1e34c00-d95a-11e9-8c14-93ba174e961e.jpg" alt></p>
+<p>上图展示了在数据仅有1%和10%的情况下，预训练模型在各个任务的表现。</p>
+<p><strong>领域间的通用性</strong></p>
+<p>该实验模拟了在下游任务中添加新域时的场景，假设在所有领域都存在大量的无监督的未标记数据，而对于下游任务仅有50个（0.1%）域内的标记数据和1000个（2%）新域的标注数据。在域内数据上做测试，实验证明预训练模型产生了更通用的表示，并促进了域的泛化。</p>
+<p><img src="https://user-images.githubusercontent.com/33616325/65018134-f27be280-d95a-11e9-9b74-e9bf39381624.jpg" alt></p>
+<h2 id="Conclusions"><a href="#Conclusions" class="headerlink" title="Conclusions"></a>Conclusions</h2><p>在这篇文章中，提到了4种无监督的预训练目标来学习对话的上下文的表示，并在有限的微调数据和域外数据的条件下，证明了预训练模型对于提高下游任务性能方面的有效性。其中根据mask的对话历史检索下一句话和不一致语句识别是本文提出的两种新的目标。</p>
+<p>在本文中，无监督预训练被证明能够有效地学习对话上下文的表示。也就是说在有大量未标记的对话数据时，可以采取本文中的几种方法进行预训练。尤其是在标注数据量比较少的情况下。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div id="donation_div"></div>
+
+<script src="/js/vdonate.js"></script>
+<script>
+var a = new Donate({
+  title: 'We need more GPUs!', // 可选参数，打赏标题
+  btnText: 'Donate', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png',
+  alipayImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg'
+});
+</script>
+      
+      
+      <div>
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+          <strong>Post author:  </strong>Helic He
+          </li>
+          <li class="post-copyright-link">
+          <strong>Post link:  </strong>
+          <a href="/2019/09/17/《对话上下文表示学习的预训练方法》阅读笔记/" target="_blank" title="《对话上下文表示学习的预训练方法》阅读笔记">https://pris-nlp.github.io/2019/09/17/《对话上下文表示学习的预训练方法》阅读笔记/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>Copyright Notice:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+          </li>
+         
+        </ul>
+<div>
+</div></div>
+      
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+      
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Dialog-Context-Representation/">Dialog Context Representation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Dialog-System/">Dialog System</a></li></ul>
+
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/09/17/Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Improving Question Answering over Incomplete KBs with Knowledge-Aware Reader</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="toc-sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Model"><span class="nav-number">2.</span> <span class="nav-text">Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Experiments"><span class="nav-number">3.</span> <span class="nav-text">Experiments</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusions"><span class="nav-number">4.</span> <span class="nav-text">Conclusions</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2019 PRIS NLP Group All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/member" class="mobile-nav-link">Member</a>
+  
+    <a href="/publication" class="mobile-nav-link">Publication</a>
+  
+    <a href="/categories/blog" class="mobile-nav-link">Research Blog</a>
+  
+    <a href="/categories/event" class="mobile-nav-link">Event</a>
+  
+    <a href="/resource" class="mobile-nav-link">Resource</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+  <script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            PRIS NLP Group
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 Helic He All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
+  
+</body>
+</html>
