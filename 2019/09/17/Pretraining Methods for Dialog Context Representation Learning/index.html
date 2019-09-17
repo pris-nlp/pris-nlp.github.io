@@ -9,12 +9,12 @@
   
   
   
-  <meta name="description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog           # 目前仅支持两种模式：blog, event。blog是指research">
+  <meta name="description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog             题目： Pretraining Methods for Dialog Co">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PRIS NLP Group">
 <meta property="og:url" content="https://pris-nlp.github.io/2019/09/17/Pretraining Methods for Dialog Context Representation Learning/index.html">
 <meta property="og:site_name" content="PRIS NLP Group">
-<meta property="og:description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog           # 目前仅支持两种模式：blog, event。blog是指research">
+<meta property="og:description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog             题目： Pretraining Methods for Dialog Co">
 <meta property="og:locale" content="zh-cn">
 <meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg">
 <meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018127-f14ab580-d95a-11e9-90c1-f89411c32677.jpg">
@@ -23,10 +23,10 @@
 <meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018137-f3147900-d95a-11e9-97f0-56a124d96fd1.jpg">
 <meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018128-f1e34c00-d95a-11e9-8c14-93ba174e961e.jpg">
 <meta property="og:image" content="https://user-images.githubusercontent.com/33616325/65018134-f27be280-d95a-11e9-9b74-e9bf39381624.jpg">
-<meta property="og:updated_time" content="2019-09-17T13:26:20.784Z">
+<meta property="og:updated_time" content="2019-09-17T13:45:57.238Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PRIS NLP Group">
-<meta name="twitter:description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog           # 目前仅支持两种模式：blog, event。blog是指research">
+<meta name="twitter:description" content="title: 《对话上下文表示学习的预训练方法》阅读笔记date: 2019-09-17 15:03:52tags:                        Dialog System         Dialog Context Representationcategories: blog             题目： Pretraining Methods for Dialog Co">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg">
   
     <link rel="alternate" href="/atom.xml" title="PRIS NLP Group" type="application/atom+xml">
@@ -201,7 +201,7 @@
 <p>title: 《对话上下文表示学习的预训练方法》阅读笔记<br>date: 2019-09-17 15:03:52<br>tags:                      </p>
 <ul>
 <li>Dialog System        </li>
-<li>Dialog Context Representation<br>categories: blog           # 目前仅支持两种模式：blog, event。blog是指research blog类型的文章，event是指event类型的活动文章</li>
+<li>Dialog Context Representation<br>categories: blog         </li>
 </ul>
 <hr>
 <blockquote>
@@ -220,23 +220,23 @@
 <p>对话回复：  $\displaystyle R=[r_{1},r_{2},…,r_{M}]$</p>
 <p><strong>无监督预训练目标</strong></p>
 <ol>
-<li>_检索下一句话_</li>
+<li>检索下一句话</li>
 </ol>
 <p>任务：给定对话历史，从  $\displaystyle K$  个候选回复中选择正确的下一句话。</p>
 <p>使用分级编码器对对话历史进行编码，采用BiLSTM对候选句进行编码。  $\displaystyle K$  个候选句是从  $\displaystyle<br>R$  中根据一定的概率分布选取的子集。</p>
 <p>loss：</p>
 <p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{T} | u_{1},<br>\ldots u_{T-1}\right) \\\ &amp;=-\log \left(\frac{\exp \left(\alpha_{g<br>t}\right)}{\exp \left(\alpha_{g t}\right)+\sum_{j=1}^{K} \exp<br>\left(\alpha_{j}\right)}\right) \end{aligned}$  其中，  $\displaystyle<br>\begin{aligned} \alpha_{g t} &amp;=\mathbf{h}_{\mathbf{T}-\mathbf{1}}^{T}<br>\mathbf{r}_{\mathbf{g} \mathbf{t}} \\\ \alpha_{j}<br>&amp;=\mathbf{h}_{\mathbf{T}-\mathbf{1}}^{T} \mathbf{r}_{\mathbf{j}}<br>\end{aligned}$</p>
-<p>2. _生成下一句话_</p>
+<p>2. 生成下一句话</p>
 <p>任务：给定对话历史，根据对话历史生成下一句话。</p>
 <p>预训练时使用分层Encoder-Decoder结构，在进行下游任务时，仅使用Encoder。</p>
 <p>loss:</p>
 <p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{T} | u_{1},<br>\ldots u_{T-1}\right) \\\ &amp;=-\sum_{k}^{N} \log p\left(w_{k} | w_{&lt;k},<br>\mathbf{h}_{\mathbf{T}-\mathbf{1}}\right) \end{aligned}$</p>
-<p>3. _根据mask的对话历史检索下一句话_</p>
+<p>3. 根据mask的对话历史检索下一句话</p>
 <p>任务：与检索下一句话相同，给定对话历史，从  $\displaystyle K$<br>个候选回复中选择正确的下一句话。区别：1.对话历史中的一句话被随机选择的另一句话替换。2.用替换掉的句子的表示作为对话历史的表示。</p>
 <p>loss：</p>
 <p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(u_{t} | u_{1},<br>\ldots q, \ldots u_{T}\right) \\\ &amp;=-\log \left(\frac{\exp \left(\alpha_{g<br>t}\right)}{\exp \left(\alpha_{g t}\right)+\sum_{j=1}^{K} \exp<br>\left(\alpha_{j}\right)}\right) \end{aligned}$  其中，  $\displaystyle<br>\begin{aligned} \alpha_{g t} &amp;=\mathbf{h}_{\mathrm{t}}^{T}<br>\mathbf{r}_{\mathrm{gt}} \\\ \alpha_{j} &amp;=\mathbf{h}_{\mathrm{t}}^{T}<br>\mathbf{r}_{\mathrm{j}} \end{aligned}$</p>
 <p>这种操作类似于BERT的掩码操作，Bert的mask操作使模型被迫增加对上下文的记忆，而通过mask一整句话，迫使模型在对单句话的表示上加入上下文的信息，使得模型可以学习到对于每一句话的更好的表示。</p>
-<p>4. _识别不一致语句_</p>
+<p>4. 识别不一致语句</p>
 <p>任务：识别一段对话历史中不一致的句子。输入是一段对话历史，其中的一句被随机替换掉，模型需要找到被替换的是哪一句。</p>
 <p>loss：</p>
 <p>$\displaystyle \begin{aligned} \mathcal{L}  &amp;=-\log p\left(t | u_{1}, \ldots<br>q, \ldots u_{T}\right) \\\ &amp;=-\log \left(\frac{\exp<br>\left(\alpha_{t}\right)}{\sum_{j=1}^{T} \exp \left(\alpha_{i}\right)}\right)<br>\end{aligned}$  其中，  $\displaystyle \begin{aligned}<br>\hat{\mathbf{u}}_{\mathbf{i}} &amp;=f_{\mathbf{u}}\left(u_{i}\right) \quad i<br>\in[1, T] \\\\\left[\mathbf{h}_{\mathbf{1}}, \ldots<br>\mathbf{h}_{\mathbf{T}}\right]<br>&amp;=f_{\mathbf{c}}\left(\hat{\mathbf{u}}_{\mathbf{1}}, \ldots<br>\hat{\mathbf{u}}_{\mathbf{T}}\right) \\\ \alpha_{i}<br>&amp;=\mathbf{h}_{\mathbf{T}}^{T} \mathbf{h}_{\mathbf{i}} \quad i \in[1, T]<br>\end{aligned}$</p>
@@ -244,14 +244,14 @@
 <p><strong>下游任务</strong></p>
 <p>本文选择了以下四个下游任务来测试预训练表示的通用性和有效性。实验数据用的是MultiWoz，其中8422个对话用于训练，1000个用于验证，另外1000个用于测试。</p>
 <ol>
-<li>_预测对话状态_</li>
+<li>预测对话状态</li>
 </ol>
 <p>任务：这是一个多分类任务，给定对话历史，预测当前的对话状态。对话状态由27种实体的1784个值的one-hot向量拼接而成。</p>
 <p>这个任务度量了系统维护完整且准确的对话上下文状态表示的能力。由于输出有1784维，这就要求预训练的对话历史表示模型必须有足够强的概括性，才能对对话状态进行准确的预测。</p>
-<p>2. _预测对话行为_</p>
+<p>2. 预测对话行为</p>
 <p>任务：与上个任务类似，是一种多分类任务。给定对话历史，预测系统下一步可能采取的动作，输出是一个32维的对话行为向量。</p>
-<p>3. _生成下一句话_</p>
-<p>4. _检索下一句话_</p>
+<p>3. 生成下一句话</p>
+<p>4. 检索下一句话</p>
 <h2 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a><strong>Experiments</strong></h2><p><strong>实验设置：</strong></p>
 <p>每个模型都训练了15个epoch，选择在验证集上表现最好的模型用于测试。实验中所用参数如下：</p>
 <p><img src="https://user-images.githubusercontent.com/33616325/65018129-f1e34c00-d95a-11e9-9bdb-79a04f7d4614.jpg" alt></p>
