@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monographs | PRIS-NLP</title>
+    <link>https://pris-nlp.github.io/monograph/</link>
+      <atom:link href="https://pris-nlp.github.io/monograph/index.xml" rel="self" type="application/rss+xml" />
+    <description>Monographs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Mon, 01 Feb 2016 15:43:29 +0800</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_huf9441868456af88e4429501459a79a2b_153180_512x512_fill_lanczos_center_3.png</url>
+      <title>Monographs</title>
+      <link>https://pris-nlp.github.io/monograph/</link>
+    </image>
+    
+    <item>
+      <title>Petri Net: Theory and Applications</title>
+      <link>https://pris-nlp.github.io/monograph/petrinettheoryandapplications/</link>
+      <pubDate>Fri, 01 Feb 2008 15:43:29 +0800</pubDate>
+      <guid>https://pris-nlp.github.io/monograph/petrinettheoryandapplications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis and Ontology Engineering</title>
+      <link>https://pris-nlp.github.io/monograph/sentimentanalysisandontologyengineering/</link>
+      <pubDate>Mon, 01 Feb 2016 15:43:29 +0800</pubDate>
+      <guid>https://pris-nlp.github.io/monograph/sentimentanalysisandontologyengineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Advances in Multi-robot Systems</title>
+      <link>https://pris-nlp.github.io/monograph/recentadvancesinmulti-robotsystems/</link>
+      <pubDate>Fri, 01 Feb 2008 15:43:29 +0800</pubDate>
+      <guid>https://pris-nlp.github.io/monograph/recentadvancesinmulti-robotsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quality Software Management (Volume 1)-System Thinking</title>
+      <link>https://pris-nlp.github.io/monograph/%E8%B4%A8%E9%87%8F%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Sun, 01 Feb 2004 15:43:29 +0800</pubDate>
+      <guid>https://pris-nlp.github.io/monograph/%E8%B4%A8%E9%87%8F%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Psychology of Computer Programming</title>
+      <link>https://pris-nlp.github.io/monograph/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E5%BF%83%E7%90%86%E5%AD%A6%E9%93%B6%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88/</link>
+      <pubDate>Sat, 01 Feb 2003 15:43:29 +0800</pubDate>
+      <guid>https://pris-nlp.github.io/monograph/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E5%BF%83%E7%90%86%E5%AD%A6%E9%93%B6%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
