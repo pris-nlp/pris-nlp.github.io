@@ -1,10 +1,34 @@
-# 🌍 THUIAR Official Website
+
+# 🌍 PRIS-NLP Official Website
 
 ![](https://img.shields.io/badge/Framework-Hugo-green?style=flat&logo=hugo)
 ![](https://img.shields.io/badge/Theme-Academic-blue?style=flat&logo=hugo)
 ![](https://img.shields.io/badge/License-Apache--2.0-blue)
 
-📦 This is the repository which contains all files that used to build the [**THUIAR Offcicial Website**](https://thuiar.github.io), which mainly based on Hugo Framework.
+📦 This is the repository which contains all files that used to build the [**PRIS-NLP Offcicial Website**](https://pris-nlp.github.io), which mainly based on Hugo Framework.
+
+# Update
+本repo主要参考 https://github.com/MFYDev/THUIARWeb，感谢！
+1. Hugo简介：Hugo框架包含两部分，一部分是Hugo源码（除docs目录外），另一部分是Hugo源码生成的网页文件（docs目录下的所有内容），在实际部署到github时，只需要将docs目录上传到github即可。这里为了简单，直接把这两部分放在一个repo里，同时提交即可。
+2. 如何更新网站内容：
+    
+    1. 首先要在本地配置hugo环境，参考下面的[💪 Get Started](#-get-started)，注意hugo保持是最新版本。
+    2. git clone本repo，网站的主要内容都在content目录下，详细介绍见[Content](#content)
+    3. 更新对应内容 TODO
+    4. 项目根目录下执行 `sh deploy.sh`，然后在浏览器中预览（记得清空下缓存）
+3. 待更新内容：
+
+    - [ ] 网站首页icon: ![](https://user-images.githubusercontent.com/21177644/138624873-000eeb2c-13aa-4b7a-8e34-513452d45172.png)
+    - [ ] 网站首页banner图片及文字、链接: ![](https://user-images.githubusercontent.com/21177644/138624994-1a3d8cf0-0ad6-4e4a-a0ad-8555e2514fde.png)
+    - [ ] Research Direction
+    - [ ] People
+    - [ ] Papers
+    - [ ] Patents
+    - [ ] Courses
+    - [ ] Textbooks: 这部分可能要删除
+    - [ ] Monographs: 这部分可能要删除
+    - [ ] Accomplishments
+    - [ ] Contact Us
 
 **📂 Refer to [Deployment files Repo](https://github.com/thuiar/thuiar.github.io) for more information.**
 
