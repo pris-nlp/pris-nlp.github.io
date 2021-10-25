@@ -38,7 +38,7 @@ subtitle = "[List All Pappers →](/publication/)"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 2   # 这里的设置只能影响该部分在主页上的样式，无法改变单独页面的展示
   
 [design.background]
   # Apply a background color, gradient, or image.
