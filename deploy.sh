@@ -13,6 +13,6 @@ rm -rf public
 echo "******push to github repo: https://github.com/pris-nlp/pris-nlp.github.io******"
 git add .
 git commit -m "update"
-git push
+git push -f
 
 echo "Successfully update the PRIS official website!!! Thanks for your contributions.\n Please review the updated website at https://pris-nlp.github.io/ (maybe you need to clear the cache of your brower before viewing it)"
