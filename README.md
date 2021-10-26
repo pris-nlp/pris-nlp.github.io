@@ -19,15 +19,15 @@
     4. 部署到github：项目根目录下执行 `sh deploy.sh`，然后在浏览器中预览（记得清空下缓存）
 3. 待更新内容：
 
-    - [ ] 网站首页icon: ![](https://user-images.githubusercontent.com/21177644/138624873-000eeb2c-13aa-4b7a-8e34-513452d45172.png)
-    - [ ] 网站首页banner图片及文字、链接: ![](https://user-images.githubusercontent.com/21177644/138624994-1a3d8cf0-0ad6-4e4a-a0ad-8555e2514fde.png)
+    - [x] 网站首页icon: ![](https://user-images.githubusercontent.com/21177644/138624873-000eeb2c-13aa-4b7a-8e34-513452d45172.png)
+    - [x] 网站首页banner图片及文字、链接: ![](https://user-images.githubusercontent.com/21177644/138624994-1a3d8cf0-0ad6-4e4a-a0ad-8555e2514fde.png)
     - [ ] Research Direction
     - [ ] People
     - [ ] Papers
     - [ ] Patents
     - [ ] Courses
-    - [ ] Textbooks: 这部分可能要删除
-    - [ ] Monographs: 这部分可能要删除
+    - [x] Textbooks: 这部分可能要删除
+    - [x] Monographs: 这部分可能要删除
     - [ ] Accomplishments
     - [ ] Contact Us
 
