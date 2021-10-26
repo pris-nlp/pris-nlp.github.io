@@ -8,7 +8,7 @@
 📦 This is the repository which contains all files that used to build the [**PRIS-NLP Offcicial Website**](https://pris-nlp.github.io), which mainly based on Hugo Framework.
 
 # Update
-本repo主要参考 https://github.com/MFYDev/THUIARWeb，感谢！
+本repo主要参考 https://github.com/MFYDev/THUIARWeb ，感谢！
 1. Hugo简介：Hugo框架包含两部分，一部分是Hugo源码（除docs目录外），另一部分是Hugo源码生成的网页文件（docs目录下的所有内容），在实际部署到github时，只需要将docs目录上传到github即可。这里为了简单，直接把这两部分放在一个repo里，同时提交即可。
 2. 如何更新网站内容：
     
