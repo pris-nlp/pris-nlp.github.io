@@ -29,7 +29,7 @@
     - [x] Textbooks: 这部分可能要删除
     - [x] Monographs: 这部分可能要删除
     - [ ] Accomplishments
-    - [ ] Contact Us
+    - [x] Contact Us
 
 **📂 Refer to [Deployment files Repo](https://github.com/thuiar/thuiar.github.io) for more information.**
 
