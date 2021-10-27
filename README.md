@@ -21,7 +21,7 @@
 
     - [x] 网站首页icon: ![](https://user-images.githubusercontent.com/21177644/138624873-000eeb2c-13aa-4b7a-8e34-513452d45172.png)
     - [x] 网站首页banner图片及文字、链接: ![](https://user-images.githubusercontent.com/21177644/138624994-1a3d8cf0-0ad6-4e4a-a0ad-8555e2514fde.png)
-    - [ ] Research Direction
+    - [x] Research Direction
     - [ ] People
     - [ ] Papers
     - [ ] Patents
