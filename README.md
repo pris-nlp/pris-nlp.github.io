@@ -25,7 +25,7 @@
     - [ ] People
     - [ ] Papers
     - [ ] Patents
-    - [ ] Courses
+    - [ ] Project
     - [x] Textbooks: 这部分可能要删除
     - [x] Monographs: 这部分可能要删除
     - [ ] Accomplishments
