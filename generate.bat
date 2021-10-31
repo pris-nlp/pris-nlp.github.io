@@ -1,0 +1,1 @@
+hugo --baseUrl="https://thuiar.github.io" --cacheDir=D:\GitHubRepo\THUIARWeb\cache
