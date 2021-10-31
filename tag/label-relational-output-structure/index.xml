@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;label-relational output structure&#34; | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/tag/label-relational-output-structure/</link>
+      <atom:link href="https://pris-nlp.github.io/tag/label-relational-output-structure/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;label-relational output structure&#34;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;label-relational output structure&#34;</title>
+      <link>https://pris-nlp.github.io/tag/label-relational-output-structure/</link>
+    </image>
+    
+    <item>
+      <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
+      <link>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
