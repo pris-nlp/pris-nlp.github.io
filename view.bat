@@ -1,1 +1,0 @@
-hugo server --cacheDir=D:\GitHubRepo\THUIARWeb\cache
