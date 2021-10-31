@@ -24,7 +24,7 @@
     - [x] Research Direction
     - [ ] People
     - [ ] Papers
-    - [ ] Patents
+    - [x] Patents
     - [ ] Project
     - [x] Textbooks: 这部分可能要删除
     - [x] Monographs: 这部分可能要删除
