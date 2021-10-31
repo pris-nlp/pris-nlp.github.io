@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KeqingHe | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/author/keqinghe/</link>
+      <atom:link href="https://pris-nlp.github.io/author/keqinghe/index.xml" rel="self" type="application/rss+xml" />
+    <description>KeqingHe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>KeqingHe</title>
+      <link>https://pris-nlp.github.io/author/keqinghe/</link>
+    </image>
+    
+    <item>
+      <title>Bridge to Target Domain by Prototypical Contrastive Learning and Label Confusion Re-explore Zero-Shot Learning for Slot Filling</title>
+      <link>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
+      <link>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Finer-grain Universal Dialogue Semantic Structures based Model For Abstractive Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Cross-Lingual Transfer Learning for Slot Tagging of Low-Resource Languages</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Semantic Decoupling for Recognizing Open-Vocabulary Slots</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contrastive Zero-Shot Learning for Cross-Domain Slot Filling with Adversarial Attack</title>
+      <link>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack</title>
+      <link>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From context-aware to knowledge-aware Boosting OOV tokens recognition in slot tagging with background knowledge</title>
+      <link>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Speaker-aware Sequence-to-sequence Model for Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
+      <link>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Tag OOV Tokens by Integrating Contextual Representation and Background Knowledge</title>
+      <link>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Slot Detection A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
+      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduled Dialog Policy Learning An Automatic Curriculum Learning Framework for Task-oriented Dialog System</title>
+      <link>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

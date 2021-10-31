@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;intent detection&#34; | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/tag/intent-detection/</link>
+      <atom:link href="https://pris-nlp.github.io/tag/intent-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;intent detection&#34;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;intent detection&#34;</title>
+      <link>https://pris-nlp.github.io/tag/intent-detection/</link>
+    </image>
+    
+    <item>
+      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
+      <link>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Slot Detection A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
+      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

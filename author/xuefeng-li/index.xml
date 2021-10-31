@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xuefeng Li | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/author/xuefeng-li/</link>
+      <atom:link href="https://pris-nlp.github.io/author/xuefeng-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xuefeng Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>Xuefeng Li</title>
+      <link>https://pris-nlp.github.io/author/xuefeng-li/</link>
+    </image>
+    
+    <item>
+      <title>Bridge to Target Domain by Prototypical Contrastive Learning and Label Confusion Re-explore Zero-Shot Learning for Slot Filling</title>
+      <link>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
