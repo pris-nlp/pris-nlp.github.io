@@ -137,6 +137,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
       - {label: "Summary", name: "summary", widget: "markdown", required: false}
+      - {label: "Abstract", name: "abstract", widget: "text"}
+
       - label: "Draft"
         name: "draft"
         widget: "boolean"
