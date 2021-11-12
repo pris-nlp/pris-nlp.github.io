@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PuWang | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/author/puwang/</link>
+      <atom:link href="https://pris-nlp.github.io/en/author/puwang/index.xml" rel="self" type="application/rss+xml" />
+    <description>PuWang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>PuWang</title>
+      <link>https://pris-nlp.github.io/en/author/puwang/</link>
+    </image>
+    
+    <item>
+      <title>多轮机票预订查询对话系统</title>
+      <link>https://pris-nlp.github.io/en/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>特定报修场景下的多轮对话系统</title>
+      <link>https://pris-nlp.github.io/en/project/%E7%89%B9%E5%AE%9A%E6%8A%A5%E4%BF%AE%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/project/%E7%89%B9%E5%AE%9A%E6%8A%A5%E4%BF%AE%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>闲聊对话系统</title>
+      <link>https://pris-nlp.github.io/en/project/%E9%97%B2%E8%81%8A%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/project/%E9%97%B2%E8%81%8A%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

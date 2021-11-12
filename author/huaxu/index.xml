@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HuaXu | PRIS-NLP Group</title>
+    <title>HuaXu | 北京邮电大学模式识别实验室NLP研究组</title>
     <link>https://pris-nlp.github.io/author/huaxu/</link>
       <atom:link href="https://pris-nlp.github.io/author/huaxu/index.xml" rel="self" type="application/rss+xml" />
     <description>HuaXu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sat, 10 Oct 2020 11:43:29 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sat, 10 Oct 2020 11:43:29 +0800</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>HuaXu</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Data Mining: Methodology and Applications</title>
+      <title>数据挖掘：方法与应用</title>
       <link>https://pris-nlp.github.io/textbook/datamining-methodandapplication/</link>
       <pubDate>Mon, 01 Sep 2014 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/datamining-methodandapplication/</guid>
@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>Data Mining: Methods and Applications - Application Cases</title>
+      <title>数据挖掘：方法与应用——应用案例</title>
       <link>https://pris-nlp.github.io/textbook/datamining-methodandapplication-case/</link>
       <pubDate>Fri, 01 Sep 2017 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/datamining-methodandapplication-case/</guid>
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>Big Data Technology and Industry Applications</title>
+      <title>大数据技术及行业应用</title>
       <link>https://pris-nlp.github.io/textbook/bigdatatechnologyandindustryapplications/</link>
       <pubDate>Mon, 01 Aug 2016 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/bigdatatechnologyandindustryapplications/</guid>
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Big Data Sentiment Analysis in Text</title>
+      <title>文本大数据情感分析</title>
       <link>https://pris-nlp.github.io/textbook/%E6%96%87%E6%9C%AC%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</link>
       <pubDate>Sat, 10 Oct 2020 11:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/%E6%96%87%E6%9C%AC%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</guid>
@@ -69,62 +69,62 @@
     </item>
     
     <item>
-      <title>Internet Product Design</title>
+      <title>《互联网产品设计》</title>
       <link>https://pris-nlp.github.io/talk/internet-product-design/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/internet-product-design/</guid>
-      <description>&lt;p&gt;Course Classification: Public Elective Courses of Tsinghua University&lt;/p&gt;
-&lt;p&gt;Lecturer: Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Undergraduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：2019 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学公选课&lt;/p&gt;
+&lt;p&gt;主讲教师：徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生&lt;/p&gt;
+&lt;p&gt;授课时间：2019 - 今&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Intelligent Mobile Robot: Design, Programming and Practice</title>
+      <title>《智能移动机器人：设计、编程与实践》</title>
       <link>https://pris-nlp.github.io/talk/intelligent-mobile-robot/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/intelligent-mobile-robot/</guid>
-      <description>&lt;p&gt;Course Classification: Public Elective Courses of Tsinghua University&lt;/p&gt;
-&lt;p&gt;Lecturer: Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Undergraduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：2016 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学公选课&lt;/p&gt;
+&lt;p&gt;主讲教师：徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生&lt;/p&gt;
+&lt;p&gt;授课时间：2016-今&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Industrial Data Mining</title>
+      <title>《工业数据挖掘》</title>
       <link>https://pris-nlp.github.io/talk/industrial-data-mining/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/industrial-data-mining/</guid>
-      <description>&lt;p&gt;Course Classification: Public Elective Courses of Tsinghua University&lt;/p&gt;
-&lt;p&gt;Lecturer: Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Graduate and Undergraduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：2013 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学公选课&lt;/p&gt;
+&lt;p&gt;主讲教师：徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生、研究生&lt;/p&gt;
+&lt;p&gt;授课时间：2013 - 今&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Data Mining: Methods and Applications</title>
+      <title>《数据挖掘：方法与应用》</title>
       <link>https://pris-nlp.github.io/talk/data-mining-method-and-application/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/data-mining-method-and-application/</guid>
-      <description>&lt;p&gt;Course Classification: Public Elective Courses of Tsinghua University&lt;/p&gt;
-&lt;p&gt;Lecturer: Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Undergraduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：2011 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学公选课&lt;/p&gt;
+&lt;p&gt;主讲教师：徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生&lt;/p&gt;
+&lt;p&gt;授课时间：2011 - 今&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Computational Geometry</title>
+      <title>《计算几何》</title>
       <link>https://pris-nlp.github.io/talk/computational-geometry/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/computational-geometry/</guid>
-      <description>&lt;p&gt;Course Classification: Tsinghua University Computer Department Graduate Basic Theory Course&lt;/p&gt;
-&lt;p&gt;Lecturer：Junhui Deng, Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Graduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：1997 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学计算机系研究生基础理论课&lt;/p&gt;
+&lt;p&gt;主讲教师：邓俊辉，徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校研究生&lt;/p&gt;
+&lt;p&gt;授课时间：1997 - 今&lt;/p&gt;
 </description>
     </item>
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JunhuiDeng | PRIS-NLP Group</title>
+    <title>JunhuiDeng | 北京邮电大学模式识别实验室NLP研究组</title>
     <link>https://pris-nlp.github.io/author/junhuideng/</link>
       <atom:link href="https://pris-nlp.github.io/author/junhuideng/index.xml" rel="self" type="application/rss+xml" />
     <description>JunhuiDeng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Wed, 01 Feb 2006 15:43:29 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Wed, 01 Feb 2006 15:43:29 +0800</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>JunhuiDeng</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Computational Geometry: Algorithms and Applications</title>
+      <title>计算几何：算法与应用</title>
       <link>https://pris-nlp.github.io/textbook/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8/</link>
       <pubDate>Tue, 01 Feb 2005 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8/</guid>
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Data Structures and Algorithms (Java Description)</title>
+      <title>数据结构与算法（Java描述）</title>
       <link>https://pris-nlp.github.io/textbook/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0/</link>
       <pubDate>Wed, 01 Feb 2006 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/textbook/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95java%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0/</guid>
@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>Quality Software Management (Volume 1)-System Thinking</title>
+      <title>质量软件管理（第1卷）--系统思维</title>
       <link>https://pris-nlp.github.io/monograph/%E8%B4%A8%E9%87%8F%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
       <pubDate>Sun, 01 Feb 2004 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/monograph/%E8%B4%A8%E9%87%8F%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>The Psychology of Computer Programming</title>
+      <title>程序开发心理学（银年纪念版）</title>
       <link>https://pris-nlp.github.io/monograph/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E5%BF%83%E7%90%86%E5%AD%A6%E9%93%B6%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88/</link>
       <pubDate>Sat, 01 Feb 2003 15:43:29 +0800</pubDate>
       <guid>https://pris-nlp.github.io/monograph/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E5%BF%83%E7%90%86%E5%AD%A6%E9%93%B6%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88/</guid>
@@ -45,38 +45,38 @@
     </item>
     
     <item>
-      <title>Data Strcture</title>
+      <title>《数据结构》</title>
       <link>https://pris-nlp.github.io/talk/data-structure-cs/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/data-structure-cs/</guid>
-      <description>&lt;p&gt;Course Classification: Tsinghua University Computer Department Undergraduate Professional Basic Course&lt;/p&gt;
-&lt;p&gt;Lecturer：Junhui Deng&lt;/p&gt;
-&lt;p&gt;Target Audience: Computer Science Undergraduate&lt;/p&gt;
-&lt;p&gt;Teaching Time：2001 - 2006&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学计算机系本科生专业基础课&lt;/p&gt;
+&lt;p&gt;主讲教师：邓俊辉&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生&lt;/p&gt;
+&lt;p&gt;授课时间：2001 - 2006&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Data Strcture</title>
+      <title>《数据结构》</title>
       <link>https://pris-nlp.github.io/talk/data-structure/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/data-structure/</guid>
-      <description>&lt;p&gt;Course Classification: Public Elective Courses of Tsinghua University&lt;/p&gt;
-&lt;p&gt;Lecturer：Junhui Deng&lt;/p&gt;
-&lt;p&gt;Target Audience: All Undergraduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：2002 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学公选课&lt;/p&gt;
+&lt;p&gt;主讲教师：邓俊辉&lt;/p&gt;
+&lt;p&gt;授课对象：全校本科生&lt;/p&gt;
+&lt;p&gt;授课时间：2002 - 今&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Computational Geometry</title>
+      <title>《计算几何》</title>
       <link>https://pris-nlp.github.io/talk/computational-geometry/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0800</pubDate>
       <guid>https://pris-nlp.github.io/talk/computational-geometry/</guid>
-      <description>&lt;p&gt;Course Classification: Tsinghua University Computer Department Graduate Basic Theory Course&lt;/p&gt;
-&lt;p&gt;Lecturer：Junhui Deng, Hua Xu&lt;/p&gt;
-&lt;p&gt;Target Audience: All Graduate Students&lt;/p&gt;
-&lt;p&gt;Teaching Time：1997 - Today&lt;/p&gt;
+      <description>&lt;p&gt;课程类型：清华大学计算机系研究生基础理论课&lt;/p&gt;
+&lt;p&gt;主讲教师：邓俊辉，徐华&lt;/p&gt;
+&lt;p&gt;授课对象：全校研究生&lt;/p&gt;
+&lt;p&gt;授课时间：1997 - 今&lt;/p&gt;
 </description>
     </item>
     

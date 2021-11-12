@@ -1,0 +1,1435 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Weiran Xu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="该项目的落地场景为保险行业销售员培训系统，其中本项目的对话系统担任模拟客户的角色，通过和真实学员的对话交互来对学员的语言表述进行打分，借此提高保险销售学员的业务能力。整体对话系统采用经典管道结构，分为自然语言理解、对话管理和自然语言生成三个部分。其中自然语言处理除了基本的实体意图识别还加入了多意图识别的考量，对话管理部分采用分流程分阶段控制对话的规则设定。在项目后期，整体会加入情感分析，即学员的表达中蕴含的情感因素也会成为打分的评分点。">
+
+  
+  <link rel="alternate" hreflang="zh" href="https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="PRIS-NLP Group">
+  <meta property="og:url" content="https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/">
+  <meta property="og:title" content="学员培训模拟用户对话系统 | PRIS-NLP Group">
+  <meta property="og:description" content="该项目的落地场景为保险行业销售员培训系统，其中本项目的对话系统担任模拟客户的角色，通过和真实学员的对话交互来对学员的语言表述进行打分，借此提高保险销售学员的业务能力。整体对话系统采用经典管道结构，分为自然语言理解、对话管理和自然语言生成三个部分。其中自然语言处理除了基本的实体意图识别还加入了多意图识别的考量，对话管理部分采用分流程分阶段控制对话的规则设定。在项目后期，整体会加入情感分析，即学员的表达中蕴含的情感因素也会成为打分的评分点。"><meta property="og:image" content="https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/featured.png">
+  <meta property="twitter:image" content="https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/"
+  },
+  "headline": "学员培训模拟用户对话系统",
+  
+  "image": [
+    "https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/featured.png"
+  ],
+  
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "KeqingHe"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "PRIS-NLP Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "该项目的落地场景为保险行业销售员培训系统，其中本项目的对话系统担任模拟客户的角色，通过和真实学员的对话交互来对学员的语言表述进行打分，借此提高保险销售学员的业务能力。整体对话系统采用经典管道结构，分为自然语言理解、对话管理和自然语言生成三个部分。其中自然语言处理除了基本的实体意图识别还加入了多意图识别的考量，对话管理部分采用分流程分阶段控制对话的规则设定。在项目后期，整体会加入情感分析，即学员的表达中蕴含的情感因素也会成为打分的评分点。"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>学员培训模拟用户对话系统 | PRIS-NLP Group</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/en/">PRIS-NLP Group</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/en/">PRIS-NLP Group</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#direction"><span>Reseach Direction</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#papers"><span>Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#patents"><span>Patents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>English</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/">
+            <span>中文 (简体)</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>学员培训模拟用户对话系统</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/en/author/keqinghe/">KeqingHe</a></span>, <span ><a href="/en/author/sihongliu/">SihongLiu</a></span>, <span ><a href="/en/author/hongxu/">HongXu</a></span>, <span ><a href="/en/author/yuanmeng-yan/">Yuanmeng Yan</a></span>, <span ><a href="/en/author/zijunliu/">ZijunLiu</a></span>, <span ><a href="/en/author/liwen-wang/">Liwen Wang</a></span>, <span ><a href="/en/author/yanan-wu/">Yanan Wu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 344px;">
+  <div style="position: relative">
+    <img src="/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/featured_hu9f71b5198564f53b5da3e92413c6ed2d_136659_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <p class="pub-abstract">该项目的落地场景为保险行业销售员培训系统，其中本项目的对话系统担任模拟客户的角色，通过和真实学员的对话交互来对学员的语言表述进行打分，借此提高保险销售学员的业务能力。整体对话系统采用经典管道结构，分为自然语言理解、对话管理和自然语言生成三个部分。其中自然语言处理除了基本的实体意图识别还加入了多意图识别的考量，对话管理部分采用分流程分阶段控制对话的规则设定。在项目后期，整体会加入情感分析，即学员的表达中蕴含的情感因素也会成为打分的评分点。</p>
+
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/&amp;text=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/&amp;t=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f&amp;body=https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/&amp;title=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f%20https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://pris-nlp.github.io/en/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/&amp;title=%e5%ad%a6%e5%91%98%e5%9f%b9%e8%ae%ad%e6%a8%a1%e6%8b%9f%e7%94%a8%e6%88%b7%e5%af%b9%e8%af%9d%e7%b3%bb%e7%bb%9f" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/en/author/yuanmeng-yan/avatar_hua12acdf28f7d4201197e1f807c422479_593318_270x270_fill_q90_lanczos_center.jpg" alt="Yuanmeng Yan">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/en/author/yuanmeng-yan/">Yuanmeng Yan</a></h5>
+        <h6 class="card-subtitle">Postgraduate Student</h6>
+        <p class="card-text">My research direction is multimodal dialogue intention discovery.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:yanyuanmeng@bupt.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=HOGa4i4AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/yym6472" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/en/author/liwen-wang/avatar_hu4ed1d6bb95bac35cb9d8cc58972e0809_462823_270x270_fill_q90_lanczos_center.jpg" alt="Liwen Wang">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/en/author/liwen-wang/">Liwen Wang</a></h5>
+        <h6 class="card-subtitle">Postgraduate Student</h6>
+        <p class="card-text">My research direction is multimodal dialogue intention discovery.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:w_liwen@bupt.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/w-lw" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/en/author/yanan-wu/avatar_hu1368e4ffa06e7513186f849074288e92_586527_270x270_fill_q90_lanczos_center.jpg" alt="Yanan Wu">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/en/author/yanan-wu/">Yanan Wu</a></h5>
+        <h6 class="card-subtitle">Postgraduate Student</h6>
+        <p class="card-text">My research direction is multimodal dialogue intention discovery.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:yanan.wu@bupt.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=aucxPZEAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ChestnutWYN" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/en/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © PRIS-NLP 2021
+  </p>
+
+  
+  
+
+
+
+
+
+
+  
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

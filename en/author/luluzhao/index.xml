@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LuluZhao | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/author/luluzhao/</link>
+      <atom:link href="https://pris-nlp.github.io/en/author/luluzhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>LuluZhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>LuluZhao</title>
+      <link>https://pris-nlp.github.io/en/author/luluzhao/</link>
+    </image>
+    
+    <item>
+      <title>Give the Truth Incorporate Semantic Slot into Abstractive Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/en/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words</title>
+      <link>https://pris-nlp.github.io/en/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilizing Graph Neural Networks to Improving Dialogue-based Relation Extraction</title>
+      <link>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
