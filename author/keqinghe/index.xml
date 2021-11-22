@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>A Finer-grain Universal Dialogue Semantic Structures based Model For Abstractive Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bridge to Target Domain by Prototypical Contrastive Learning and Label Confusion Re-explore Zero-Shot Learning for Slot Filling</title>
       <link>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
@@ -21,18 +29,18 @@
     </item>
     
     <item>
-      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
-      <link>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
+      <title>Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack</title>
+      <link>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Finer-grain Universal Dialogue Semantic Structures based Model For Abstractive Dialogue Summarization</title>
-      <link>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</guid>
+      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
+      <link>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
       <description></description>
     </item>
     
@@ -65,14 +73,6 @@
       <link>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</link>
       <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack</title>
-      <link>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</guid>
       <description></description>
     </item>
     
