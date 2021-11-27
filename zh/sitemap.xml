@@ -633,6 +633,18 @@
                 href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/hao-lei/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/author/%E6%9B%BE%E6%99%A8/</loc>
     <xhtml:link
                 rel="alternate"
@@ -691,18 +703,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/author/%E9%83%AD%E5%B2%B1%E9%A9%B0/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/hao-lei/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/author/%E9%AB%98%E7%90%AA%E7%BF%94/</loc>

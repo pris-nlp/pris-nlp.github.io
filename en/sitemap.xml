@@ -621,6 +621,18 @@
                 href="https://pris-nlp.github.io/en/author/yanan-wu/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/author/hao-lei/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/hao-lei/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/author/chen-zeng/</loc>
     <xhtml:link
                 rel="alternate"
@@ -655,18 +667,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/guanting-dong/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/hao-lei/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/hao-lei/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/qianyu-cao/</loc>
