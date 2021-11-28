@@ -156,9 +156,9 @@ this is my blog this is my blog this is my blog this is my blog this is my blog 
 &lt;p&gt;&lt;strong&gt;we can use all markdown syntex&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;test&lt;/em&gt;&lt;br&gt;
 &lt;del&gt;test&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;But NO WORK for math formula&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;math formula&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
 $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$&lt;br&gt;
-&lt;em&gt;&lt;strong&gt;but you can convert formula to image using APIs to display:&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;you can also convert formula to image using APIs to display:&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
 &lt;img src=&#34;http://chart.googleapis.com/chart?cht=tx&amp;chl=x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&#34;&gt;&lt;br&gt;
 to insert image:&lt;br&gt;
 &lt;img src=&#34;http://static.runoob.com/images/runoob-logo.png&#34; alt=&#34;description for image&#34; title=&#34;title&#34;&gt;&lt;/p&gt;
