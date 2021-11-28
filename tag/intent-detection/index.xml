@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;intent detection&#34; | 北京邮电大学模式识别实验室NLP研究组</title>
+    <title>&#34;intent detection&#34; | 自然语言处理徐蔚然老师研究组</title>
     <link>https://pris-nlp.github.io/tag/intent-detection/</link>
       <atom:link href="https://pris-nlp.github.io/tag/intent-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;intent detection&#34;</description>
@@ -18,6 +18,52 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Blog with markdown</title>
+      <link>https://pris-nlp.github.io/post/test_folder/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/post/test_folder/</guid>
+      <description>&lt;p&gt;this is my blog 
+this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog&lt;/p&gt;
+&lt;p&gt;this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog&lt;/p&gt;
+&lt;p&gt;this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog this is my blog&lt;/p&gt;
+&lt;h1 id=&#34;this-is-a-test-title&#34;&gt;this is a test title&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-also-test&#34;&gt;this is also test&lt;/h2&gt;
+&lt;h3 id=&#34;also-test&#34;&gt;also test&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;we can use all markdown syntex&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;test&lt;/em&gt;&lt;br&gt;
+&lt;del&gt;test&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;But NO WORK for math formula&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;but you can convert formula to image using APIs to display:&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;img src=&#34;http://chart.googleapis.com/chart?cht=tx&amp;chl=x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&#34;&gt;&lt;br&gt;
+to insert image:&lt;br&gt;
+&lt;img src=&#34;http://static.runoob.com/images/runoob-logo.png&#34; alt=&#34;description for image&#34; title=&#34;title&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hello&lt;/li&gt;
+&lt;li&gt;world&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;hello&lt;/li&gt;
+&lt;li&gt;world&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;import torch
+print(torch.cuda.is_available())
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog with url</title>
+      <link>https://pris-nlp.github.io/post/test_folder2/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/post/test_folder2/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://helicqin.github.io/2021/08/08/Modeling%20Fine-Grained%20Entity%20Types%20with%20Box%20Embeddings/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;text to show&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

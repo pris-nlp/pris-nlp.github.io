@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SongYan | 北京邮电大学模式识别实验室NLP研究组</title>
+    <title>SongYan | 自然语言处理徐蔚然老师研究组</title>
     <link>https://pris-nlp.github.io/author/songyan/</link>
       <atom:link href="https://pris-nlp.github.io/author/songyan/index.xml" rel="self" type="application/rss+xml" />
     <description>SongYan</description>

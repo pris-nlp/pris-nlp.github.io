@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>刘思宏 | 北京邮电大学模式识别实验室NLP研究组</title>
+    <title>刘思宏 | 自然语言处理徐蔚然老师研究组</title>
     <link>https://pris-nlp.github.io/author/%E5%88%98%E6%80%9D%E5%AE%8F/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E5%88%98%E6%80%9D%E5%AE%8F/index.xml" rel="self" type="application/rss+xml" />
     <description>刘思宏</description>
@@ -41,6 +41,22 @@
       <link>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
       <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种基于结构化用户属性描述的个性化任务型对话系统</title>
+      <link>https://pris-nlp.github.io/patent/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%8C%96%E7%94%A8%E6%88%B7%E5%B1%9E%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%9A%84%E4%B8%AA%E6%80%A7%E5%8C%96%E4%BB%BB%E5%8A%A1%E5%9E%8B%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E7%BB%93%E6%9E%84%E5%8C%96%E7%94%A8%E6%88%B7%E5%B1%9E%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%9A%84%E4%B8%AA%E6%80%A7%E5%8C%96%E4%BB%BB%E5%8A%A1%E5%9E%8B%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种知识驱动的易配置任务导向型对话管理方法与系统</title>
+      <link>https://pris-nlp.github.io/patent/%E4%B8%80%E7%A7%8D%E7%9F%A5%E8%AF%86%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%98%93%E9%85%8D%E7%BD%AE%E4%BB%BB%E5%8A%A1%E5%AF%BC%E5%90%91%E5%9E%8B%E5%AF%B9%E8%AF%9D%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E4%B8%80%E7%A7%8D%E7%9F%A5%E8%AF%86%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%98%93%E9%85%8D%E7%BD%AE%E4%BB%BB%E5%8A%A1%E5%AF%BC%E5%90%91%E5%9E%8B%E5%AF%B9%E8%AF%9D%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
