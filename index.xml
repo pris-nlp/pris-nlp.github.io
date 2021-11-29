@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/</link>
       <atom:link href="https://pris-nlp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>自然语言处理徐蔚然老师研究组</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>自然语言处理徐蔚然老师研究组</title>
@@ -103,16 +103,96 @@
     <item>
       <title>A Finer-grain Universal Dialogue Semantic Structures based Model For Abstractive Dialogue Summarization</title>
       <link>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bridge to Target Domain by Prototypical Contrastive Learning and Label Confusion Re-explore Zero-Shot Learning for Slot Filling</title>
+      <title>Bridge to Target Domain by Prototypical Contrastive Learning and Label Confusion:Re-explore Zero-Shot Learning for Slot Filling</title>
       <link>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Give the Truth:Incorporate Semantic Slot into Abstractive Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gradient-Based Adversarial Factual Consistency Evaluation for Abstractive Summarization</title>
+      <link>https://pris-nlp.github.io/publication/gradient-based-adversarial-factual-consistency-evaluation-for-abstractive-summarization/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/gradient-based-adversarial-factual-consistency-evaluation-for-abstractive-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large-Scale Relation Learning for Question Answering over Knowledge Bases with Pre-trained Language Models</title>
+      <link>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConSERT:A Contrastive Framework for Self-Supervised Sentence Representation Transfer</title>
+      <link>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Slot Detection:A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
+      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduled Dialog Policy Learning:An Automatic Curriculum Learning Framework for Task-oriented Dialog System</title>
+      <link>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack</title>
+      <link>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Speaker-aware Sequence-to-sequence Model for Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</guid>
       <description></description>
     </item>
     
@@ -125,10 +205,34 @@
     </item>
     
     <item>
-      <title>Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack</title>
-      <link>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</link>
+      <title>Utilizing Graph Neural Networks to Improving Dialogue-based Relation Extraction</title>
+      <link>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From context-aware:to knowledge-aware Boosting OOV tokens recognition in slot tagging with background knowledge</title>
+      <link>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/dynamically-disentangling-social-bias-from-task-oriented-representations-with-adversarial-attack/</guid>
+      <guid>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contrastive Zero-Shot Learning for Cross-Domain Slot Filling with Adversarial Attack</title>
+      <link>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words</title>
+      <link>https://pris-nlp.github.io/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</guid>
       <description></description>
     </item>
     
@@ -187,153 +291,57 @@ print(torch.cuda.is_available())
     </item>
     
     <item>
-      <title>Adversarial Cross-Lingual Transfer Learning for Slot Tagging of Low-Resource Languages</title>
-      <link>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
-      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Adversarial Semantic Decoupling for Recognizing Open-Vocabulary Slots</title>
       <link>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ConSERT A Contrastive Framework for Self-Supervised Sentence Representation Transfer</title>
-      <link>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contrastive Zero-Shot Learning for Cross-Domain Slot Filling with Adversarial Attack</title>
-      <link>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/contrastive-zero-shot-learning-for-cross-domain-slot-filling-with-adversarial-attack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>From context-aware to knowledge-aware Boosting OOV tokens recognition in slot tagging with background knowledge</title>
-      <link>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/from-context-aware-to-knowledge-aware-boosting-oov-tokens-recognition-in-slot-tagging-with-background-knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Give the Truth Incorporate Semantic Slot into Abstractive Dialogue Summarization</title>
-      <link>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradient-Based Adversarial Factual Consistency Evaluation for Abstractive Summarization</title>
-      <link>https://pris-nlp.github.io/publication/gradient-based-adversarial-factual-consistency-evaluation-for-abstractive-summarization/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/gradient-based-adversarial-factual-consistency-evaluation-for-abstractive-summarization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hierarchical Speaker-aware Sequence-to-sequence Model for Dialogue Summarization</title>
-      <link>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words</title>
-      <link>https://pris-nlp.github.io/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/improving-abstractive-dialogue-summarization-with-graph-structures-and-topic-words/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Large-Scale Relation Learning for Question Answering over Knowledge Bases with Pre-trained Language Models</title>
-      <link>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
-      <link>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning to Tag OOV Tokens by Integrating Contextual Representation and Background Knowledge</title>
-      <link>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
-      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Novel Slot Detection A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
-      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scheduled Dialog Policy Learning An Automatic Curriculum Learning Framework for Task-oriented Dialog System</title>
-      <link>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Utilizing Graph Neural Networks to Improving Dialogue-based Relation Extraction</title>
-      <link>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CGTR:Convolution Graph Topology Representation for Document Ranking</title>
       <link>https://pris-nlp.github.io/publication/cgtr-convolution-graph-topology-representation-for-document-ranking/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/cgtr-convolution-graph-topology-representation-for-document-ranking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
+      <link>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Cross-Lingual Transfer Learning for Slot Tagging of Low-Resource Languages</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-cross-lingual-transfer-learning-for-slot-tagging-of-low-resource-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Tag OOV Tokens by Integrating Contextual Representation and Background Knowledge</title>
+      <link>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/learning-to-tag-oov-tokens-by-integrating-contextual-representation-and-background-knowledge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generative Adversarial Zero-Shot Relation Learning for Knowledge Grapths</title>
       <link>https://pris-nlp.github.io/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/</link>
-      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/</guid>
       <description></description>
     </item>

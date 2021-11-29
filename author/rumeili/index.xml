@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/author/rumeili/</link>
       <atom:link href="https://pris-nlp.github.io/author/rumeili/index.xml" rel="self" type="application/rss+xml" />
     <description>RumeiLi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>RumeiLi</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>ConSERT A Contrastive Framework for Self-Supervised Sentence Representation Transfer</title>
-      <link>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</guid>
+      <title>Large-Scale Relation Learning for Question Answering over Knowledge Bases with Pre-trained Language Models</title>
+      <link>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Large-Scale Relation Learning for Question Answering over Knowledge Bases with Pre-trained Language Models</title>
-      <link>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <title>ConSERT:A Contrastive Framework for Self-Supervised Sentence Representation Transfer</title>
+      <link>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</guid>
       <description></description>
     </item>
     

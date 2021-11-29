@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/tag/ood/</link>
       <atom:link href="https://pris-nlp.github.io/en/tag/ood/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;OOD&#34;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>&#34;OOD&#34;</title>
@@ -13,34 +13,42 @@
     </image>
     
     <item>
-      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
-      <link>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
+      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/modeling-discriminative-representations-for-out-of-domain/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Slot Detection:A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
+      <link>https://pris-nlp.github.io/en/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
       <link>https://pris-nlp.github.io/en/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
-      <link>https://pris-nlp.github.io/en/publication/modeling-discriminative-representations-for-out-of-domain/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
+      <link>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Novel Slot Detection A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
-      <link>https://pris-nlp.github.io/en/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
       <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
+      <guid>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
       <description></description>
     </item>
     

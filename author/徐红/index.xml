@@ -5,12 +5,36 @@
     <link>https://pris-nlp.github.io/author/%E5%BE%90%E7%BA%A2/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E5%BE%90%E7%BA%A2/index.xml" rel="self" type="application/rss+xml" />
     <description>徐红</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>徐红</title>
       <link>https://pris-nlp.github.io/author/%E5%BE%90%E7%BA%A2/</link>
     </image>
+    
+    <item>
+      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Slot Detection:A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
+      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
@@ -21,42 +45,26 @@
     </item>
     
     <item>
-      <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
-      <link>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</guid>
+      <title>Adversarial Semantic Decoupling for Recognizing Open-Vocabulary Slots</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Adversarial Semantic Decoupling for Recognizing Open-Vocabulary Slots</title>
-      <link>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</link>
+      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
       <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</guid>
+      <guid>https://pris-nlp.github.io/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
       <link>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>
-      <link>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/modeling-discriminative-representations-for-out-of-domain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Novel Slot Detection A Benchmark for Discovering Unknown Slot Types in the Task-Oriented Dialogue System</title>
-      <link>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/novel-slot-detection-a-benchmark-for-discovering-unknown-slot-types/</guid>
       <description></description>
     </item>
     

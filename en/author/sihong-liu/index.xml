@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/author/sihong-liu/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/sihong-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Sihong Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sat, 19 Sep 2020 13:55:51 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>Sihong Liu</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Scheduled Dialog Policy Learning:An Automatic Curriculum Learning Framework for Task-oriented Dialog System</title>
+      <link>https://pris-nlp.github.io/en/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Deep Generative Distance-Based Classifier for Out-of-Domain Detection with Mahalanobis Space</title>
       <link>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/</guid>
       <description></description>
     </item>
@@ -23,24 +31,24 @@
     <item>
       <title>Adversarial Semantic Decoupling for Recognizing Open-Vocabulary Slots</title>
       <link>https://pris-nlp.github.io/en/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
+      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Label-Relational Output Structure for Adaptive Sequence Labeling</title>
       <link>https://pris-nlp.github.io/en/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/learning-label-relational-output-structure-for-adaptive-sequence-labeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scheduled Dialog Policy Learning An Automatic Curriculum Learning Framework for Task-oriented Dialog System</title>
-      <link>https://pris-nlp.github.io/en/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/scheduled-dialog-policy-learning-an-automatic-curriculum-learning-framework-for-task-oriented-dialog-system/</guid>
       <description></description>
     </item>
     
