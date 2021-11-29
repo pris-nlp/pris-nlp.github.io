@@ -158,6 +158,19 @@
                 href="https://pris-nlp.github.io/en/textbook/%E6%96%87%E6%9C%AC%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/author/pengda-qin/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%A7%A6%E9%B9%8F%E8%BE%BE/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/pengda-qin/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/author/keqing-he/</loc>
     <lastmod>2021-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -1601,16 +1614,6 @@
   </url><url>
     <loc>https://pris-nlp.github.io/en/tag/representation/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/representation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/representation/"
-                />
   </url><url>
     <loc>https://pris-nlp.github.io/en/tag/slot-tagging/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
@@ -1690,19 +1693,6 @@
                 href="https://pris-nlp.github.io/en/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/author/pengdaqin/</loc>
-    <lastmod>2020-09-19T21:38:44+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/pengdaqin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/pengdaqin/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/en/author/wenhuchen/</loc>
     <lastmod>2020-09-19T21:38:44+08:00</lastmod>
     <xhtml:link
@@ -1717,7 +1707,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/williamyangwang/</loc>
-    <lastmod>2020-09-19T21:38:44+08:00</lastmod>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -1831,6 +1821,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/talk/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/tag/data-mining/</loc>

@@ -158,6 +158,19 @@
                 href="https://pris-nlp.github.io/textbook/%E6%96%87%E6%9C%AC%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/author/%E7%A7%A6%E9%B9%8F%E8%BE%BE/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/pengda-qin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%A7%A6%E9%B9%8F%E8%BE%BE/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/</loc>
     <lastmod>2021-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -1586,6 +1599,9 @@
                 href="https://pris-nlp.github.io/tag/language-discriminator/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/tag/multi-level-knowledge-representation/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+  </url><url>
     <loc>https://pris-nlp.github.io/tag/neural-adapter/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -1597,19 +1613,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/tag/neural-adapter/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/tag/representation/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/representation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/representation/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/slot-tagging/</loc>
@@ -1690,19 +1693,6 @@
                 href="https://pris-nlp.github.io/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/author/pengdaqin/</loc>
-    <lastmod>2020-09-19T21:38:44+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/pengdaqin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/pengdaqin/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/author/wenhuchen/</loc>
     <lastmod>2020-09-19T21:38:44+08:00</lastmod>
     <xhtml:link
@@ -1717,7 +1707,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/author/williamyangwang/</loc>
-    <lastmod>2020-09-19T21:38:44+08:00</lastmod>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1831,6 +1821,32 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/talk/internet-product-design/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>

@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/author/williamyangwang/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/williamyangwang/index.xml" rel="self" type="application/rss+xml" />
     <description>WilliamYangWang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© THUIAR 2021</copyright><lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>WilliamYangWang</title>
@@ -17,6 +17,22 @@
       <link>https://pris-nlp.github.io/en/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/generative-adversarial-zero-shot-relation-learning-for-knowledge-grapths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Distant Supervision Relation Extraction via Deep Reinforcement Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/robust-distant-supervision-relation-extraction-via-deep-reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DSGAN: Generative Adversarial Training for Distant Supervision Relation Extraction</title>
+      <link>https://pris-nlp.github.io/en/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/dsgan-generative-adversarial-training-for-distant-supervision-relation-extraction/</guid>
       <description></description>
     </item>
     
