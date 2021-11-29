@@ -484,7 +484,6 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1312,25 +1311,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/publication/a-deep-generative-distance-based-classifier-for-out-of-domain-detection-with-mahalanobis-space/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/post/test_folder/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/post/test_folder2/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/post/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/post/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/publication/adversarial-semantic-decoupling-for-recognizing-open-vocabulary-slots/</loc>
@@ -2456,6 +2436,18 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/author/jinzhengzhao/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/author/puwang/</loc>
