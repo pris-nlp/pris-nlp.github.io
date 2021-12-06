@@ -702,19 +702,6 @@
                 href="https://pris-nlp.github.io/author/jiazechen/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/author/junguo/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/junguo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/junguo/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/publication/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -845,57 +832,8 @@
                 href="https://pris-nlp.github.io/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/tag/dialogue-relation-extraction/</loc>
+    <loc>https://pris-nlp.github.io/author/%E9%83%AD%E5%86%9B/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/dialogue-relation-extraction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/dialogue-relation-extraction/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/publication-type/2/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/publication-type/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/publication-type/2/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/author/shenggao/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/shenggao/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/shenggao/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/"
-                />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/dialog-management/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
@@ -1194,6 +1132,71 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/patent/%E5%9F%BA%E4%BA%8E%E7%96%91%E9%97%AE%E8%AF%8D%E5%88%86%E7%B1%BB%E5%99%A8%E7%9A%84%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98%E7%94%9F%E6%88%90%E6%96%B9%E6%B3%95%E5%8F%8A%E7%94%9F%E6%88%90%E7%B3%BB%E7%BB%9F/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/tag/dialogue-relation-extraction/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/dialogue-relation-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/dialogue-relation-extraction/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/publication-type/2/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication-type/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication-type/2/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/junguo/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/junguo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/junguo/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/shenggao/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/shenggao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/shenggao/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/graph-attention/</loc>
@@ -1599,19 +1602,6 @@
                 href="https://pris-nlp.github.io/tag/language-discriminator/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/tag/multi-level-knowledge-representation/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/multi-level-knowledge-representation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/multi-level-knowledge-representation/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/tag/neural-adapter/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -1624,6 +1614,9 @@
                 hreflang="zh"
                 href="https://pris-nlp.github.io/tag/neural-adapter/"
                 />
+  </url><url>
+    <loc>https://pris-nlp.github.io/tag/representation/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
   </url><url>
     <loc>https://pris-nlp.github.io/tag/slot-tagging/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
