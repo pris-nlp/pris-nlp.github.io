@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>所有论文 | PRIS-NLP Group</title>
+    <title>All Papers | PRIS-NLP Group</title>
     <link>https://pris-nlp.github.io/en/publication/</link>
       <atom:link href="https://pris-nlp.github.io/en/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>所有论文</description>
+    <description>All Papers</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
-      <title>所有论文</title>
+      <title>All Papers</title>
       <link>https://pris-nlp.github.io/en/publication/</link>
     </image>
     
@@ -53,14 +53,6 @@
     </item>
     
     <item>
-      <title>Utilizing Graph Neural Networks to Improving Dialogue-based Relation Extraction</title>
-      <link>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</link>
-      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ConSERT:A Contrastive Framework for Self-Supervised Sentence Representation Transfer</title>
       <link>https://pris-nlp.github.io/en/publication/consert-a-contrastive-framework-for-self-supervised-sentence-representation-transfer/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
@@ -93,6 +85,14 @@
     </item>
     
     <item>
+      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Adversarial Self-Supervised Learning for Out-of-Domain Detection</title>
       <link>https://pris-nlp.github.io/en/publication/adversarial-self-supervised-learning-for-out-of-domain-detection/</link>
       <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
@@ -113,6 +113,14 @@
       <link>https://pris-nlp.github.io/en/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</link>
       <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/hierarchical-speaker-aware-sequence-to-sequence-model-for-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilizing Graph Neural Networks to Improving Dialogue-based Relation Extraction</title>
+      <link>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/utilizing-graph-neural-networks-to-improving-dialogue-based-relation-extraction/</guid>
       <description></description>
     </item>
     
@@ -161,14 +169,6 @@
       <link>https://pris-nlp.github.io/en/publication/cgtr-convolution-graph-topology-representation-for-document-ranking/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/cgtr-convolution-graph-topology-representation-for-document-ranking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adversarial Generative Distance-Based Classifier for Robust Out-of-Domain Detection</title>
-      <link>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</link>
-      <pubDate>Sat, 19 Sep 2020 13:55:51 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/adversarial-generative-distance-based-classifier-for-robust-out-of-domain-detection/</guid>
       <description></description>
     </item>
     

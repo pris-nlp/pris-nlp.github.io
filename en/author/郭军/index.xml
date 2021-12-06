@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>郭军 | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/author/%E9%83%AD%E5%86%9B/</link>
+      <atom:link href="https://pris-nlp.github.io/en/author/%E9%83%AD%E5%86%9B/index.xml" rel="self" type="application/rss+xml" />
+    <description>郭军</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>郭军</title>
+      <link>https://pris-nlp.github.io/en/author/%E9%83%AD%E5%86%9B/</link>
+    </image>
+    
+    <item>
+      <title>Give the Truth:Incorporate Semantic Slot into Abstractive Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/en/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
