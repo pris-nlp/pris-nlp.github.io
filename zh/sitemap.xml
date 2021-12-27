@@ -483,6 +483,19 @@
                 href="https://pris-nlp.github.io/author/%E9%AB%98%E7%90%AA%E7%BF%94/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/</loc>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zechen-wang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -496,18 +509,6 @@
                 href="https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/zechen-wang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/</loc>
     <xhtml:link
                 rel="alternate"
@@ -518,6 +519,58 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/authors/</loc>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/authors/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/post/211227wzc/</loc>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/211227wzc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/211227wzc/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/post/</loc>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/</loc>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/dialogue-summarization/</loc>
@@ -596,19 +649,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/publication/a-finer-grain-universal-dialogue-semantic-structures-based-model-for-abstractive-dialogue-summarization/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/authors/</loc>
-    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/authors/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/publication/bridge-to-target-domain-by-prototypical-contrastive-learning-and-label-confusion-re-explore-zero-shot-learning-for-slot-filling/</loc>
@@ -817,19 +857,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/publication/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/</loc>
-    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/author/%E9%83%AD%E5%86%9B/</loc>
@@ -2763,18 +2790,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/project/%E6%83%85%E6%84%9F%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/post/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/project/</loc>
