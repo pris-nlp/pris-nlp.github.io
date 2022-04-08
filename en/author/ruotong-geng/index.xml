@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/ruotong-geng/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/ruotong-geng/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruotong Geng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>Ruotong Geng</title>
       <link>https://pris-nlp.github.io/en/author/ruotong-geng/</link>
     </image>
+    
+    <item>
+      <title>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</title>
+      <link>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

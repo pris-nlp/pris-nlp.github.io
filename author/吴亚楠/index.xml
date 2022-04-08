@@ -5,12 +5,36 @@
     <link>https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/index.xml" rel="self" type="application/rss+xml" />
     <description>吴亚楠</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>吴亚楠</title>
       <link>https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/</link>
     </image>
+    
+    <item>
+      <title>Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold</title>
+      <link>https://pris-nlp.github.io/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disentangled Knowledge Transfer for OOD Intent Discovery with Unified Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning</title>

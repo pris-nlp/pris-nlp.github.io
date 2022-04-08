@@ -5,12 +5,36 @@
     <link>https://pris-nlp.github.io/en/author/fujia-zheng/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/fujia-zheng/index.xml" rel="self" type="application/rss+xml" />
     <description>Fujia Zheng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2021</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>Fujia Zheng</title>
       <link>https://pris-nlp.github.io/en/author/fujia-zheng/</link>
     </image>
+    
+    <item>
+      <title>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</title>
+      <link>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization</title>
+      <link>https://pris-nlp.github.io/en/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold</title>
+      <link>https://pris-nlp.github.io/en/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Finer-grain Universal Dialogue Semantic Structures based Model For Abstractive Dialogue Summarization</title>

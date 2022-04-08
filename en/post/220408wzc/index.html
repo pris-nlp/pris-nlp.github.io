@@ -1,0 +1,1383 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Weiran Xu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content=" ">
+
+  
+  <link rel="alternate" hreflang="zh" href="https://pris-nlp.github.io/post/220408wzc/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://pris-nlp.github.io/en/post/220408wzc/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/en/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://pris-nlp.github.io/en/post/220408wzc/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="PRIS-NLP Group">
+  <meta property="og:url" content="https://pris-nlp.github.io/en/post/220408wzc/">
+  <meta property="og:title" content="Recent Papers: 2022-04 | PRIS-NLP Group">
+  <meta property="og:description" content=" "><meta property="og:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2022-04-08T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-04-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pris-nlp.github.io/en/post/220408wzc/"
+  },
+  "headline": "Recent Papers: 2022-04",
+  
+  "datePublished": "2022-04-08T00:00:00Z",
+  "dateModified": "2022-04-08T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Zechen Wang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "PRIS-NLP Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": " "
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Recent Papers: 2022-04 | PRIS-NLP Group</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/en/">PRIS-NLP Group</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/en/">PRIS-NLP Group</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#direction"><span>Reseach Direction</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#papers"><span>Papers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#patents"><span>Patents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#posts"><span>Blogs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>English</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://pris-nlp.github.io/post/220408wzc/">
+            <span>中文 (简体)</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Recent Papers: 2022-04</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/en/author/zechen-wang/">Zechen Wang</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 8, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.2022.aclweb.org/" target="_blank" rel="noopener">
+    
+    ACL 2022
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://2022.naacl.org/" target="_blank" rel="noopener">
+    
+    NAACL 2022
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://sigir.org/sigir2022/" target="_blank" rel="noopener">
+    
+    SIGIR 2022
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement"><strong>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</strong></h2>
+<h4 id="authors">Authors</h4>
+<p>赵璐璐*，郑馥嘉*，曾伟豪，何可清，耿若彤，江会星，武威，徐蔚然</p>
+<h4 id="conference">Conference</h4>
+<p>
+<a href="https://sigir.org/sigir2022/" target="_blank" rel="noopener">SIGIR 2022</a> Full Paper</p>
+<h4 id="introduction">Introduction</h4>
+<p>领域自适应是机器学习中的一个基本任务。在本文中，我们研究对话摘要任务中的领域迁移问题，试图借助源域的有标注数据迁移到无标注或少标注的目标域，进而提升低资源目标域下对话摘要的生成效果，可用于解决实际场景中小业务数据匮乏的挑战。传统的对话摘要领域迁移方法往往依赖于大规模领域语料，借助于预训练来学习领域间知识。该方法的缺点是实际语料收集难，对算力要求高，针对每一个目标域都需要进行耗时的预训练过程，效率低。因此，本文从微调的角度出发，提出了一种轻量级的解耦知识迁移方法ADPL，无需大规模的预训练过程，仅仅利用源域数据和少量的无标注目标域数据，即可实现高质量的对话摘要生成。具体来说，我们基于prompt learning的思想，针对对话摘要任务中的领域迁移问题，提出了三种特定的prompt结构：domain-invariant prompt (DIP), domain-specific prompt (DSP), 和task-oriented prompt (TOP)，其中 DIP 用来捕获领域间的共享特征，DSP用来建模领域特有知识，TOP用来促进生成流畅的摘要。在训练中，我们仅仅更新这些prompt相关的参数就可以实现领域间知识的解耦和迁移，相比较之前的预训练方法，训练高效环保，对机器的显存要求显著降低。同时，我们基于两个大规模的对话摘要数据集QMSum和TODSum构建了对话摘要领域迁移评测集，在两个评测集上取得了一致的最优效果，实验结果和消融分析都证明了本文提出方法的有效性。</p>
+<p><img src="1.png" alt=""></p>
+<center><font face="黑体" size=3>ADPL整体框架示意图</font></center>
+<hr>
+<h2 id="revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold"><strong>Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold</strong></h2>
+<h4 id="authors-1">Authors</h4>
+<p>吴亚楠*，何可清*，严渊蒙，高琪翔，曾志远，郑馥嘉，赵璐璐，江会星，武威，徐蔚然</p>
+<h4 id="conference-1">Conference</h4>
+<p>
+<a href="https://2022.naacl.org/" target="_blank" rel="noopener">NAACL 2022</a> Main Conference, Long Paper</p>
+<h4 id="introduction-1">Introduction</h4>
+<p>在面向任务的对话系统中，域外意图（out-of-domain, OOD）检测是必不可少的。它旨在检测用户查询是否超出预定义意图范围（in-domain, IND），以避免执行错误的操作。由于OOD意图标注的复杂性，大多数工作都集中在无监督OOD检测上，即没有标记OOD数据，只有标记IND数据。而当前无监督域外检测方法均忽略了域外检测中的关键性挑战——神经网络的过自信问题。</p>
+<p>在本文中，我们对过自信问题进行了深入分析，并将其拆解为两方面：过自信OOD和过自信IND。基于此，我们分别提出了一种新的重分配对比学习(RCL)来区分语义相似的IND类别之间的意图表示，以缓解过自信OOD问题，以及一种自适应的类局部阈值机制来区分相似的IND和OOD样本，以缓解过自信IND问题。</p>
+<p>具体来说，对于过自信OOD问题，我们首先使用预训练的意图分类器在易混淆的IND类型中构建hard对比对（其中，具有相同真实标签但不同的预测标签称为hard positive pair，不同真实标签但相同预测标签称为hard negative pair），然后，基于构建的对比对训练一个新的模型，并通过监督对比学习来学习相似IND类别的鉴别性意图表示；对于过自信IND问题，不同于传统MSP、GDA使用单一全局阈值的方式，为考虑IND和OOD类别之间的关联性，我们为每个意图类别自适应赋予一个独立阈值，有效区分语义高度相似的IND和OOD样本，缓解过自信OOD问题。多个数据集上实验和分析证明了本文提出方法的有效性。</p>
+<p><img src="2.png" alt=""></p>
+<hr>
+<h2 id="domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization"><strong>Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization</strong></h2>
+<h4 id="authors-2">Authors</h4>
+<p>赵璐璐*，郑馥嘉*，曾伟豪，何可清，徐蔚然，江会星，武威，吴亚楠</p>
+<h4 id="conference-2">Conference</h4>
+<p>
+<a href="https://2022.naacl.org/" target="_blank" rel="noopener">NAACL 2022</a></p>
+<h4 id="introduction-2">Introduction</h4>
+<p>现实生活中经常面临到新领域中数据标注稀缺的问题，为新领域进行标注耗时耗力，因此利用有限的源域注释数据为目标域开发低资源对话摘要模型至关重要。当前的生成式对话摘要方法缺乏对新领域的泛化能力，而现有的在摘要领域自适应问题上的研究通常是依赖于大规模的二次预训练。</p>
+<p>为了探索对话摘要领域自适应的轻量级微调方法，在本文中，我们提出了一种高效且可泛化的面向领域的Prefix-tuning模型（Domain-Oriented Prefix-tuning，DOP），在冻结的预训练模型的基础上，结合连续的prefix和离散的prompt表示，提高模型的领域自适应能力。具体来说，我们使用无监督 LDA提取的领域词来初始化连续提示向量，以获得前缀模块的初始参数和表示。我们还添加了一个面向领域的键值对前缀序列来增强经典注意力层，以交互方式获取知识并实现优化。除此之外，我们使用dialogue state和query作为离散prompt，引导模型关注对话中关键内容并增强对新领域的泛化能力。</p>
+<p>我们在两个多域对话摘要数据集 TODSum 和 QMSum 上进行零样本迁移实验并建立领域自适应benchmark， 充分的实验和定性分析证明了我们方法的有效性。</p>
+<p><img src="3.png" alt=""></p>
+<hr>
+<h2 id="disentangled-knowledge-transfer-for-ood-intent-discovery-with-unifified-contrastive-learning"><strong>Disentangled Knowledge Transfer for OOD Intent Discovery with Unifified Contrastive Learning</strong></h2>
+<h4 id="authors-3">Authors</h4>
+<p>牟宇滔*，何可清*，吴亚楠*，曾致远，徐红，江会星，武威，徐蔚然</p>
+<h4 id="conference-3">Conference</h4>
+<p>
+<a href="https://www.2022.aclweb.org/" target="_blank" rel="noopener">ACL 2022</a></p>
+<h4 id="introduction-3">Introduction</h4>
+<p>本文研究域外(OOD)意图发现任务，该任务旨在将新出现的未知意图的样本按意图语义聚成不同类簇，这有助于任务型对话系统发展新的技能。不同于传统的文本聚类任务，域外意图发现需要考虑如何利用已知的域内(IND)意图类别的先验知识，帮助新意图的聚类。因此相关方法都遵循一个两阶段框架：IND预训练和OOD聚类。其中的关键挑战在于如何将IND先验知识迁移到OOD聚类上。之前的方法普遍存在一个问题，将IND预训练过程当作分类任务，采用一个交叉熵分类损失，模型学习到如何分类IND样本，但是下游我们需要对OOD聚类。两个阶段不同的学习目标使得存在一个天然的语义鸿沟，使得IND到OOD的知识迁移变得困难。此外，我们观察到之前的方法只迁移BERT输出的一个共享意图表征，考虑到表征具有高度耦合性，这样一个表征可能不利于OOD聚类。例如，在IND预训练的编码器中存在实例级(instance-level)和聚类级(class-level)的知识，解耦不同级别的知识有助于更好地知识迁移。为了解决这样的问题，我们建立了一个统一的多头对比学习框架，并在此基础上提出了一个新颖的解耦知识迁移方法(DKT)，以便迁移解耦IND意图知识用于OOD聚类。我们意在弥合IND预训练和OOD聚类两个阶段的语义鸿沟。两个基准数据集的实验和分析显示了我们方法的有效性。</p>
+<p><img src="4.png" alt=""></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://pris-nlp.github.io/en/post/220408wzc/&amp;text=Recent%20Papers:%202022-04" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://pris-nlp.github.io/en/post/220408wzc/&amp;t=Recent%20Papers:%202022-04" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Recent%20Papers:%202022-04&amp;body=https://pris-nlp.github.io/en/post/220408wzc/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://pris-nlp.github.io/en/post/220408wzc/&amp;title=Recent%20Papers:%202022-04" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Recent%20Papers:%202022-04%20https://pris-nlp.github.io/en/post/220408wzc/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://pris-nlp.github.io/en/post/220408wzc/&amp;title=Recent%20Papers:%202022-04" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/en/author/zechen-wang/avatar_hu49c03114a9ce8ad2bc0bd62c0ddb3f2a_2926002_270x270_fill_q90_lanczos_center.jpg" alt="Zechen Wang">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/en/author/zechen-wang/">Zechen Wang</a></h5>
+        <h6 class="card-subtitle">Research Intern</h6>
+        
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:shenshui@bupt.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Zechen-W" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/en/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © PRIS-NLP 2022
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
