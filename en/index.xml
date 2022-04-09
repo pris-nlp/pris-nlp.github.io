@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/</link>
       <atom:link href="https://pris-nlp.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <description>PRIS-NLP Group</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>PRIS-NLP Group</title>
@@ -103,7 +103,7 @@
     <item>
       <title>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</title>
       <link>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</guid>
       <description></description>
     </item>
@@ -111,7 +111,7 @@
     <item>
       <title>Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization</title>
       <link>https://pris-nlp.github.io/en/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</guid>
       <description></description>
     </item>
@@ -119,27 +119,41 @@
     <item>
       <title>Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold</title>
       <link>https://pris-nlp.github.io/en/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robust Contrastive Alignment Method For Multi-Domain Text Classification</title>
+      <link>https://pris-nlp.github.io/en/publication/a-robust-contrastive-alignment-method-for-multi-domain-text-classification/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-robust-contrastive-alignment-method-for-multi-domain-text-classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disentangled Knowledge Transfer for OOD Intent Discovery with Unified Contrastive Learning</title>
       <link>https://pris-nlp.github.io/en/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Papers: 2022-04</title>
+      <title>A quick review of the three top conferences of the research group (ACL &amp; NAACL &amp; SIGIR 2022)</title>
       <link>https://pris-nlp.github.io/en/post/220408wzc/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/post/220408wzc/</guid>
       <description>&lt;h2 id=&#34;adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement&#34;&gt;&lt;strong&gt;ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;authors&#34;&gt;Authors&lt;/h4&gt;
-&lt;p&gt;赵璐璐*，郑馥嘉*，曾伟豪，何可清，耿若彤，江会星，武威，徐蔚然&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/lulu-zhao/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/fujia-zheng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weihao-zeng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾伟豪&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/keqing-he/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/ruotong-geng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;耿若彤&lt;/a&gt;，江会星，武威，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weiran-xu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;conference&#34;&gt;Conference&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sigir.org/sigir2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIGIR 2022&lt;/a&gt; Full Paper&lt;/p&gt;
@@ -150,7 +164,15 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold&#34;&gt;&lt;strong&gt;Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;authors-1&#34;&gt;Authors&lt;/h4&gt;
-&lt;p&gt;吴亚楠*，何可清*，严渊蒙，高琪翔，曾志远，郑馥嘉，赵璐璐，江会星，武威，徐蔚然&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/yanan-wu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/keqing-he/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/yuanmeng-yan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;严渊蒙&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/qixiang-gao/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;高琪翔&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/zhiyuan-zeng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/fujia-zheng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/lulu-zhao/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;，江会星，武威，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weiran-xu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;conference-1&#34;&gt;Conference&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://2022.naacl.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAACL 2022&lt;/a&gt; Main Conference, Long Paper&lt;/p&gt;
@@ -162,7 +184,13 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization&#34;&gt;&lt;strong&gt;Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;authors-2&#34;&gt;Authors&lt;/h4&gt;
-&lt;p&gt;赵璐璐*，郑馥嘉*，曾伟豪，何可清，徐蔚然，江会星，武威，吴亚楠&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/lulu-zhao/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/fujia-zheng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weihao-zeng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾伟豪&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/keqing-he/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weiran-xu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;，江会星，武威，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/yanan-wu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;conference-2&#34;&gt;Conference&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://2022.naacl.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAACL 2022&lt;/a&gt;&lt;/p&gt;
@@ -174,13 +202,30 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;disentangled-knowledge-transfer-for-ood-intent-discovery-with-unifified-contrastive-learning&#34;&gt;&lt;strong&gt;Disentangled Knowledge Transfer for OOD Intent Discovery with Unifified Contrastive Learning&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;authors-3&#34;&gt;Authors&lt;/h4&gt;
-&lt;p&gt;牟宇滔*，何可清*，吴亚楠*，曾致远，徐红，江会星，武威，徐蔚然&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/yutao-mu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/keqing-he/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/yanan-wu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/zhiyuan-zeng/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/hong-xu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐红&lt;/a&gt;，江会星，武威，
+&lt;a href=&#34;https://pris-nlp.github.io/en/author/weiran-xu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;conference-3&#34;&gt;Conference&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.2022.aclweb.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL 2022&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;introduction-3&#34;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;本文研究域外(OOD)意图发现任务，该任务旨在将新出现的未知意图的样本按意图语义聚成不同类簇，这有助于任务型对话系统发展新的技能。不同于传统的文本聚类任务，域外意图发现需要考虑如何利用已知的域内(IND)意图类别的先验知识，帮助新意图的聚类。因此相关方法都遵循一个两阶段框架：IND预训练和OOD聚类。其中的关键挑战在于如何将IND先验知识迁移到OOD聚类上。之前的方法普遍存在一个问题，将IND预训练过程当作分类任务，采用一个交叉熵分类损失，模型学习到如何分类IND样本，但是下游我们需要对OOD聚类。两个阶段不同的学习目标使得存在一个天然的语义鸿沟，使得IND到OOD的知识迁移变得困难。此外，我们观察到之前的方法只迁移BERT输出的一个共享意图表征，考虑到表征具有高度耦合性，这样一个表征可能不利于OOD聚类。例如，在IND预训练的编码器中存在实例级(instance-level)和聚类级(class-level)的知识，解耦不同级别的知识有助于更好地知识迁移。为了解决这样的问题，我们建立了一个统一的多头对比学习框架，并在此基础上提出了一个新颖的解耦知识迁移方法(DKT)，以便迁移解耦IND意图知识用于OOD聚类。我们意在弥合IND预训练和OOD聚类两个阶段的语义鸿沟。两个基准数据集的实验和分析显示了我们方法的有效性。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Equal Contribution&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Corresponding Author&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
