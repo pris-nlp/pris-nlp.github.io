@@ -1,0 +1,1428 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="徐蔚然">
+
+  
+  
+  
+    
+  
+  <meta name="description" content=" ">
+
+  
+  <link rel="alternate" hreflang="en" href="https://pris-nlp.github.io/en/post/220426zwh/">
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://pris-nlp.github.io/post/220426zwh/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://pris-nlp.github.io/post/220426zwh/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="自然语言处理徐蔚然老师研究组">
+  <meta property="og:url" content="https://pris-nlp.github.io/post/220426zwh/">
+  <meta property="og:title" content="DOP-Tuning: 面向对话摘要领域自适应的轻量级微调方法 | 自然语言处理徐蔚然老师研究组">
+  <meta property="og:description" content=" "><meta property="og:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2022-04-25T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-04-25T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pris-nlp.github.io/post/220426zwh/"
+  },
+  "headline": "DOP-Tuning: 面向对话摘要领域自适应的轻量级微调方法",
+  
+  "datePublished": "2022-04-25T00:00:00Z",
+  "dateModified": "2022-04-25T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "曾伟豪"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "自然语言处理徐蔚然老师研究组",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": " "
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>DOP-Tuning: 面向对话摘要领域自适应的轻量级微调方法 | 自然语言处理徐蔚然老师研究组</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">自然语言处理徐蔚然老师研究组</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">自然语言处理徐蔚然老师研究组</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>主页</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#direction"><span>主研方向</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>成员</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#papers"><span>论文</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>项目</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#patents"><span>专利</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>博客</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>联系</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>浅色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>深色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>自动</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">中文 (简体)</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>中文 (简体)</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://pris-nlp.github.io/en/post/220426zwh/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>DOP-Tuning: 面向对话摘要领域自适应的轻量级微调方法</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/">曾伟豪</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 25, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2204.04362" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/Zeng-WH/DOP-Tuning" target="_blank" rel="noopener">
+  代码
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://2022.naacl.org/" target="_blank" rel="noopener">
+    
+    NAACL 2022
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>本文介绍一下我们组在面向领域迁移的对话摘要任务上的工作。</p>
+<p><img src="1.png" alt=""></p>
+<h2 id="1-motivations">1. Motivations</h2>
+<ol>
+<li>当前的对话摘要模型往往缺乏在新领域上的泛化性，因为大规模的生成式预训练模型往往需要大量的人工标注的黄金摘要，在 few/no labeled 的场景下无法扩展到新的领域。</li>
+<li>当前研究摘要领域迁移的方法需要耗时的预训练和大规模额外的语料库。他们仅关注沉重的预训练步骤而不是轻量化的微调过程。</li>
+</ol>
+<h2 id="2-contributions">2. Contributions</h2>
+<ol>
+<li>我们第一个探索面向领域迁移的对话摘要任务的fine-tuning方法，并且在TODSum(TODSum是我们提出的对话摘要数据集
+<a href="https://arxiv.org/abs/2110.12680" target="_blank" rel="noopener">TODSum</a>)和QMSum两个数据集上建立了实用且全面的benchmarks.</li>
+<li>提出了轻量且有效的面向领域的PrezZfix-tuning的模型，该模型使用领域词初始化的prefix模块以及离散的prompt来从大规模预训练模型中交互式地提取知识。</li>
+<li>进行了充分的实验和定量分析来证明了我们提出的方法的有效性，并且讨论了面向领域迁移的对话摘要所存在的挑战。</li>
+</ol>
+<h2 id="3-methodology">3. Methodology</h2>
+<p>模型结构包括Domain-Oriented Prefix，Prompt Encoder以及Decoder三个部分。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165057557-fda144c5-1bd3-4929-81c7-5671ab32ae79.png" alt="89601b192ff24bbcb37aaf8f1b2338c6"></p>
+<h3 id="31-domain-oriented-prefix">3.1 Domain-Oriented Prefix</h3>
+<p>为了缓解领域耦合的问题，我们提出了domain-oriented的prefix模块来从源域和目标域中获取共享的知识。
+采用two-step构建Domain-Oriented Prefix，包括初始化和参数化。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165057725-487201b1-46da-45f1-88a0-b529f04d6bb5.png" alt="image"></p>
+<h4 id="311-initialization">3.1.1 Initialization</h4>
+<ol>
+<li>利用LDA主题模型从对话文本中提取每个领域的关键词，并且将他们拼接起来构成domain word（prefix）序列$x_{dw}$</li>
+<li>随机初始化domain word序列组成可学习的矩阵$M_{\theta}\in R^{|x_{dw}|d_{m}}$</li>
+</ol>
+<h4 id="312-parametrization">3.1.2 Parametrization</h4>
+<ol>
+<li>利用MLP和预训练的BART模型分别得到domain word序列的表示，重新训练MLP使用MSE loss使得MLP的输出与预训练的BART的decoder hidden states相同，以此从预训练模型中解藕出领域知识。</li>
+<li>在更新MLP参数的过程中保持预训练的BART的参数固定。</li>
+<li>得到MLP的参数初始化，并使用预训练好的MLP来映射prefix表示的初始化embeddings.</li>
+</ol>
+<h3 id="32-prompt-encoder">3.2 Prompt Encoder</h3>
+<h4 id="321-discrete-prompts">3.2.1 Discrete Prompts</h4>
+<ol>
+<li>将TODSum数据集中的对话状态和QMSum中的queries作为离散的Prompts</li>
+<li>对于对话状态这种结构化的信息，将结构化的信息转化为文本序列。</li>
+</ol>
+<h4 id="322-transformer-layer">3.2.2 Transformer Layer</h4>
+<ol>
+<li>将离散的prompt序列$x_{dp}$以及对话文本序列$x_{d}$作为encoder的输入序列。</li>
+<li>通过修改添加domain-oriented prefix序列的键值对来修改self- attention机制。</li>
+</ol>
+<h3 id="33-decoder">3.3 Decoder</h3>
+<p>将Prefix模块也加到decoder上，以类似的方式修改cross-attention和self- attention机制。</p>
+<h3 id="34-training-strategy">3.4 Training Strategy</h3>
+<p>采用如下的训练目标更新梯度：</p>
+<img width="805" alt="e57e9ff9765e44f4b4e0a87ac6af44b3" src="https://user-images.githubusercontent.com/47687248/165057976-c37eca89-bb9f-4c11-8b84-3fb21ba68e84.png">
+<p>在训练过程中中固定BART的参数，而更新prefix的参数。在训练时使用来自源域的领域词作为prefix序列。当训练完成以后，保存domain-oriented的prefix模块的参数，而丢弃掉预训练好的BART模块的参数。
+在测试的过程中，目标域的领域词则被MLP模块映射为prefix表示。</p>
+<h2 id="4-experimental-setup">4. Experimental Setup</h2>
+<h3 id="41--datasets">4.1  Datasets</h3>
+<p>在两个multi-domain对话摘要数据集上评估了模型的效果。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058127-321b66bc-711d-4f98-ac63-a45438f05462.png" alt="image"></p>
+<h4 id="411-todsum">4.1.1 TODSum</h4>
+<p>TODSum是基于经典对话数据集MultiWOZ提出的task-oriented对话摘要数据集。根据领域信息，数据集可以被划为5个领域：restaurant，hotel，attraction，taxi以及train. 在实验时，选择5个域中的4个域作为源域，剩下的域作为目标域，从源域中抽取200个样本作为验证集，源域的剩余数据作为训练集，目标域的数据作为测试集。</p>
+<h4 id="412-qmsum">4.1.2 QMSum</h4>
+<p>QMSum数据集包括上千条会议录音数据，包括三个领域：academic，committee以及product. 采用类似于TODSum数据集的处理方式。</p>
+<h3 id="42-main-results">4.2 Main Results</h3>
+<h4 id="421-results-on-todsum">4.2.1 Results on TODSum</h4>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058282-6f033a85-410c-410b-b48d-214a72a22313.png" alt="4dbdb43c2e3142fd92523ca9aadec458"></p>
+<p>可以看到，Prefix-Tuning相比较BART，BART w. DS.,表现要差，是因为对话文本很长且复杂，仅使用fine-tuning参数的20%很难理解领域知识，以及识别对话中的关键内容。在与Prefix-tuning具有相同量级的参数下，DOP- tuning在5个领域都有了较大的提升。这表明由领域词初始化的prefix模块以及有对话状态组成的离散的prompts发挥了重要的作用。除此之外，模型比全参数fine-tuning的模型BART要好，说明模型可以有效地从源域和目标域中解藕出知识。上述结果表示，在有限的数据情况下，模型仍然可以达到SOTA的结果。</p>
+<h4 id="422-results-on-qmsum">4.2.2 Results on QMSum</h4>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058369-d1f8c780-8583-4396-b467-64d05c6b731d.png" alt="b22e45cf03554374808330cbc773fe30"></p>
+<p>整体表现的趋势与在TODSum数据集上的表现一致，但是可以看出在Rouges的分数相对而言较低，是因为领域并没有明显的领域词，导致了严重的领域耦合的问题。除此之外，由于会议文本过长，很难从对话中捕捉核心内容。总的来说，这些结果表明多领域设置对于会议摘要是非常必要且有意义的。</p>
+<h2 id="5-qualitative-analysis">5. Qualitative Analysis</h2>
+<h3 id="51-number-of-domain-words">5.1 Number of Domain Words</h3>
+<p>探究领域词数量的影响，可以看到领域词数量在140时使rouge达到了峰值，当低于140时，效果降低，说明参数量不足影响了模型的表现。当领域词数量超过阈值时，模型的表现下降，说明了太长的prefix序列给BART增加了负担，并且引入了额外的噪声。但是，领域词数量的变化并没有对模型的表现的有太大的影响（只有2～3%的起伏），说明了domain-oriented prefix模块和有效性和模型的鲁棒性。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058462-5b0df7ca-b9cd-4e50-a36d-15d195fbc629.png" alt="f31ac144b97549aa90d84813653b4ac8"></p>
+<h3 id="52-quality-of-domain-words">5.2 Quality of Domain Words</h3>
+<p>探究领域词的质量的影响，将领域词的中的一定比例的词语以与领域无关的词汇替代。可以看到，随着更多的噪声被引入，模型受到更大的影响且表现下降。当噪声的比例超过100%时，模型的表现甚至比Prefix- Tuning糟糕。这是因为，我们使用完全无关的词汇去初始化Prefix模块，相比较随机初始化引入了更多的噪声影响了DOP的表现。从这一点看，引入高质量的领域词有利于领域解藕，高质量的领域词对摘要生成是重要的。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058527-b933ad77-3137-4b9d-ba45-ed3ec737cd1d.png" alt="3303ad68395040e68b08203f4ac28d90"></p>
+<h3 id="53-ablation-study">5.3 Ablation Study</h3>
+<p>研究了domain-oriented initialization和discrete prompts的影响。同时去掉两个模块与原始prefix-tuning相同。可以看到去除prefix- tuning中的domain- oriented初始化会使模型表现严重下降，说明domain word信息在面对新领域时引入相关知识的重要性。同时，移除离散的prompts也会使模型表现更糟糕（但仍然会好于Prefix-Tuning），说明离散的prompts能让模型更关注对话中核心的内容进而提升模型的表现。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058585-f8e3dd24-9f68-4cc5-b0cb-670ddb698351.png" alt="faf6a973a06d4f64bd74f3c99becce12"></p>
+<h3 id="54-effect-of-prefix-module-in-encoder-and-decoder">5.4 Effect of Prefix Module in Encoder and Decoder</h3>
+<p>由于DOP-method在encoder和decoder中均引入了prefix模块，研究两个部分的prefix模块对模型表现的影响。可以看到，当两个部分的prefix被移除后，模型的表现均下降，说明了两个模块的prefix都是必要且高效的。</p>
+<p>一个有趣的现象是移除encoder的prefix的影响要小于移除decoder的prefix的影响。一个比较合理的解释是在encoder和decoder端的prefix的作用是不一样的。在encoder端的prefix主要帮助模型理解对话，而decoder端的prefix主要帮助模型生成。因此，对于摘要生成，decoder端的prefix模块对模型更有用。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058661-66e0bf75-3766-41ed-9cf9-448b5e443e3a.png" alt="4e9bda3719bb4c9bb210b920ab907f58"></p>
+<h3 id="55-human-evaluation">5.5 Human Evaluation</h3>
+<p>对模型进行了人工评估。</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058716-dcb18574-ec70-40d7-ac51-725654fd3cd4.png" alt="f757f1261bda4bceb881baa790173595"></p>
+<p>表中显示，所有模型的流畅程度都较高，说明在较强的backbone上微调的抽象摘要模型能够生成更流畅的句子。在事实一致性上，DOP以及BART ws DS好于Prefix-tuning的表现，说明对话状态信息能引导模型更关注与核心的信息，例如槽值和意图。初次之外，DOP-tuning在领域相关性上的表现超过了其他基线模型。说明了domain-oriented模块在提升模型识别领域相关特征以及从源域和目标域解藕出知识的能力。</p>
+<h3 id="56-effect-of-training-data">5.6 Effect of Training Data</h3>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058800-9f6323d4-ac48-406a-b256-017a18156ae4.png" alt="20f9b8d72e8844abb49c580b1e47bdea"></p>
+<h4 id="561-performance-in-few-shot-settings">5.6.1 Performance in Few-shot Settings</h4>
+<p>对于TODSum数据集，固定源域的数据规模，将目标域的数据加入训练数据。可以看到随着目标域数据的增加，BART w. DS和DOP的表现提升，但DOP-tuning始终好于BART w. DS. 说明目标域的知识增加可以让模型学到目标域的信息。</p>
+<h4 id="562-effect-of-source-domain-data-size">5.6.2 Effect of Source Domain Data Size</h4>
+<p>保持zero-shot的设置不变，调整源域数据的规模</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058855-56a9767a-da09-4f77-aee4-6c83e43c58b0.png" alt="fca012c5f1e441718b2181ace0c80153"></p>
+<p>可以看到随着数据规模的减小，BART w. DS的表现变差，而DOP-tuning能够相对优秀地保持稳定。说明DOP-tuning对数据规模不太敏感，并且具有一定程度的鲁棒性。这与主实验的结果一致，模型在有限和unseen data上表现优异。</p>
+<h3 id="57-prefix-length-vs-input-length">5.7 Prefix Length vs. Input Length</h3>
+<p>研究Prefix Length和input Length的关系，具体而言source input length，target input length以及对应的optimal prefix length的关系。可以得出更长的inputs可能更青睐于更短的prefix.</p>
+<p><img src="https://user-images.githubusercontent.com/47687248/165058896-b39fa528-04f3-4dd6-85da-a32c49d54a81.png" alt="1d1a29e6f80b4d3b90e22b10c45c5215"></p>
+<h2 id="6-challenges">6. Challenges</h2>
+<p>总结了抽象对话摘要的低资源领域迁移的挑战：</p>
+<ol>
+<li>Confusion between domains with high similarity
+对于词汇表高度重合的领域，如restaurant和hotel，train和taxi，模型会产生domain-confusing句子。以hotel- restaurant对作为例子，当restaurant作为目标域，“book a restaurant room that can accommodate 3 people”会被生成，这样的句子其实更应该存在hotel领域中。但需要注意的是，这种challenge并不会影响关键因素的准确率，但language style则是不合适的。</li>
+<li>Information dispersion
+由于对话数据通常是长序列，因此模型很难对长对话中的所有方面都能pay attention，因此会产生对话中关键元素的注意力的偏差，尤其是在轻量和小参数训练的场景下。</li>
+</ol>
+<h2 id="7-conclusion">7. Conclusion</h2>
+<p>在本文中，我们提出了基于高效且可泛化的微调方法面向领域的domain-oriented prefix-tuning模型解决对话摘要中的领域迁移的方法。使用领域词初始化的prefix模块能够从源域解藕出目标域的知识，而离散的prompts能够提升模型的泛化性。在zero-shot和few-shot下的实验说明我们的方法在两个数据集下取得了巨大的进步。</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/prompt-learning/">Prompt Learning</a>
+  
+  <a class="badge badge-light" href="/tag/%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90/">文本生成</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://pris-nlp.github.io/post/220426zwh/&amp;text=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://pris-nlp.github.io/post/220426zwh/&amp;t=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95&amp;body=https://pris-nlp.github.io/post/220426zwh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://pris-nlp.github.io/post/220426zwh/&amp;title=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95%20https://pris-nlp.github.io/post/220426zwh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://pris-nlp.github.io/post/220426zwh/&amp;title=DOP-Tuning:%20%e9%9d%a2%e5%90%91%e5%af%b9%e8%af%9d%e6%91%98%e8%a6%81%e9%a2%86%e5%9f%9f%e8%87%aa%e9%80%82%e5%ba%94%e7%9a%84%e8%bd%bb%e9%87%8f%e7%ba%a7%e5%be%ae%e8%b0%83%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/avatar_huea56a22a8858ccd613bf16a1f884191b_1155849_270x270_fill_q90_lanczos_center.jpg" alt="曾伟豪">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/">曾伟豪</a></h5>
+        <h6 class="card-subtitle">科研实习生</h6>
+        
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ZengWH@bupt.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Zeng-WH" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © PRIS-NLP 2022
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

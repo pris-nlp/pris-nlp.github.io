@@ -489,7 +489,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/weihao-zeng/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -502,7 +502,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/zechen-wang/</loc>
-    <lastmod>2022-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -579,7 +579,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/authors/</loc>
-    <lastmod>2022-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -605,7 +605,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/</loc>
-    <lastmod>2022-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -631,7 +631,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/tags/</loc>
-    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -826,7 +826,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/post/</loc>
-    <lastmod>2022-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -836,6 +836,45 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/post/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/post/220426zwh/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/220426zwh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/220426zwh/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/tag/prompt-learning/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/prompt-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/prompt-learning/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/tag/%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/post/220408wzc/</loc>

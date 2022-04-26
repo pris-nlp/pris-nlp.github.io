@@ -1,38 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>曾伟豪 | 自然语言处理徐蔚然老师研究组</title>
-    <link>https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/</link>
-      <atom:link href="https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/index.xml" rel="self" type="application/rss+xml" />
-    <description>曾伟豪</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <title>Prompt Learning | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/tag/prompt-learning/</link>
+      <atom:link href="https://pris-nlp.github.io/en/tag/prompt-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prompt Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
-      <title>曾伟豪</title>
-      <link>https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/</link>
+      <title>Prompt Learning</title>
+      <link>https://pris-nlp.github.io/en/tag/prompt-learning/</link>
     </image>
     
     <item>
-      <title>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</title>
-      <link>https://pris-nlp.github.io/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</link>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/adpl-adversarial-prompt-based-domain-adaptation-for-dialogue-summarization-with-knowledge-disentanglement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization</title>
-      <link>https://pris-nlp.github.io/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DOP-Tuning: 面向对话摘要领域自适应的轻量级微调方法</title>
-      <link>https://pris-nlp.github.io/post/220426zwh/</link>
+      <link>https://pris-nlp.github.io/en/post/220426zwh/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/post/220426zwh/</guid>
+      <guid>https://pris-nlp.github.io/en/post/220426zwh/</guid>
       <description>&lt;p&gt;本文介绍一下我们组在面向领域迁移的对话摘要任务上的工作。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-motivations&#34;&gt;1. Motivations&lt;/h2&gt;
@@ -138,14 +122,6 @@
 &lt;h2 id=&#34;7-conclusion&#34;&gt;7. Conclusion&lt;/h2&gt;
 &lt;p&gt;在本文中，我们提出了基于高效且可泛化的微调方法面向领域的domain-oriented prefix-tuning模型解决对话摘要中的领域迁移的方法。使用领域词初始化的prefix模块能够从源域解藕出目标域的知识，而离散的prompts能够提升模型的泛化性。在zero-shot和few-shot下的实验说明我们的方法在两个数据集下取得了巨大的进步。&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Give the Truth:Incorporate Semantic Slot into Abstractive Dialogue Summarization</title>
-      <link>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/give-the-truth-incorporate-semantic-slot-into-abstractive-dialogue-summarization/</guid>
-      <description></description>
     </item>
     
   </channel>
