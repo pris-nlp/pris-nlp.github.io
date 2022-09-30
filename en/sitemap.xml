@@ -502,7 +502,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/zechen-wang/</loc>
-    <lastmod>2021-12-27T11:00:00+08:00</lastmod>
+    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -579,7 +579,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/authors/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -605,7 +605,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -826,7 +826,7 @@
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/post/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -836,6 +836,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/post/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/post/220519wzc/</loc>
+    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/220519wzc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/220519wzc/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/post/220426zwh/</loc>

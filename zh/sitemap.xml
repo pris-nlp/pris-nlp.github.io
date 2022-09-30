@@ -827,6 +827,16 @@
   </url><url>
     <loc>https://pris-nlp.github.io/post/220519wzc/</loc>
     <lastmod>2022-05-19T11:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/220519wzc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/220519wzc/"
+                />
   </url><url>
     <loc>https://pris-nlp.github.io/post/</loc>
     <lastmod>2022-05-19T11:00:00+08:00</lastmod>
