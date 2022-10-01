@@ -526,6 +526,45 @@
                 href="https://pris-nlp.github.io/en/author/pei-wang/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/post/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/post/221001wyj/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/221001wyj/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/221001wyj/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/tag/dialogue-summarization/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -602,19 +641,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/huixingjiang/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/</loc>
-    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/publication_types/</loc>
@@ -823,19 +849,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/tag/robust-training/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/post/</loc>
-    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/post/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/post/220519wzc/</loc>

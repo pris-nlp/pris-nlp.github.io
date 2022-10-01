@@ -5,12 +5,92 @@
     <link>https://pris-nlp.github.io/post/</link>
       <atom:link href="https://pris-nlp.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>所有博客</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>所有博客</title>
       <link>https://pris-nlp.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>近期研究速览（2022.10.01）</title>
+      <link>https://pris-nlp.github.io/post/221001wyj/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/post/221001wyj/</guid>
+      <description>&lt;h2 id=&#34;distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation&#34;&gt;&lt;strong&gt;Distribution Calibration for Out-of-Domain Detection with Bayesian Approximation&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;论文作者&#34;&gt;论文作者&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王霈&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&#34;发表会议&#34;&gt;发表会议&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://coling2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COLING2022&lt;/a&gt; Long Paper&lt;/p&gt;
+&lt;h4 id=&#34;论文简介&#34;&gt;论文简介&lt;/h4&gt;
+&lt;p&gt;域外(out-of-domain, OOD)检测是任务型对话系统应对开放世界的重要要求，在正确识别预定义意图基础上，旨在检测用户输入query是否超出预定义意图。然而，传统的基于softmax的域外检测算法在域外样本识别上存在过自信问题。本文结合理论分析发现，训练分布与测试分布之间不匹配，使得模型不能自信地做出预测，从而导致softmax分数异常，换句话说，缓解分布不确定性是解决过自信问题的关键。基于此，我们提出了基于贝叶斯估计的域外检测算法，在推理阶段，利用蒙特卡罗Dropout多次传导求期望，以校准分布不确定性，将实际错误的尖锐域外分布校准为接近理想的均匀分布，以便更好的区分域内和域外数据。我们的方法灵活适用于现有的基于概率的域外检测算法，相比于MSP，我们的方法在不增加任何模型参数，仅增加0.41%推理时间消耗上，可以获得了33.33%的OOD F1指标提升。文章中大量的实验和分析进一步证明了贝叶斯学习在OOD检测中的有效性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34;&gt;&lt;center&gt;&lt;font face=&#34;黑体&#34; size=3&gt;模型整体结构&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h4 id=&#34;代码&#34;&gt;代码&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/pris-nlp/COLING2022_Bayesian-for-OOD/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;generalized-intent-discovery-learning-from-open-world-dialogue-system&#34;&gt;&lt;strong&gt;Generalized Intent Discovery: Learning from Open World Dialogue System&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;论文作者-1&#34;&gt;论文作者&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王霈&lt;/a&gt;，王金刚，武威，黄毅，冯俊兰，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&#34;发表会议-1&#34;&gt;发表会议&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://coling2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COLING2022&lt;/a&gt; Long Paper&lt;/p&gt;
+&lt;h4 id=&#34;论文简介-1&#34;&gt;论文简介&lt;/h4&gt;
+&lt;p&gt;传统的意图分类模型基于领域专家预定义好的域内（IND）意图集，并且只能识别有限的域内意图。然而当对话系统线上部署之后，用户可能会输入域外（OOD）查询。这些OOD数据为系统未来进一步开发提供潜在发展方向。在本文中，我们定义了一个新任务——泛化意图发现（GID），旨在将IND意图分类器的识别范围扩展到包括IND意图和新出现的OOD意图的开放世界意图集中。具体地，我们希望训练一个统一的模型以端到端的方式同时学习分类有标注的域内意图类，以及增量式地从无标注OOD数据中发现和识别的新的域外意图类，以便自动扩展分类器的识别范围，通俗地说就是自动扩充分类头。为了能够在更真实地场景下讨论GID任务，我们构建了三个基准数据集，分别模拟单领域，多领域和跨领域场景，并在此基础上衍生出两个变体数据集，分别模拟真实环境中OOD噪声和OOD类别不平衡场景。在方法上，我们提出了两个框架，pipeline和端到端框架，以便后续GID研究使用。此外，我们还做了大量地分析实验，综合地讨论和分析了GID任务的关键挑战，并为这个方向未来的研究提供了新的指导。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2-1.png&#34; alt=&#34;&#34;&gt;&lt;center&gt;&lt;font face=&#34;黑体&#34; size=3&gt;GID任务示意图&lt;/font&gt;&lt;/center&gt;
+&lt;img src=&#34;2-2.png&#34; alt=&#34;&#34;&gt;&lt;center&gt;&lt;font face=&#34;黑体&#34; size=3&gt;pipeline和end-to-end框架示意图&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h4 id=&#34;代码-1&#34;&gt;代码&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/myt517/GID_benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling&#34;&gt;&lt;strong&gt;PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;论文作者-2&#34;&gt;论文作者&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;董冠霆&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%AD%E5%B2%B1%E9%A9%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郭岱驰&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E7%A4%BC%E6%96%87/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王礼文&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9D%8E%E9%9B%AA%E5%B3%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;李雪峰&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王泽晨&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E6%99%A8/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾晨&lt;/a&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，赵金政，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;雷浩&lt;/a&gt;，崔馨月，黄毅，冯俊兰, 
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&#34;发表会议-2&#34;&gt;发表会议&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://coling2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COLING2022&lt;/a&gt; Short Paper&lt;/p&gt;
+&lt;h4 id=&#34;论文简介-2&#34;&gt;论文简介&lt;/h4&gt;
+&lt;p&gt;大多数现有的槽填充模型倾向于从训练数据中记忆实体的固有模式与对应的上下文。然而，当这些模型暴露于真实场景下的口语扰动时，可能会导致性能下降或产生期望之外的输出。我们提出了一种扰动语义结构感知迁移方法，来训练出对扰动具有鲁棒性的槽填充模型。具体来说，我们引入了两种基于MLM的训练策略，分别从含有无监督语言扰动的语料库中学习上下文语义结构和实体分布。然后，将上游预训练过程中学习到的语义知识迁移到原始样本中，并通过一致性处理模块过滤低质量的增强数据。这些程序旨在提高槽填充模型的鲁棒性。实验结果表明，我们的方法始终优于以往的基本方法，并在防止模型记忆实体和上下文固有模式的同时，获得了较强的泛化性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;3-1.png&#34; alt=&#34;&#34;&gt;&lt;center&gt;&lt;font face=&#34;黑体&#34; size=3&gt;PSSAT框架示意图&lt;/font&gt;&lt;/center&gt;
+&lt;img src=&#34;3-2.png&#34; alt=&#34;&#34;&gt;&lt;center&gt;&lt;font face=&#34;黑体&#34; size=3&gt;扰动鲁棒填槽框架示意图&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h4 id=&#34;文章链接&#34;&gt;文章链接&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2208.11508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;点击此处获取&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;同等贡献&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;通讯作者&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>Debiased Contrastive Learning of Unsupervised Sentence Representations</title>
@@ -223,7 +303,7 @@ $$
     </item>
     
     <item>
-      <title>本研究组近期研究速览</title>
+      <title>近期研究速览（2022.04.08）</title>
       <link>https://pris-nlp.github.io/post/220408wzc/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/post/220408wzc/</guid>

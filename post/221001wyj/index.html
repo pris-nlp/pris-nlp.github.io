@@ -1,0 +1,1320 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="徐蔚然">
+
+  
+  
+  
+    
+  
+  <meta name="description" content=" ">
+
+  
+  <link rel="alternate" hreflang="en" href="https://pris-nlp.github.io/en/post/221001wyj/">
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://pris-nlp.github.io/post/221001wyj/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://pris-nlp.github.io/post/221001wyj/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="自然语言处理徐蔚然老师研究组">
+  <meta property="og:url" content="https://pris-nlp.github.io/post/221001wyj/">
+  <meta property="og:title" content="近期研究速览（2022.10.01） | 自然语言处理徐蔚然老师研究组">
+  <meta property="og:description" content=" "><meta property="og:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2022-10-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-10-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pris-nlp.github.io/post/221001wyj/"
+  },
+  "headline": "近期研究速览（2022.10.01）",
+  
+  "datePublished": "2022-10-01T00:00:00Z",
+  "dateModified": "2022-10-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Authors"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "自然语言处理徐蔚然老师研究组",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": " "
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>近期研究速览（2022.10.01） | 自然语言处理徐蔚然老师研究组</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">自然语言处理徐蔚然老师研究组</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">自然语言处理徐蔚然老师研究组</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>主页</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#direction"><span>主研方向</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>成员</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#papers"><span>论文</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>项目</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#patents"><span>专利</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>博客</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>联系</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>浅色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>深色</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>自动</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">中文 (简体)</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item dropdown-item-active">
+            <span>中文 (简体)</span>
+          </div>
+          
+          <a class="dropdown-item" href="https://pris-nlp.github.io/en/post/221001wyj/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>近期研究速览（2022.10.01）</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >---</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 1, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://coling2022.org/" target="_blank" rel="noopener">
+    
+    COLING 2022
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation"><strong>Distribution Calibration for Out-of-Domain Detection with Bayesian Approximation</strong></h2>
+<h4 id="论文作者">论文作者</h4>
+<p>
+<a href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/" target="_blank" rel="noopener">吴亚楠</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/" target="_blank" rel="noopener">曾致远</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/" target="_blank" rel="noopener">何可清</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/" target="_blank" rel="noopener">牟宇滔</a>，
+<a href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/" target="_blank" rel="noopener">王霈</a>，
+<a href="https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/" target="_blank" rel="noopener">徐蔚然</a> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h4 id="发表会议">发表会议</h4>
+<p>
+<a href="https://coling2022.org/" target="_blank" rel="noopener">COLING2022</a> Long Paper</p>
+<h4 id="论文简介">论文简介</h4>
+<p>域外(out-of-domain, OOD)检测是任务型对话系统应对开放世界的重要要求，在正确识别预定义意图基础上，旨在检测用户输入query是否超出预定义意图。然而，传统的基于softmax的域外检测算法在域外样本识别上存在过自信问题。本文结合理论分析发现，训练分布与测试分布之间不匹配，使得模型不能自信地做出预测，从而导致softmax分数异常，换句话说，缓解分布不确定性是解决过自信问题的关键。基于此，我们提出了基于贝叶斯估计的域外检测算法，在推理阶段，利用蒙特卡罗Dropout多次传导求期望，以校准分布不确定性，将实际错误的尖锐域外分布校准为接近理想的均匀分布，以便更好的区分域内和域外数据。我们的方法灵活适用于现有的基于概率的域外检测算法，相比于MSP，我们的方法在不增加任何模型参数，仅增加0.41%推理时间消耗上，可以获得了33.33%的OOD F1指标提升。文章中大量的实验和分析进一步证明了贝叶斯学习在OOD检测中的有效性。</p>
+<p><img src="1.png" alt=""><center><font face="黑体" size=3>模型整体结构</font></center></p>
+<h4 id="代码">代码</h4>
+<p>
+<a href="https://github.com/pris-nlp/COLING2022_Bayesian-for-OOD/" target="_blank" rel="noopener">github</a></p>
+<hr>
+<h2 id="generalized-intent-discovery-learning-from-open-world-dialogue-system"><strong>Generalized Intent Discovery: Learning from Open World Dialogue System</strong></h2>
+<h4 id="论文作者-1">论文作者</h4>
+<p>
+<a href="https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/" target="_blank" rel="noopener">牟宇滔</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/" target="_blank" rel="noopener">何可清</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/" target="_blank" rel="noopener">吴亚楠</a>，
+<a href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/" target="_blank" rel="noopener">王霈</a>，王金刚，武威，黄毅，冯俊兰，
+<a href="https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/" target="_blank" rel="noopener">徐蔚然</a> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h4 id="发表会议-1">发表会议</h4>
+<p>
+<a href="https://coling2022.org/" target="_blank" rel="noopener">COLING2022</a> Long Paper</p>
+<h4 id="论文简介-1">论文简介</h4>
+<p>传统的意图分类模型基于领域专家预定义好的域内（IND）意图集，并且只能识别有限的域内意图。然而当对话系统线上部署之后，用户可能会输入域外（OOD）查询。这些OOD数据为系统未来进一步开发提供潜在发展方向。在本文中，我们定义了一个新任务——泛化意图发现（GID），旨在将IND意图分类器的识别范围扩展到包括IND意图和新出现的OOD意图的开放世界意图集中。具体地，我们希望训练一个统一的模型以端到端的方式同时学习分类有标注的域内意图类，以及增量式地从无标注OOD数据中发现和识别的新的域外意图类，以便自动扩展分类器的识别范围，通俗地说就是自动扩充分类头。为了能够在更真实地场景下讨论GID任务，我们构建了三个基准数据集，分别模拟单领域，多领域和跨领域场景，并在此基础上衍生出两个变体数据集，分别模拟真实环境中OOD噪声和OOD类别不平衡场景。在方法上，我们提出了两个框架，pipeline和端到端框架，以便后续GID研究使用。此外，我们还做了大量地分析实验，综合地讨论和分析了GID任务的关键挑战，并为这个方向未来的研究提供了新的指导。</p>
+<p><img src="2-1.png" alt=""><center><font face="黑体" size=3>GID任务示意图</font></center>
+<img src="2-2.png" alt=""><center><font face="黑体" size=3>pipeline和end-to-end框架示意图</font></center></p>
+<h4 id="代码-1">代码</h4>
+<p>
+<a href="https://github.com/myt517/GID_benchmark" target="_blank" rel="noopener">github</a></p>
+<hr>
+<h2 id="pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling"><strong>PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling</strong></h2>
+<h4 id="论文作者-2">论文作者</h4>
+<p>
+<a href="https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/" target="_blank" rel="noopener">董冠霆</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E9%83%AD%E5%B2%B1%E9%A9%B0/" target="_blank" rel="noopener">郭岱驰</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E7%8E%8B%E7%A4%BC%E6%96%87/" target="_blank" rel="noopener">王礼文</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E6%9D%8E%E9%9B%AA%E5%B3%B0/" target="_blank" rel="noopener">李雪峰</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，
+<a href="https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/" target="_blank" rel="noopener">王泽晨</a>，
+<a href="https://pris-nlp.github.io/author/%E6%9B%BE%E6%99%A8/" target="_blank" rel="noopener">曾晨</a>，
+<a href="https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/" target="_blank" rel="noopener">何可清</a>，赵金政，
+<a href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/" target="_blank" rel="noopener">雷浩</a>，崔馨月，黄毅，冯俊兰, 
+<a href="https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/" target="_blank" rel="noopener">徐蔚然</a> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h4 id="发表会议-2">发表会议</h4>
+<p>
+<a href="https://coling2022.org/" target="_blank" rel="noopener">COLING2022</a> Short Paper</p>
+<h4 id="论文简介-2">论文简介</h4>
+<p>大多数现有的槽填充模型倾向于从训练数据中记忆实体的固有模式与对应的上下文。然而，当这些模型暴露于真实场景下的口语扰动时，可能会导致性能下降或产生期望之外的输出。我们提出了一种扰动语义结构感知迁移方法，来训练出对扰动具有鲁棒性的槽填充模型。具体来说，我们引入了两种基于MLM的训练策略，分别从含有无监督语言扰动的语料库中学习上下文语义结构和实体分布。然后，将上游预训练过程中学习到的语义知识迁移到原始样本中，并通过一致性处理模块过滤低质量的增强数据。这些程序旨在提高槽填充模型的鲁棒性。实验结果表明，我们的方法始终优于以往的基本方法，并在防止模型记忆实体和上下文固有模式的同时，获得了较强的泛化性。</p>
+<p><img src="3-1.png" alt=""><center><font face="黑体" size=3>PSSAT框架示意图</font></center>
+<img src="3-2.png" alt=""><center><font face="黑体" size=3>扰动鲁棒填槽框架示意图</font></center></p>
+<h4 id="文章链接">文章链接</h4>
+<p>
+<a href="https://arxiv.org/abs/2208.11508" target="_blank" rel="noopener">点击此处获取</a></p>
+<hr>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>同等贡献&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>通讯作者&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://pris-nlp.github.io/post/221001wyj/&amp;text=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://pris-nlp.github.io/post/221001wyj/&amp;t=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89&amp;body=https://pris-nlp.github.io/post/221001wyj/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://pris-nlp.github.io/post/221001wyj/&amp;title=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89%20https://pris-nlp.github.io/post/221001wyj/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://pris-nlp.github.io/post/221001wyj/&amp;title=%e8%bf%91%e6%9c%9f%e7%a0%94%e7%a9%b6%e9%80%9f%e8%a7%88%ef%bc%882022.10.01%ef%bc%89" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © PRIS-NLP 2022
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -526,6 +526,45 @@
                 href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/post/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/post/221001wyj/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/post/221001wyj/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/post/221001wyj/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/tag/dialogue-summarization/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -641,19 +680,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/publication/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/</loc>
-    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/tag/intent-detection/</loc>
@@ -836,19 +862,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/post/220519wzc/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/post/</loc>
-    <lastmod>2022-05-19T11:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/post/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/post/220426zwh/</loc>
