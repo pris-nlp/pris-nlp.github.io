@@ -514,6 +514,30 @@
                 href="https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/author/%E5%9B%9E%E4%BA%AD%E9%A3%8E/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/tingfeng-hui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E5%9B%9E%E4%BA%AD%E9%A3%8E/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/%E5%AE%8B%E6%99%93%E5%B8%85/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/xiaoshuai-song/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E5%AE%8B%E6%99%93%E5%B8%85/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/</loc>
     <xhtml:link
                 rel="alternate"
@@ -524,6 +548,42 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/%E8%96%9B%E6%96%B9%E7%8E%AE/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/fangwei-xue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E8%96%9B%E6%96%B9%E7%8E%AE/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/%E8%B5%B5%E9%87%91%E6%97%AD/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/jinxu-zhao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E8%B5%B5%E9%87%91%E6%97%AD/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/%E7%8E%8B%E4%B8%9A%E6%8D%B7/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/yejie-wang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%8E%8B%E4%B8%9A%E6%8D%B7/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/post/</loc>
