@@ -5,12 +5,36 @@
     <link>https://pris-nlp.github.io/en/author/weiwu/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/weiwu/index.xml" rel="self" type="application/rss+xml" />
     <description>WeiWu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>WeiWu</title>
       <link>https://pris-nlp.github.io/en/author/weiwu/</link>
     </image>
+    
+    <item>
+      <title>UniNL: Aligning Representation Learning with Scoring Function for OOD Detection via Unified Neighborhood Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watch the Neighbors: A Unified K-Nearest Neighbor Contrastive Learning Framework for OOD Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Intent Discovery: Learning from Open World Dialogue System</title>
+      <link>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ADPL: Adversarial Prompt-based Domain Adaptation for Dialogue Summarization with Knowledge Disentanglement</title>

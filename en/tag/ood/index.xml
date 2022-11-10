@@ -5,12 +5,52 @@
     <link>https://pris-nlp.github.io/en/tag/ood/</link>
       <atom:link href="https://pris-nlp.github.io/en/tag/ood/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;OOD&#34;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>&#34;OOD&#34;</title>
       <link>https://pris-nlp.github.io/en/tag/ood/</link>
     </image>
+    
+    <item>
+      <title>Disentangling Confidence Score Distribution for Out-of-Domain Intent Detection with Energy-Based Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/disentangling-confidence-score-distribution-for-out-of-domain-intent-detection-with-energy-based-learning/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/disentangling-confidence-score-distribution-for-out-of-domain-intent-detection-with-energy-based-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UniNL: Aligning Representation Learning with Scoring Function for OOD Detection via Unified Neighborhood Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watch the Neighbors: A Unified K-Nearest Neighbor Contrastive Learning Framework for OOD Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribution Calibration for Out-of-Domain Detection with Bayesian Approximation</title>
+      <link>https://pris-nlp.github.io/en/publication/distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Intent Discovery: Learning from Open World Dialogue System</title>
+      <link>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold</title>

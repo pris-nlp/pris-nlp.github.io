@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JunlanFeng | 自然语言处理徐蔚然老师研究组</title>
+    <link>https://pris-nlp.github.io/author/junlanfeng/</link>
+      <atom:link href="https://pris-nlp.github.io/author/junlanfeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>JunlanFeng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
+      <title>JunlanFeng</title>
+      <link>https://pris-nlp.github.io/author/junlanfeng/</link>
+    </image>
+    
+    <item>
+      <title>Generalized Intent Discovery: Learning from Open World Dialogue System</title>
+      <link>https://pris-nlp.github.io/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling</title>
+      <link>https://pris-nlp.github.io/publication/pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
