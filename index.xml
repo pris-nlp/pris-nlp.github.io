@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/</link>
       <atom:link href="https://pris-nlp.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>自然语言处理徐蔚然老师研究组</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2022</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hu316c76060153165bc5df614349754290_164774_512x512_fill_lanczos_center_3.png</url>
       <title>自然语言处理徐蔚然老师研究组</title>
@@ -173,8 +173,8 @@
 &lt;h4 id=&#34;论文作者&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王霈&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -191,11 +191,11 @@
 &lt;h2 id=&#34;generalized-intent-discovery-learning-from-open-world-dialogue-system&#34;&gt;&lt;strong&gt;Generalized Intent Discovery: Learning from Open World Dialogue System&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;论文作者-1&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref3:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref4:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王霈&lt;/a&gt;，王金刚，武威，黄毅，冯俊兰，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;发表会议-1&#34;&gt;发表会议&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://coling2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COLING2022&lt;/a&gt; Long Paper&lt;/p&gt;
@@ -210,15 +210,15 @@
 &lt;h2 id=&#34;pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling&#34;&gt;&lt;strong&gt;PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;论文作者-2&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;董冠霆&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%AD%E5%B2%B1%E9%A9%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郭岱驰&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E7%A4%BC%E6%96%87/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王礼文&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9D%8E%E9%9B%AA%E5%B3%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;李雪峰&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;董冠霆&lt;/a&gt;&lt;sup id=&#34;fnref5:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%AD%E5%B2%B1%E9%A9%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郭岱驰&lt;/a&gt;&lt;sup id=&#34;fnref6:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E7%A4%BC%E6%96%87/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王礼文&lt;/a&gt;&lt;sup id=&#34;fnref7:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9D%8E%E9%9B%AA%E5%B3%B0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;李雪峰&lt;/a&gt;&lt;sup id=&#34;fnref8:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;王泽晨&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E6%99%A8/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾晨&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，赵金政，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;雷浩&lt;/a&gt;，崔馨月，黄毅，冯俊兰, 
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref2:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;发表会议-2&#34;&gt;发表会议&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://coling2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COLING2022&lt;/a&gt; Short Paper&lt;/p&gt;
@@ -230,17 +230,17 @@
 &lt;p&gt;
 &lt;a href=&#34;https://arxiv.org/abs/2208.11508&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;点击此处获取&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;同等贡献&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;同等贡献&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref6:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref7:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref8:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;通讯作者&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;通讯作者&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -318,8 +318,8 @@ L_U(h_i,h_i^+,{\hat h})=-\log\frac{e^{{\rm sim}(h_i,h_i^+)/\tau_u}}{\sum_{\hat h
 $$
 其中$\tau_u$是温度超参数，${\rm sim}(h_i, h_i^+)$是余弦相似度$\frac{h_i^\top h_i^+}{||h_i||\cdot||h_i^+||}$。在此基础上，对于每个负样本$\hat h_j\in{\hat h}$，我们用$t$步梯度下降法优化它
 $$
-\hat h_j=\hat h_j+\beta g(\hat h_j)/||g(\hat h_j)||_2\&lt;br&gt;
-g(\hat h_j)=\nabla_{\hat h_j}L_U(h_i,h_i^+,{\hat h})
+\hat h_j=\hat h_j+\beta g(\hat h_j)/||g(\hat h_j)||&lt;em&gt;2\
+g(\hat h_j)=\nabla&lt;/em&gt;{\hat h_j}L_U(h_i,h_i^+,{\hat h})
 $$&lt;/p&gt;
 &lt;p&gt;这样一来，基于噪声的负样本将被优化到句子表征空间的非均匀点。通过学习与这些负样本的对比，可以进一步提高表示空间的均匀性，这对有效的句子表示是至关重要的。&lt;/p&gt;
 &lt;h4 id=&#34;实例加权的对比学习&#34;&gt;实例加权的对比学习&lt;/h4&gt;
@@ -327,13 +327,13 @@ $$&lt;/p&gt;
 &lt;p&gt;为了缓解这个问题，我们提出了一种实例加权的方法来惩罚伪负样本。由于我们无法获得真实的标签或语义相似性，我们利用一个补充模型来产生每个负数的权重。我们采用最先进的SimCSE（Gao等人，2021）作为补充模型。给定一个来自${\tilde h^-}$或${\hat h}$的负样本$h^-$和原始句子$h_i$的表征，我们利用辅助模型来产生权重：
 $$
 \alpha_{h^-}=\begin{cases}
-0,{\rm sim}_C(h_i,h^-)\ge\phi\&lt;br&gt;
+0,{\rm sim}_C(h_i,h^-)\ge\phi\
 1,{\rm sim}_C(h_i,h^-)&amp;lt;\phi
 \end{cases}
 $$
-其中${\rm sim}_C$是辅助模型评估的余弦相似度。这样一来，与原句的语义相似度较高的负样本将被视为伪负样本，并被赋予0的权重以示惩罚。 基于这些权重，我们用去掉交叉熵的对比学习损失函数来优化句子表征，即
+其中${\rm sim}&lt;em&gt;C$是辅助模型评估的余弦相似度。这样一来，与原句的语义相似度较高的负样本将被视为伪负样本，并被赋予0的权重以示惩罚。 基于这些权重，我们用去掉交叉熵的对比学习损失函数来优化句子表征，即
 $$
-L=-\log\frac{e^{{\rm sim}(h_i,h_i^+)/\tau}}{\sum_{h^- \in{\hat h}\cup{\tilde h^-}}e^{{\rm sim}(h_i, h^-)/\tau}}
+L=-\log\frac{e^{{\rm sim}(h_i,h_i^+)/\tau}}{\sum&lt;/em&gt;{h^- \in{\hat h}\cup{\tilde h^-}}e^{{\rm sim}(h_i, h^-)/\tau}}
 $$
 如上所述，我们的方法旨在重新消除关于负面的抽样偏差的影响，并且对各种正样本的增强方法（例如，token cutoff和dropout）是不关心的。由于基于噪声的负样本是从高斯分布中初始化的，并不对应于真实的句子，因此它们是高度自信的负样本，以扩大表示空间。通过学习与它们的对比，对比目标的学习将不会受到来自PLMs的各向异性表征的限制。因此，句子表征可以跨越更广泛的语义空间，表征语义空间的统一性也可以得到改善。&lt;/p&gt;
 &lt;p&gt;此外，我们的实例加权方法还缓解了随机抽样策略造成的伪负样本问题。在补充模型的帮助下，那些与原句语义相似的伪负样本句子将被检测出来并受到惩罚。&lt;/p&gt;
@@ -370,7 +370,7 @@ $$
 &lt;p&gt;均匀性是句子表征的一个理想特性，描述了表征的均匀分布程度。为了验证我们框架的均匀性的改善，我们比较了DCLR和SimCSE在训练期间使用BERT-base的均匀性损失曲线。&lt;/p&gt;
 &lt;p&gt;按照SimCSE（Gao等人，2021年），我们利用以下函数来评估均匀性：
 $$
-\ell_{uniform}\triangleq \mathop{\mathbb E}_{x_i,x_j \sim p_{data}}\exp(-2||f(x_i)-f(x_j)||^2)
+\ell_{uniform}\triangleq \mathop{\mathbb E}&lt;em&gt;{x_i,x_j \sim p&lt;/em&gt;{data}}\exp(-2||f(x_i)-f(x_j)||^2)
 $$
 这个损失的数值越小，说明均匀性越好。如图4所示，几乎在整个训练过程中，DCLR的均匀性损失要比SimCSE的低得多。此外，我们可以看到，随着训练的进行，DCLR的均匀性损失下降得更快，而SimCSE的均匀性损失则没有明显的下降趋势。这可能是因为我们的DCLR在表示空间之外对基于噪声的负样本进行了采样，这可以更好地提高句子表示的均匀性。&lt;/p&gt;
 &lt;h4 id=&#34;少样本设置下的表现&#34;&gt;少样本设置下的表现&lt;/h4&gt;
@@ -503,7 +503,7 @@ $$
 &lt;h4 id=&#34;论文作者&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E8%B5%B5%E7%92%90%E7%92%90/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%91%E9%A6%A5%E5%98%89/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%91%E9%A6%A5%E5%98%89/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾伟豪&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E8%80%BF%E8%8B%A5%E5%BD%A4/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;耿若彤&lt;/a&gt;，江会星，武威，
@@ -519,14 +519,14 @@ $$
 &lt;h2 id=&#34;revisit-overconfidence-for-ood-detection-reassigned-contrastive-learning-with-adaptive-class-dependent-threshold&#34;&gt;&lt;strong&gt;Revisit Overconfidence for OOD Detection: Reassigned Contrastive Learning with Adaptive Class-dependent Threshold&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;论文作者-1&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref3:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E4%B8%A5%E6%B8%8A%E8%92%99/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;严渊蒙&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E9%AB%98%E7%90%AA%E7%BF%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;高琪翔&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%91%E9%A6%A5%E5%98%89/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E8%B5%B5%E7%92%90%E7%92%90/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;，江会星，武威，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;发表会议-1&#34;&gt;发表会议&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://2022.naacl.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NAACL 2022&lt;/a&gt; Main Conference, Long Paper&lt;/p&gt;
@@ -539,11 +539,11 @@ $$
 &lt;h2 id=&#34;domain-oriented-prefix-tuning-towards-efficient-and-generalizable-fine-tuning-for-zero-shot-dialogue-summarization&#34;&gt;&lt;strong&gt;Domain-Oriented Prefix-Tuning: Towards Efficient and Generalizable Fine-tuning for Zero-Shot Dialogue Summarization&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;论文作者-2&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E8%B5%B5%E7%92%90%E7%92%90/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%91%E9%A6%A5%E5%98%89/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E8%B5%B5%E7%92%90%E7%92%90/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;赵璐璐&lt;/a&gt;&lt;sup id=&#34;fnref4:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E9%83%91%E9%A6%A5%E5%98%89/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;郑馥嘉&lt;/a&gt;&lt;sup id=&#34;fnref5:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾伟豪&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;，江会星，武威，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref2:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;，江会星，武威，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;发表会议-2&#34;&gt;发表会议&lt;/h4&gt;
 &lt;p&gt;
@@ -557,29 +557,29 @@ $$
 &lt;h2 id=&#34;disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning&#34;&gt;&lt;strong&gt;Disentangled Knowledge Transfer for OOD Intent Discovery with Unified Contrastive Learning&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&#34;论文作者-3&#34;&gt;论文作者&lt;/h4&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E7%89%9F%E5%AE%87%E6%BB%94/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;牟宇滔&lt;/a&gt;&lt;sup id=&#34;fnref6:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E4%BD%95%E5%8F%AF%E6%B8%85/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;何可清&lt;/a&gt;&lt;sup id=&#34;fnref7:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吴亚楠&lt;/a&gt;&lt;sup id=&#34;fnref8:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E6%9B%BE%E8%87%B4%E8%BF%9C/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;曾致远&lt;/a&gt;，
 &lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E7%BA%A2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐红&lt;/a&gt;，江会星，武威，
-&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;a href=&#34;https://pris-nlp.github.io/author/%E5%BE%90%E8%94%9A%E7%84%B6/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;徐蔚然&lt;/a&gt; &lt;sup id=&#34;fnref3:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;发表会议-3&#34;&gt;发表会议&lt;/h4&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.2022.aclweb.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL 2022&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;论文简介-3&#34;&gt;论文简介&lt;/h4&gt;
 &lt;p&gt;本文研究域外(OOD)意图发现任务，该任务旨在将新出现的未知意图的样本按意图语义聚成不同类簇，这有助于任务型对话系统发展新的技能。不同于传统的文本聚类任务，域外意图发现需要考虑如何利用已知的域内(IND)意图类别的先验知识，帮助新意图的聚类。因此相关方法都遵循一个两阶段框架：IND预训练和OOD聚类。其中的关键挑战在于如何将IND先验知识迁移到OOD聚类上。之前的方法普遍存在一个问题，将IND预训练过程当作分类任务，采用一个交叉熵分类损失，模型学习到如何分类IND样本，但是下游我们需要对OOD聚类。两个阶段不同的学习目标使得存在一个天然的语义鸿沟，使得IND到OOD的知识迁移变得困难。此外，我们观察到之前的方法只迁移BERT输出的一个共享意图表征，考虑到表征具有高度耦合性，这样一个表征可能不利于OOD聚类。例如，在IND预训练的编码器中存在实例级(instance-level)和聚类级(class-level)的知识，解耦不同级别的知识有助于更好地知识迁移。为了解决这样的问题，我们建立了一个统一的多头对比学习框架，并在此基础上提出了一个新颖的解耦知识迁移方法(DKT)，以便迁移解耦IND意图知识用于OOD聚类。我们意在弥合IND预训练和OOD聚类两个阶段的语义鸿沟。两个基准数据集的实验和分析显示了我们方法的有效性。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;同等贡献&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;同等贡献&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref4:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref5:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref6:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref7:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref8:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;通讯作者&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;通讯作者&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -593,22 +593,22 @@ $$
 &lt;!-- 当然你也可以直接在这里写博客，像下面这样 --&gt;
 &lt;p&gt;本文是一片关于NLP模型鲁棒性的综述，统一地介绍了如何定义、衡量和提升NLP模型的鲁棒性。&lt;/p&gt;
 &lt;h2 id=&#34;nlp模型鲁棒性的定义&#34;&gt;NLP模型鲁棒性的定义&lt;/h2&gt;
-&lt;p&gt;模型在$(x, y) \sim \mathcal{D}$上训练，在$(x&#39;, y&#39;)\sim \mathcal{D&#39;} \ne \mathcal{D}$
-上测试，可以用模型在$\mathcal{D&#39;}$上的性能（如准确率）衡量模型的鲁棒性。&lt;/p&gt;
-&lt;p&gt;可以粗略地将现有的模型鲁棒性的文献分为两类：$\mathcal{D&#39;}$是对输入合成扰动，或者
-$\mathcal{D&#39;}$是自然发生的分布转移。&lt;/p&gt;
+&lt;p&gt;模型在$(x, y) \sim \mathcal{D}$上训练，在$(x&amp;rsquo;, y&amp;rsquo;)\sim \mathcal{D&amp;rsquo;} \ne \mathcal{D}$
+上测试，可以用模型在$\mathcal{D&amp;rsquo;}$上的性能（如准确率）衡量模型的鲁棒性。&lt;/p&gt;
+&lt;p&gt;可以粗略地将现有的模型鲁棒性的文献分为两类：$\mathcal{D&amp;rsquo;}$是对输入合成扰动，或者
+$\mathcal{D&amp;rsquo;}$是自然发生的分布转移。&lt;/p&gt;
 &lt;h3 id=&#34;对对抗攻击的鲁棒性&#34;&gt;对对抗攻击的鲁棒性&lt;/h3&gt;
 &lt;p&gt;对抗攻击是指故意精心制造噪声来欺骗模型做出错误的预测，之前在CV领域被广泛探索，
 后来扩展到NLP领域。对抗样本的生成主要建立在这样一个观察之上，即我们可以生成对人类有意义的样本(例如，通过用人类察觉不到的变化干扰样本)，同时改变对该样本的模型预测。
 对抗攻击主要建立在人类可以理解大量同义词或者忽略字母的确切顺序，但机器不能。&lt;/p&gt;
-&lt;p&gt;现在大多数CV研究都做了一个相对简单的假设，即在$x$上加有界摄动得到的$x&#39;$的金标应该保持不变，
-即$y&#39;=y$，模型的鲁棒行为应该是$f(x&#39;)=f(x)$。其中的摄动可以是token和字符的交换，释义，
+&lt;p&gt;现在大多数CV研究都做了一个相对简单的假设，即在$x$上加有界摄动得到的$x&amp;rsquo;$的金标应该保持不变，
+即$y&amp;rsquo;=y$，模型的鲁棒行为应该是$f(x&amp;rsquo;)=f(x)$。其中的摄动可以是token和字符的交换，释义，
 不改变语义的对抗规则，或者添加干扰因素。&lt;/p&gt;
 &lt;p&gt;然而，这个标签不变的假设可能并不总是成立的，有人研究了几种现有的文本扰动技术，但发现
 一大部分扰动样本都改变了标签（尽管是在保留标签的假设下）或者结果的标签在人类标注者中
 存在高度分歧。&lt;/p&gt;
-&lt;p&gt;还有一个相似的概念是语义保留，是指$(x, x&#39;)$之间的语义是不变的，而上面的标签保留是指
-$(y, y&#39;)$是不变的。&lt;/p&gt;
+&lt;p&gt;还有一个相似的概念是语义保留，是指$(x, x&amp;rsquo;)$之间的语义是不变的，而上面的标签保留是指
+$(y, y&amp;rsquo;)$是不变的。&lt;/p&gt;
 &lt;h3 id=&#34;对分布转移的鲁棒性&#34;&gt;对分布转移的鲁棒性&lt;/h3&gt;
 &lt;p&gt;现有的鲁棒性定义更接近域泛化或OOD泛化的概念，其中测试集（不管有无标签）都是在训练的时候
 不可获取的。
@@ -617,7 +617,7 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
 &lt;p&gt;另一个密切相关的研究方向是公平性，例如，在指代消解、职业分类、神经机器翻译等任务中观察到了性别刻板印象或偏差。&lt;/p&gt;
 &lt;h3 id=&#34;联系和共同主题&#34;&gt;联系和共同主题&lt;/h3&gt;
 &lt;p&gt;合成
-上述两个分类都可以归为一个框架中，即$\mathcal{D&#39;}$代表合成分布转移（通过对抗攻击）或自然分布转移。
+上述两个分类都可以归为一个框架中，即$\mathcal{D&amp;rsquo;}$代表合成分布转移（通过对抗攻击）或自然分布转移。
 两者的联系仍有待探索。在CV领域，有研究表面对合成分布转移的鲁棒性可能对自然分布转移鲁棒性贡献
 很少甚至没有贡献。&lt;/p&gt;
 &lt;p&gt;为了更好地理解模型为什么缺乏鲁棒性，一些现有的工作认为这是因为模型有时利用虚假的特征和标签之间的
@@ -985,14 +985,6 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>分布式爬虫集群系统</title>
-      <link>https://pris-nlp.github.io/patent/%E5%88%86%E5%B8%83%E5%BC%8F%E7%88%AC%E8%99%AB%E9%9B%86%E7%BE%A4%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Wed, 18 Mar 2009 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/patent/%E5%88%86%E5%B8%83%E5%BC%8F%E7%88%AC%E8%99%AB%E9%9B%86%E7%BE%A4%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>防假死爬虫系统的构建方法</title>
       <link>https://pris-nlp.github.io/patent/%E9%98%B2%E5%81%87%E6%AD%BB%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 18 Mar 2009 00:00:00 +0000</pubDate>
@@ -1001,18 +993,10 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>同话题定位跟踪式论坛爬虫系统</title>
-      <link>https://pris-nlp.github.io/patent/%E5%90%8C%E8%AF%9D%E9%A2%98%E5%AE%9A%E4%BD%8D%E8%B7%9F%E8%B8%AA%E5%BC%8F%E8%AE%BA%E5%9D%9B%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/patent/%E5%90%8C%E8%AF%9D%E9%A2%98%E5%AE%9A%E4%BD%8D%E8%B7%9F%E8%B8%AA%E5%BC%8F%E8%AE%BA%E5%9D%9B%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>布告栏搜索引擎的爬虫系统构建方法</title>
-      <link>https://pris-nlp.github.io/patent/%E5%B8%83%E5%91%8A%E6%A0%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
-      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/patent/%E5%B8%83%E5%91%8A%E6%A0%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</guid>
+      <title>分布式爬虫集群系统</title>
+      <link>https://pris-nlp.github.io/patent/%E5%88%86%E5%B8%83%E5%BC%8F%E7%88%AC%E8%99%AB%E9%9B%86%E7%BE%A4%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Wed, 18 Mar 2009 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E5%88%86%E5%B8%83%E5%BC%8F%E7%88%AC%E8%99%AB%E9%9B%86%E7%BE%A4%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
@@ -1025,6 +1009,22 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
+      <title>布告栏搜索引擎的爬虫系统构建方法</title>
+      <link>https://pris-nlp.github.io/patent/%E5%B8%83%E5%91%8A%E6%A0%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E5%B8%83%E5%91%8A%E6%A0%8F%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>同话题定位跟踪式论坛爬虫系统</title>
+      <link>https://pris-nlp.github.io/patent/%E5%90%8C%E8%AF%9D%E9%A2%98%E5%AE%9A%E4%BD%8D%E8%B7%9F%E8%B8%AA%E5%BC%8F%E8%AE%BA%E5%9D%9B%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E5%90%8C%E8%AF%9D%E9%A2%98%E5%AE%9A%E4%BD%8D%E8%B7%9F%E8%B8%AA%E5%BC%8F%E8%AE%BA%E5%9D%9B%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>自动动态更新论坛爬虫系统的构建方法</title>
       <link>https://pris-nlp.github.io/patent/%E8%87%AA%E5%8A%A8%E5%8A%A8%E6%80%81%E6%9B%B4%E6%96%B0%E8%AE%BA%E5%9D%9B%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
       <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
@@ -1033,18 +1033,18 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>内部网可定制爬虫系统构建方法</title>
-      <link>https://pris-nlp.github.io/patent/%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
-      <pubDate>Fri, 27 Jun 2008 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/patent/%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>多线程断点续传可定制内部网爬虫系统</title>
       <link>https://pris-nlp.github.io/patent/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%8F%AF%E5%AE%9A%E5%88%B6%E5%86%85%E9%83%A8%E7%BD%91%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Fri, 27 Jun 2008 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/patent/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0%E5%8F%AF%E5%AE%9A%E5%88%B6%E5%86%85%E9%83%A8%E7%BD%91%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>内部网可定制爬虫系统构建方法</title>
+      <link>https://pris-nlp.github.io/patent/%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 27 Jun 2008 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/patent/%E5%86%85%E9%83%A8%E7%BD%91%E5%8F%AF%E5%AE%9A%E5%88%B6%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95/</guid>
       <description></description>
     </item>
     
@@ -1125,34 +1125,10 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>人工智能建设项目——运维知识子任务</title>
-      <link>https://pris-nlp.github.io/project/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E8%BF%90%E7%BB%B4%E7%9F%A5%E8%AF%86%E5%AD%90%E4%BB%BB%E5%8A%A1/</link>
+      <title>多轮机票预订查询对话系统</title>
+      <link>https://pris-nlp.github.io/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E8%BF%90%E7%BB%B4%E7%9F%A5%E8%AF%86%E5%AD%90%E4%BB%BB%E5%8A%A1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>会议场景自动摘要系统</title>
-      <link>https://pris-nlp.github.io/project/%E4%BC%9A%E8%AE%AE%E5%9C%BA%E6%99%AF%E8%87%AA%E5%8A%A8%E6%91%98%E8%A6%81%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E4%BC%9A%E8%AE%AE%E5%9C%BA%E6%99%AF%E8%87%AA%E5%8A%A8%E6%91%98%E8%A6%81%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>在线教育场景下的智能客服系统</title>
-      <link>https://pris-nlp.github.io/project/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>基于搜索引擎的问答系统</title>
-      <link>https://pris-nlp.github.io/project/%E5%9F%BA%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E5%9F%BA%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://pris-nlp.github.io/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
@@ -1165,26 +1141,34 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>多轮机票预订查询对话系统</title>
-      <link>https://pris-nlp.github.io/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E5%A4%9A%E8%BD%AE%E6%9C%BA%E7%A5%A8%E9%A2%84%E8%AE%A2%E6%9F%A5%E8%AF%A2%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>学员培训模拟用户对话系统</title>
-      <link>https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>工单对话摘要项目</title>
       <link>https://pris-nlp.github.io/project/%E5%B7%A5%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%91%98%E8%A6%81%E9%A1%B9%E7%9B%AE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/project/%E5%B7%A5%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%91%98%E8%A6%81%E9%A1%B9%E7%9B%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>会议场景自动摘要系统</title>
+      <link>https://pris-nlp.github.io/project/%E4%BC%9A%E8%AE%AE%E5%9C%BA%E6%99%AF%E8%87%AA%E5%8A%A8%E6%91%98%E8%A6%81%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E4%BC%9A%E8%AE%AE%E5%9C%BA%E6%99%AF%E8%87%AA%E5%8A%A8%E6%91%98%E8%A6%81%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基于搜索引擎的问答系统</title>
+      <link>https://pris-nlp.github.io/project/%E5%9F%BA%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E5%9F%BA%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>面向2022冬残奥视障人群的多轮人机对话与情感分析</title>
+      <link>https://pris-nlp.github.io/project/%E9%9D%A2%E5%90%912022%E5%86%AC%E6%AE%8B%E5%A5%A5%E8%A7%86%E9%9A%9C%E4%BA%BA%E7%BE%A4%E7%9A%84%E5%A4%9A%E8%BD%AE%E4%BA%BA%E6%9C%BA%E5%AF%B9%E8%AF%9D%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E9%9D%A2%E5%90%912022%E5%86%AC%E6%AE%8B%E5%A5%A5%E8%A7%86%E9%9A%9C%E4%BA%BA%E7%BE%A4%E7%9A%84%E5%A4%9A%E8%BD%AE%E4%BA%BA%E6%9C%BA%E5%AF%B9%E8%AF%9D%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</guid>
       <description></description>
     </item>
     
@@ -1197,10 +1181,10 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>智能语音质检系统</title>
-      <link>https://pris-nlp.github.io/project/%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E8%B4%A8%E6%A3%80%E7%B3%BB%E7%BB%9F/</link>
+      <title>人工智能建设项目——运维知识子任务</title>
+      <link>https://pris-nlp.github.io/project/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E8%BF%90%E7%BB%B4%E7%9F%A5%E8%AF%86%E5%AD%90%E4%BB%BB%E5%8A%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E8%B4%A8%E6%A3%80%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://pris-nlp.github.io/project/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E8%BF%90%E7%BB%B4%E7%9F%A5%E8%AF%86%E5%AD%90%E4%BB%BB%E5%8A%A1/</guid>
       <description></description>
     </item>
     
@@ -1213,14 +1197,6 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>知识库问答系统</title>
-      <link>https://pris-nlp.github.io/project/%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>闲聊对话系统</title>
       <link>https://pris-nlp.github.io/project/%E9%97%B2%E8%81%8A%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1229,10 +1205,34 @@ $(y, y&#39;)$是不变的。&lt;/p&gt;
     </item>
     
     <item>
-      <title>面向2022冬残奥视障人群的多轮人机对话与情感分析</title>
-      <link>https://pris-nlp.github.io/project/%E9%9D%A2%E5%90%912022%E5%86%AC%E6%AE%8B%E5%A5%A5%E8%A7%86%E9%9A%9C%E4%BA%BA%E7%BE%A4%E7%9A%84%E5%A4%9A%E8%BD%AE%E4%BA%BA%E6%9C%BA%E5%AF%B9%E8%AF%9D%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</link>
+      <title>学员培训模拟用户对话系统</title>
+      <link>https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/project/%E9%9D%A2%E5%90%912022%E5%86%AC%E6%AE%8B%E5%A5%A5%E8%A7%86%E9%9A%9C%E4%BA%BA%E7%BE%A4%E7%9A%84%E5%A4%9A%E8%BD%AE%E4%BA%BA%E6%9C%BA%E5%AF%B9%E8%AF%9D%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/</guid>
+      <guid>https://pris-nlp.github.io/project/%E5%AD%A6%E5%91%98%E5%9F%B9%E8%AE%AD%E6%A8%A1%E6%8B%9F%E7%94%A8%E6%88%B7%E5%AF%B9%E8%AF%9D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>在线教育场景下的智能客服系统</title>
+      <link>https://pris-nlp.github.io/project/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>知识库问答系统</title>
+      <link>https://pris-nlp.github.io/project/%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>智能语音质检系统</title>
+      <link>https://pris-nlp.github.io/project/%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E8%B4%A8%E6%A3%80%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/project/%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E8%B4%A8%E6%A3%80%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
