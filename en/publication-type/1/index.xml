@@ -5,12 +5,132 @@
     <link>https://pris-nlp.github.io/en/publication-type/1/</link>
       <atom:link href="https://pris-nlp.github.io/en/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://pris-nlp.github.io/en/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>
+      <link>https://pris-nlp.github.io/en/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APP：Adaptive Prototypical Pseudo-Labeling for Few-shot OOD Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging the KB-Text Gap: Leveraging Structured Knowledge-aware Pre-training for KBQA</title>
+      <link>https://pris-nlp.github.io/en/publication/bridging-the-kb-text-gap-leveraging-structured-knowledge-aware-pre-training-for-kbqa/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/bridging-the-kb-text-gap-leveraging-structured-knowledge-aware-pre-training-for-kbqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continual Generalized Intent Discovery: Marching Towards Dynamic and Open-world Intent Recognition</title>
+      <link>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DemoNSF: A Multi-task Demonstration-based Generative Framework for Noisy Slot Filling Task</title>
+      <link>https://pris-nlp.github.io/en/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT</title>
+      <link>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task</title>
+      <link>https://pris-nlp.github.io/en/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Parsing by Large Language Models for Intricate Updating Strategies of Zero-Shot Dialogue State Tracking</title>
+      <link>https://pris-nlp.github.io/en/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Prototypical Semantic Decoupling Method via Joint Contrastive Learning for Few-Shot Named Entity Recognition</title>
+      <link>https://pris-nlp.github.io/en/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling Pseudo Label Disambiguation and Representation Learning for Generalized Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue</title>
+      <link>https://pris-nlp.github.io/en/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative zero-shot prompt learning for cross-domain slot filling with inverse prompting</title>
+      <link>https://pris-nlp.github.io/en/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit Out-Of-Vocabulary Problem For Slot Filling: A Unified Contrastive Framework With Multi-Level Data Augmentations</title>
+      <link>https://pris-nlp.github.io/en/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation</title>
+      <link>https://pris-nlp.github.io/en/publication/seen-to-unseen-exploring-compositional-generalization-of-multi-attribute-controllable-dialogue-generation/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/seen-to-unseen-exploring-compositional-generalization-of-multi-attribute-controllable-dialogue-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value type-the bridge to a better DST model</title>
+      <link>https://pris-nlp.github.io/en/publication/value-type-the-bridge-to-a-better-dst-model/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/value-type-the-bridge-to-a-better-dst-model/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Disentangling Confidence Score Distribution for Out-of-Domain Intent Detection with Energy-Based Learning</title>

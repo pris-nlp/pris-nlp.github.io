@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/yejie-wang/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/yejie-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yejie Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Yejie Wang</title>
       <link>https://pris-nlp.github.io/en/author/yejie-wang/</link>
     </image>
+    
+    <item>
+      <title>FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue</title>
+      <link>https://pris-nlp.github.io/en/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

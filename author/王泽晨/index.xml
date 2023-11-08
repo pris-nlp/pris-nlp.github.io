@@ -5,12 +5,44 @@
     <link>https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <description>王泽晨</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>王泽晨</title>
       <link>https://pris-nlp.github.io/author/%E7%8E%8B%E6%B3%BD%E6%99%A8/</link>
     </image>
+    
+    <item>
+      <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>
+      <link>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task</title>
+      <link>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Prototypical Semantic Decoupling Method via Joint Contrastive Learning for Few-Shot Named Entity Recognition</title>
+      <link>https://pris-nlp.github.io/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit Out-Of-Vocabulary Problem For Slot Filling: A Unified Contrastive Framework With Multi-Level Data Augmentations</title>
+      <link>https://pris-nlp.github.io/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling</title>

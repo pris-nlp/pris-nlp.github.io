@@ -5,12 +5,52 @@
     <link>https://pris-nlp.github.io/author/jingangwang/</link>
       <atom:link href="https://pris-nlp.github.io/author/jingangwang/index.xml" rel="self" type="application/rss+xml" />
     <description>JingangWang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>JingangWang</title>
       <link>https://pris-nlp.github.io/author/jingangwang/</link>
     </image>
+    
+    <item>
+      <title>APP：Adaptive Prototypical Pseudo-Labeling for Few-shot OOD Detection</title>
+      <link>https://pris-nlp.github.io/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT</title>
+      <link>https://pris-nlp.github.io/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling Pseudo Label Disambiguation and Representation Learning for Generalized Intent Discovery</title>
+      <link>https://pris-nlp.github.io/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue</title>
+      <link>https://pris-nlp.github.io/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation</title>
+      <link>https://pris-nlp.github.io/publication/seen-to-unseen-exploring-compositional-generalization-of-multi-attribute-controllable-dialogue-generation/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/seen-to-unseen-exploring-compositional-generalization-of-multi-attribute-controllable-dialogue-generation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>UniNL: Aligning Representation Learning with Scoring Function for OOD Detection via Unified Neighborhood Learning</title>

@@ -5,12 +5,44 @@
     <link>https://pris-nlp.github.io/en/author/xiaoshuai-song/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/xiaoshuai-song/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaoshuai Song</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Xiaoshuai Song</title>
       <link>https://pris-nlp.github.io/en/author/xiaoshuai-song/</link>
     </image>
+    
+    <item>
+      <title>APP：Adaptive Prototypical Pseudo-Labeling for Few-shot OOD Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continual Generalized Intent Discovery: Marching Towards Dynamic and Open-world Intent Recognition</title>
+      <link>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT</title>
+      <link>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling Pseudo Label Disambiguation and Representation Learning for Generalized Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

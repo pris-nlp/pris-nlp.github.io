@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YuxiangWu | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/author/yuxiangwu/</link>
+      <atom:link href="https://pris-nlp.github.io/en/author/yuxiangwu/index.xml" rel="self" type="application/rss+xml" />
+    <description>YuxiangWu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>YuxiangWu</title>
+      <link>https://pris-nlp.github.io/en/author/yuxiangwu/</link>
+    </image>
+    
+    <item>
+      <title>Semantic Parsing by Large Language Models for Intricate Updating Strategies of Zero-Shot Dialogue State Tracking</title>
+      <link>https://pris-nlp.github.io/en/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Prototypical Semantic Decoupling Method via Joint Contrastive Learning for Few-Shot Named Entity Recognition</title>
+      <link>https://pris-nlp.github.io/en/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit Out-Of-Vocabulary Problem For Slot Filling: A Unified Contrastive Framework With Multi-Level Data Augmentations</title>
+      <link>https://pris-nlp.github.io/en/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公却卓玛 | 自然语言处理徐蔚然老师研究组</title>
+    <link>https://pris-nlp.github.io/author/%E5%85%AC%E5%8D%B4%E5%8D%93%E7%8E%9B/</link>
+      <atom:link href="https://pris-nlp.github.io/author/%E5%85%AC%E5%8D%B4%E5%8D%93%E7%8E%9B/index.xml" rel="self" type="application/rss+xml" />
+    <description>公却卓玛</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>公却卓玛</title>
+      <link>https://pris-nlp.github.io/author/%E5%85%AC%E5%8D%B4%E5%8D%93%E7%8E%9B/</link>
+    </image>
+    
+    <item>
+      <title>DemoNSF: A Multi-task Demonstration-based Generative Framework for Noisy Slot Filling Task</title>
+      <link>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task</title>
+      <link>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

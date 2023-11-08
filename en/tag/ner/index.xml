@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;NER&#34; | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/tag/ner/</link>
+      <atom:link href="https://pris-nlp.github.io/en/tag/ner/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;NER&#34;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;NER&#34;</title>
+      <link>https://pris-nlp.github.io/en/tag/ner/</link>
+    </image>
+    
+    <item>
+      <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>
+      <link>https://pris-nlp.github.io/en/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

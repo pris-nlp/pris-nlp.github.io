@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/index.xml" rel="self" type="application/rss+xml" />
     <description>雷浩</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>雷浩</title>
       <link>https://pris-nlp.github.io/author/%E9%9B%B7%E6%B5%A9/</link>
     </image>
+    
+    <item>
+      <title>Generative zero-shot prompt learning for cross-domain slot filling with inverse prompting</title>
+      <link>https://pris-nlp.github.io/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling</title>

@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/author/%E7%8E%8B%E4%B8%9A%E6%8D%B7/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E7%8E%8B%E4%B8%9A%E6%8D%B7/index.xml" rel="self" type="application/rss+xml" />
     <description>王业捷</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>王业捷</title>
       <link>https://pris-nlp.github.io/author/%E7%8E%8B%E4%B8%9A%E6%8D%B7/</link>
     </image>
+    
+    <item>
+      <title>FutureTOD: Teaching Future Knowledge to Pre-trained Language Model for Task-Oriented Dialogue</title>
+      <link>https://pris-nlp.github.io/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/futuretod-teaching-future-knowledge-to-pre-trained-language-model-for-task-oriented-dialogue/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

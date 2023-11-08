@@ -5,12 +5,36 @@
     <link>https://pris-nlp.github.io/author/%E8%B5%B5%E9%87%91%E6%97%AD/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E8%B5%B5%E9%87%91%E6%97%AD/index.xml" rel="self" type="application/rss+xml" />
     <description>赵金旭</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2023</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>赵金旭</title>
       <link>https://pris-nlp.github.io/author/%E8%B5%B5%E9%87%91%E6%97%AD/</link>
     </image>
+    
+    <item>
+      <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>
+      <link>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DemoNSF: A Multi-task Demonstration-based Generative Framework for Noisy Slot Filling Task</title>
+      <link>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task</title>
+      <link>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
