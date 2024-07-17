@@ -5,12 +5,52 @@
     <link>https://pris-nlp.github.io/en/author/guanting-dong/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/guanting-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Guanting Dong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Guanting Dong</title>
       <link>https://pris-nlp.github.io/en/author/guanting-dong/</link>
     </image>
+    
+    <item>
+      <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
+      <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PreAct:Predicting Future in ReAct Enhances Agent&#39;s Planning Ability</title>
+      <link>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Perspective Consistency Enhances Confidence Estimation in Large Language Models</title>
+      <link>https://pris-nlp.github.io/en/publication/multi-perspective-consistency-enhances-confidence-estimation-in-large-language-models/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/multi-perspective-consistency-enhances-confidence-estimation-in-large-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DolphCoder:Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Editing on Black-box Large Language Models</title>
+      <link>https://pris-nlp.github.io/en/publication/knowledge-editing-on-black-box-large-language-models/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/knowledge-editing-on-black-box-large-language-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>

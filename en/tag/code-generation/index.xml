@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;code generation&#34; | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/tag/code-generation/</link>
+      <atom:link href="https://pris-nlp.github.io/en/tag/code-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;code generation&#34;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;code generation&#34;</title>
+      <link>https://pris-nlp.github.io/en/tag/code-generation/</link>
+    </image>
+    
+    <item>
+      <title>Faceptor:A Generalist Model for Face Perception</title>
+      <link>https://pris-nlp.github.io/en/publication/faceptor-a-generalist-model-for-face-perception/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/faceptor-a-generalist-model-for-face-perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DolphCoder:Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

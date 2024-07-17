@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E8%91%A3%E5%86%A0%E9%9C%86/index.xml" rel="self" type="application/rss+xml" />
     <description>董冠霆</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>董冠霆</title>
@@ -13,107 +13,136 @@
     </image>
     
     <item>
-      <title>A multi-task semantic decomposition framework with task-specific pre-training for few-shot ner</title>
-      <link>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/a-multi-task-semantic-decomposition-framework-with-task-specific-pre-training-for-few-shot-ner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bridging the KB-Text Gap: Leveraging Structured Knowledge-aware Pre-training for KBQA</title>
-      <link>https://pris-nlp.github.io/publication/bridging-the-kb-text-gap-leveraging-structured-knowledge-aware-pre-training-for-kbqa/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/bridging-the-kb-text-gap-leveraging-structured-knowledge-aware-pre-training-for-kbqa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DemoNSF: A Multi-task Demonstration-based Generative Framework for Noisy Slot Filling Task</title>
-      <link>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/demonsf-a-multi-task-demonstration-based-generative-framework-for-noisy-slot-filling-task/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT</title>
-      <link>https://pris-nlp.github.io/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revisit input perturbation problems for llms: A unified robustness evaluation framework for noisy slot filling task</title>
-      <link>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/revisit-input-perturbation-problems-for-llms-a-unified-robustness-evaluation-framework-for-noisy-slot-filling-task/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic Parsing by Large Language Models for Intricate Updating Strategies of Zero-Shot Dialogue State Tracking</title>
-      <link>https://pris-nlp.github.io/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/semantic-parsing-by-large-language-models-for-intricate-updating-strategies-of-zero-shot-dialogue-state-tracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Prototypical Semantic Decoupling Method via Joint Contrastive Learning for Few-Shot Named Entity Recognition</title>
-      <link>https://pris-nlp.github.io/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/a-prototypical-semantic-decoupling-method-via-joint-contrastive-learning-for-few-shot-named-entity-recognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generative zero-shot prompt learning for cross-domain slot filling with inverse prompting</title>
-      <link>https://pris-nlp.github.io/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/generative-zero-shot-prompt-learning-for-cross-domain-slot-filling-with-inverse-prompting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revisit Out-Of-Vocabulary Problem For Slot Filling: A Unified Contrastive Framework With Multi-Level Data Augmentations</title>
-      <link>https://pris-nlp.github.io/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/revisit-out-of-vocabulary-problem-for-slot-filling-a-unified-contrastive-framework-with-multi-level-data-augmentations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entity-level Interaction via Heterogeneous Graph for Multimodal Named Entity Recognition</title>
-      <link>https://pris-nlp.github.io/publication/entity-level-interaction-via-heterogeneous-graph-for-multimodal-named-entity-recognition/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/entity-level-interaction-via-heterogeneous-graph-for-multimodal-named-entity-recognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploiting domain-slot related keywords description for Few-Shot Cross-Domain Dialogue State Tracking</title>
-      <link>https://pris-nlp.github.io/publication/exploiting-domain-slot-related-keywords-description-for-few-shot-cross-domain-dialogue-state-tracking/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/exploiting-domain-slot-related-keywords-description-for-few-shot-cross-domain-dialogue-state-tracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling</title>
-      <link>https://pris-nlp.github.io/publication/pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/pssat-a-perturbed-semantic-structure-awareness-transferring-method-for-perturbation-robust-slot-filling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Robust Contrastive Alignment Method For Multi-Domain Text Classification</title>
-      <link>https://pris-nlp.github.io/publication/a-robust-contrastive-alignment-method-for-multi-domain-text-classification/</link>
-      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/publication/a-robust-contrastive-alignment-method-for-multi-domain-text-classification/</guid>
-      <description></description>
+      <title>2024届毕业生去向</title>
+      <link>https://pris-nlp.github.io/career/2024%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%8E%BB%E5%90%91/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/career/2024%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%8E%BB%E5%90%91/</guid>
+      <description>&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/牟宇滔/&#34;&gt;
+      &lt;img src=&#34;YutaoMu.jpg&#34; alt=&#34;图片1&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/牟宇滔/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      牟宇滔
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      北京大学软件与微电子学院攻读博士学位
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/董冠霆/&#34;&gt;
+      &lt;img src=&#34;GuantingDong.jpg&#34; alt=&#34;图片2&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/董冠霆/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      董冠霆
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      中国人民大学高瓴人工智能学院攻读博士学位
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/耿若彤/&#34;&gt;
+      &lt;img src=&#34;RuotongGeng.jpg&#34; alt=&#34;图片3&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/耿若彤/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      耿若彤
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      北京字节跳动科技有限公司-生活服务部
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/高琪翔/&#34;&gt;
+      &lt;img src=&#34;QixiangGao.jpg&#34; alt=&#34;图片4&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/高琪翔/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      高琪翔
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      阿里巴巴（北京）软件服务有限公司-阿里妈妈广告技术部
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/郭岱驰/&#34;&gt;
+      &lt;img src=&#34;DaichiGuo.jpg&#34; alt=&#34;图片5&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/郭岱驰/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      郭岱驰
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      中信证券股份有限公司
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/曾晨/&#34;&gt;
+      &lt;img src=&#34;ChenZeng.png&#34; alt=&#34;图片6&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/曾晨/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      曾晨
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      中铝资本控股有限公司
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
+  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/雷浩/&#34;&gt;
+      &lt;img src=&#34;HaoLei.jpg&#34; alt=&#34;图片7&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;span&gt;
+    &lt;a href=&#34;https://pris-nlp.github.io/author/雷浩/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
+      雷浩
+    &lt;/a&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
+      硕士研究生
+    &lt;/span&gt;&lt;br&gt;
+    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
+      比亚迪汽车工业有限公司
+    &lt;/span&gt;
+  &lt;/span&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>

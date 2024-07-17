@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/yujia-fu/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/yujia-fu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yujia Fu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Yujia Fu</title>
       <link>https://pris-nlp.github.io/en/author/yujia-fu/</link>
     </image>
+    
+    <item>
+      <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
+      <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

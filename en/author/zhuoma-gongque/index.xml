@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/zhuoma-gongque/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/zhuoma-gongque/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhuoma GongQue</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Zhuoma GongQue</title>
       <link>https://pris-nlp.github.io/en/author/zhuoma-gongque/</link>
     </image>
+    
+    <item>
+      <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
+      <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DemoNSF: A Multi-task Demonstration-based Generative Framework for Noisy Slot Filling Task</title>
