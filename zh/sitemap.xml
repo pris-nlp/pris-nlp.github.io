@@ -1067,19 +1067,6 @@
                 href="https://pris-nlp.github.io/publication/divtod-unleashing-the-power-of-llms-for-diversifying-task-oriented-dialogue-representations/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/tag/code-generation/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/code-generation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/code-generation/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/tag/computer-vision/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -1091,6 +1078,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/tag/computer-vision/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/tag/foundation-model/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/foundation-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/foundation-model/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/publication/faceptor-a-generalist-model-for-face-perception/</loc>
@@ -1247,6 +1247,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://pris-nlp.github.io/publication/multi-perspective-consistency-enhances-confidence-estimation-in-large-language-models/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/tag/code-generation/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/code-generation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/code-generation/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</loc>
