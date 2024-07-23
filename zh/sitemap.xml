@@ -1938,6 +1938,45 @@
                 href="https://pris-nlp.github.io/author/yidongshi/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/tag/tod/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/tod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/tod/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/author/chaobosun/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/chaobosun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/chaobosun/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/publication/semi-supervised-knowledge-grounded-pre-training-for-task-oriented-dialog-systems/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/semi-supervised-knowledge-grounded-pre-training-for-task-oriented-dialog-systems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/semi-supervised-knowledge-grounded-pre-training-for-task-oriented-dialog-systems/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/tag/slot-filling/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
