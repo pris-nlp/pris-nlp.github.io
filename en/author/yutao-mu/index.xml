@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/author/yutao-mu/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/yutao-mu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yutao Mu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2024</copyright><lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Yutao Mu</title>
@@ -13,136 +13,115 @@
     </image>
     
     <item>
-      <title>2024 Graduate Career</title>
-      <link>https://pris-nlp.github.io/en/career/2024%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%8E%BB%E5%90%91/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/career/2024%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%8E%BB%E5%90%91/</guid>
-      <description>&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/yutao-mu/&#34;&gt;
-      &lt;img src=&#34;YutaoMu.jpg&#34; alt=&#34;图片1&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/yutao-mu/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Yutao Mu
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      Ph.D., Peking University
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/guanting-dong/&#34;&gt;
-      &lt;img src=&#34;GuantingDong.jpg&#34; alt=&#34;图片2&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/guanting-dong/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Guanting Dong
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      Ph.D., Renmin University of China
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/ruotong-geng/&#34;&gt;
-      &lt;img src=&#34;RuotongGeng.jpg&#34; alt=&#34;图片3&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/ruotong-geng/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Ruotong Geng
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      Beijing Bytedance Technology Co.,Ltd.
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/qixiang-gao/&#34;&gt;
-      &lt;img src=&#34;QixiangGao.jpg&#34; alt=&#34;图片4&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/qixiang-gao/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Qixiang Gao
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      Alibaba (Beijing) Software Services Co.,Ltd.
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/daichi-guo/&#34;&gt;
-      &lt;img src=&#34;DaichiGuo.jpg&#34; alt=&#34;图片5&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/daichi-guo/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Daichi Guo
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      CITIC Securities Co.,Ltd.
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/chen-zeng/&#34;&gt;
-      &lt;img src=&#34;ChenZeng.png&#34; alt=&#34;图片6&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/chen-zeng/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Chen Zeng
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      Chinalco Capital Holdings Co.,Ltd.
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 26.67px;&#34;&gt;
-  &lt;div style=&#34;width: 120px; height: 120px; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #f0f0f0; margin-right: 30px;&#34;&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/hao-lei/&#34;&gt;
-      &lt;img src=&#34;HaoLei.jpg&#34; alt=&#34;图片7&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34;&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;span&gt;
-    &lt;a href=&#34;https://pris-nlp.github.io/en/author/hao-lei/&#34; style=&#34;color: #2962FF; font-size: 20.79px; font-family: &#39;Montserrat&#39;, sans-serif; text-decoration: none;&#34;&gt;
-      Hao Lei
-    &lt;/a&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 15px; font-family: &#39;Montserrat&#39;, sans-serif; color: #0000008A;&#34;&gt;
-      Postgraduate Student
-    &lt;/span&gt;&lt;br&gt;
-    &lt;span style=&#34;font-size: 18.79px; font-family: &#39;Montserrat&#39;, sans-serif;&#34;&gt;
-      BYD Auto Industry Co.,Ltd.
-    &lt;/span&gt;
-  &lt;/span&gt;
-&lt;/div&gt;</description>
+      <title>DolphCoder:Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Editing on Black-box Large Language Models</title>
+      <link>https://pris-nlp.github.io/en/publication/knowledge-editing-on-black-box-large-language-models/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/knowledge-editing-on-black-box-large-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APP：Adaptive Prototypical Pseudo-Labeling for Few-shot OOD Detection</title>
+      <link>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/app-adaptive-prototypical-pseudo-labeling-for-few-shot-ood-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continual Generalized Intent Discovery: Marching Towards Dynamic and Open-world Intent Recognition</title>
+      <link>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/continual-generalized-intent-discovery-marching-towards-dynamic-and-open-world-intent-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models Meet Open-World Intent Discovery and Recognition: An Evaluation of ChatGPT</title>
+      <link>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/large-language-models-meet-open-world-intent-discovery-and-recognition-an-evaluation-of-chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling Pseudo Label Disambiguation and Representation Learning for Generalized Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/decoupling-pseudo-label-disambiguation-and-representation-learning-for-generalized-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value type-the bridge to a better DST model</title>
+      <link>https://pris-nlp.github.io/en/publication/value-type-the-bridge-to-a-better-dst-model/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/value-type-the-bridge-to-a-better-dst-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disentangling Confidence Score Distribution for Out-of-Domain Intent Detection with Energy-Based Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/disentangling-confidence-score-distribution-for-out-of-domain-intent-detection-with-energy-based-learning/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/disentangling-confidence-score-distribution-for-out-of-domain-intent-detection-with-energy-based-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting domain-slot related keywords description for Few-Shot Cross-Domain Dialogue State Tracking</title>
+      <link>https://pris-nlp.github.io/en/publication/exploiting-domain-slot-related-keywords-description-for-few-shot-cross-domain-dialogue-state-tracking/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/exploiting-domain-slot-related-keywords-description-for-few-shot-cross-domain-dialogue-state-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UniNL: Aligning Representation Learning with Scoring Function for OOD Detection via Unified Neighborhood Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/uninl-aligning-representation-learning-with-scoring-function-for-ood-detection-via-unified-neighborhood-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watch the Neighbors: A Unified K-Nearest Neighbor Contrastive Learning Framework for OOD Intent Discovery</title>
+      <link>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/watch-the-neighbors-a-unified-k-nearest-neighbor-contrastive-learning-framework-for-ood-intent-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribution Calibration for Out-of-Domain Detection with Bayesian Approximation</title>
+      <link>https://pris-nlp.github.io/en/publication/distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/distribution-calibration-for-out-of-domain-detection-with-bayesian-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Intent Discovery: Learning from Open World Dialogue System</title>
+      <link>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/generalized-intent-discovery-learning-from-open-world-dialogue-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disentangled Knowledge Transfer for OOD Intent Discovery with Unified Contrastive Learning</title>
+      <link>https://pris-nlp.github.io/en/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/disentangled-knowledge-transfer-for-ood-intent-discovery-with-unified-contrastive-learning/</guid>
+      <description></description>
     </item>
     
   </channel>
