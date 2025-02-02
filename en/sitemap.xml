@@ -348,6 +348,19 @@
                 href="https://pris-nlp.github.io/en/author/zijun-liu/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/author/yanan-wu/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/yanan-wu/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/author/liwen-wang/</loc>
     <lastmod>2021-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -372,19 +385,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/xuefeng-li/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/yanan-wu/</loc>
-    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E5%90%B4%E4%BA%9A%E6%A5%A0/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/yanan-wu/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/hao-lei/</loc>
@@ -503,6 +503,19 @@
                 href="https://pris-nlp.github.io/en/author/qianyu-cao/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/author/pei-wang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/pei-wang/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/author/weihao-zeng/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -527,19 +540,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/xiaoshuai-song/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/pei-wang/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E7%8E%8B%E9%9C%88/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/pei-wang/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/jinxu-zhao/</loc>
@@ -606,19 +606,6 @@
                 href="https://pris-nlp.github.io/en/author/dayuan-fu/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/author/muxi-diao/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E5%88%81%E6%B2%90%E7%86%99/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/muxi-diao/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/en/author/yejie-wang/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -630,6 +617,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/yejie-wang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/muxi-diao/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E5%88%81%E6%B2%90%E7%86%99/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/muxi-diao/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/zhengyang-wang/</loc>
@@ -658,17 +658,17 @@
                 href="https://pris-nlp.github.io/en/author/lixiong-qin/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/author/zhexu-wang/</loc>
+    <loc>https://pris-nlp.github.io/en/author/wentao-hong/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E7%8E%8B%E5%93%B2%E6%97%AD/"
+                href="https://pris-nlp.github.io/author/%E6%B4%AA%E6%96%87%E6%BB%94/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pris-nlp.github.io/en/author/zhexu-wang/"
+                href="https://pris-nlp.github.io/en/author/wentao-hong/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/zhuoma-gongque/</loc>
@@ -684,6 +684,19 @@
                 href="https://pris-nlp.github.io/en/author/zhuoma-gongque/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/author/zhexu-wang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/%E7%8E%8B%E5%93%B2%E6%97%AD/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zhexu-wang/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/author/yukai-xu/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -695,18 +708,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/yukai-xu/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/wentao-hong/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/%E6%B4%AA%E6%96%87%E6%BB%94/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/wentao-hong/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/yuchen-liu/</loc>
@@ -758,65 +759,18 @@
                 href="https://pris-nlp.github.io/en/author/zhe-yin/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/career/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <loc>https://pris-nlp.github.io/en/tag/agent/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://pris-nlp.github.io/career/"
+                href="https://pris-nlp.github.io/tag/agent/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://pris-nlp.github.io/en/career/"
+                href="https://pris-nlp.github.io/en/tag/agent/"
                 />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/authors/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/authors/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/chen-zeng/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/daichi-guo/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/guanting-dong/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/hao-lei/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/qixiang-gao/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/ruotong-geng/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/yutao-mu/</loc>
-    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pris-nlp.github.io/en/tag/benchmark/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
@@ -844,6 +798,19 @@
                 href="https://pris-nlp.github.io/en/tag/llms/"
                 />
   </url><url>
+    <loc>https://pris-nlp.github.io/en/tag/reasoning/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tag/reasoning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tag/reasoning/"
+                />
+  </url><url>
     <loc>https://pris-nlp.github.io/en/publication-type/1/</loc>
     <lastmod>2021-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -855,6 +822,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/publication-type/1/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/publication/</loc>
@@ -869,6 +849,404 @@
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/publication/"
                 />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/authors/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/authors/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/bozheng/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/bozheng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/bozheng/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/chenchenzhang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/chenchenzhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/chenchenzhang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/gezhang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/gezhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/gezhang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/hangyuguo/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/hangyuguo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/hangyuguo/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/jiahengliu/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/jiahengliu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/jiahengliu/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/jiakaiwang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/jiakaiwang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/jiakaiwang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/jianzhaohuang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/jianzhaohuang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/jianzhaohuang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/jingangwang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/jingangwang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/jingangwang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/junranpeng/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/junranpeng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/junranpeng/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/junxianhe/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/junxianhe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/junxianhe/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/kendeng/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/kendeng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/kendeng/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication/preact-prediction-enhances-agents-planning-ability/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/publication_types/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/publication_types/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/siyuanlu/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/siyuanlu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/siyuanlu/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/tags/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/weiwang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/weiwang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/weiwang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/wenbosu/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/wenbosu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/wenbosu/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/xunliangcai/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/xunliangcai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/xunliangcai/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/yijunwang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/yijunwang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/yijunwang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/yuzhenhuang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/yuzhenhuang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/yuzhenhuang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/zekunwang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/zekunwang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zekunwang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/zhaoxiangzhang/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/zhaoxiangzhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zhaoxiangzhang/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/zhongyuanpeng/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/zhongyuanpeng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zhongyuanpeng/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/zifeishan/</loc>
+    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/author/zifeishan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/author/zifeishan/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/career/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://pris-nlp.github.io/career/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pris-nlp.github.io/en/career/"
+                />
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/chen-zeng/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/daichi-guo/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/guanting-dong/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/hao-lei/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/qixiang-gao/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/ruotong-geng/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pris-nlp.github.io/en/author/yutao-mu/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/binliang/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
@@ -909,19 +1287,6 @@
                 href="https://pris-nlp.github.io/en/author/huangxuanwu/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/publication_types/</loc>
-    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/publication_types/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/en/author/qiunatan/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -946,19 +1311,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/runqiqiao/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/tags/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/author/yujiafu/</loc>
@@ -1117,58 +1469,6 @@
                 href="https://pris-nlp.github.io/en/author/yuhangzhang/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/tag/agent/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/tag/agent/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/tag/agent/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/jianzhaohuang/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/jianzhaohuang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/jianzhaohuang/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/siyuanlu/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/siyuanlu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/siyuanlu/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/en/tag/confidence/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -1221,19 +1521,6 @@
                 href="https://pris-nlp.github.io/en/publication/dolphcoder-echo-locating-code-large-language-models-with-diverse-and-multi-objective-instruction-tuning/"
                 />
   </url><url>
-    <loc>https://pris-nlp.github.io/en/author/jingangwang/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/jingangwang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/jingangwang/"
-                />
-  </url><url>
     <loc>https://pris-nlp.github.io/en/author/mengdizhang/</loc>
     <lastmod>2020-09-19T21:55:52+08:00</lastmod>
     <xhtml:link
@@ -1245,19 +1532,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://pris-nlp.github.io/en/author/mengdizhang/"
-                />
-  </url><url>
-    <loc>https://pris-nlp.github.io/en/author/xunliangcai/</loc>
-    <lastmod>2020-09-19T21:55:52+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://pris-nlp.github.io/author/xunliangcai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://pris-nlp.github.io/en/author/xunliangcai/"
                 />
   </url><url>
     <loc>https://pris-nlp.github.io/en/tag/knowledge-editing/</loc>

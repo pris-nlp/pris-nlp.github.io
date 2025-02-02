@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/xunliangcai/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/xunliangcai/index.xml" rel="self" type="application/rss+xml" />
     <description>XunliangCai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>XunliangCai</title>
       <link>https://pris-nlp.github.io/en/author/xunliangcai/</link>
     </image>
+    
+    <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DolphCoder:Echo-Locating Code Large Language Models with Diverse and Multi-Objective Instruction Tuning</title>

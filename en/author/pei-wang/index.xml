@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/pei-wang/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/pei-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Pei Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Pei Wang</title>
       <link>https://pris-nlp.github.io/en/author/pei-wang/</link>
     </image>
+    
+    <item>
+      <title>MTU-Bench:A Multi-granularity Tool-Use Benchmark for Large Language Models</title>
+      <link>https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-Perspective Consistency Enhances Confidence Estimation in Large Language Models</title>

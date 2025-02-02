@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/</link>
       <atom:link href="https://pris-nlp.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <description>PRIS-NLP Group</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>PRIS-NLP Group</title>
@@ -234,6 +234,38 @@
     </item>
     
     <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B-STaR:Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners</title>
+      <link>https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MTU-Bench:A Multi-granularity Tool-Use Benchmark for Large Language Models</title>
+      <link>https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/mtu-bench-a-multi-granularity-tool-use-benchmark-for-large-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PreAct:Prediction Enhances Agent&#39;s Planning Ability</title>
+      <link>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
       <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
@@ -262,14 +294,6 @@
       <link>https://pris-nlp.github.io/en/publication/faceptor-a-generalist-model-for-face-perception/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/faceptor-a-generalist-model-for-face-perception/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PreAct:Predicting Future in ReAct Enhances Agent&#39;s Planning Ability</title>
-      <link>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</guid>
       <description></description>
     </item>
     

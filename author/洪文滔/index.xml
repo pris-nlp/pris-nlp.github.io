@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/author/%E6%B4%AA%E6%96%87%E6%BB%94/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E6%B4%AA%E6%96%87%E6%BB%94/index.xml" rel="self" type="application/rss+xml" />
     <description>洪文滔</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2025</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>洪文滔</title>
       <link>https://pris-nlp.github.io/author/%E6%B4%AA%E6%96%87%E6%BB%94/</link>
     </image>
+    
+    <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

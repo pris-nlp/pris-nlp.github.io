@@ -5,12 +5,28 @@
     <link>https://pris-nlp.github.io/en/author/yejie-wang/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/yejie-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yejie Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Yejie Wang</title>
       <link>https://pris-nlp.github.io/en/author/yejie-wang/</link>
     </image>
+    
+    <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PreAct:Prediction Enhances Agent&#39;s Planning Ability</title>
+      <link>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
@@ -33,14 +49,6 @@
       <link>https://pris-nlp.github.io/en/publication/divtod-unleashing-the-power-of-llms-for-diversifying-task-oriented-dialogue-representations/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://pris-nlp.github.io/en/publication/divtod-unleashing-the-power-of-llms-for-diversifying-task-oriented-dialogue-representations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PreAct:Predicting Future in ReAct Enhances Agent&#39;s Planning Ability</title>
-      <link>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</guid>
       <description></description>
     </item>
     

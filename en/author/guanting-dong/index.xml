@@ -5,7 +5,7 @@
     <link>https://pris-nlp.github.io/en/author/guanting-dong/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/guanting-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Guanting Dong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Guanting Dong</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
-      <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</guid>
+      <title>PreAct:Prediction Enhances Agent&#39;s Planning Ability</title>
+      <link>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/preact-prediction-enhances-agents-planning-ability/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>PreAct:Predicting Future in ReAct Enhances Agent&#39;s Planning Ability</title>
-      <link>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://pris-nlp.github.io/en/publication/preact-predicting-future-in-react-enhances-agents-planning-ability/</guid>
+      <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>
+      <link>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/cs-bench-a-comprehensive-benchmark-for-large-language-models-towards-computer-science-mastery/</guid>
       <description></description>
     </item>
     

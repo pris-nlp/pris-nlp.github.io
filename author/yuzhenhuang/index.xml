@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YuzhenHuang | 自然语言处理徐蔚然老师研究组</title>
+    <link>https://pris-nlp.github.io/author/yuzhenhuang/</link>
+      <atom:link href="https://pris-nlp.github.io/author/yuzhenhuang/index.xml" rel="self" type="application/rss+xml" />
+    <description>YuzhenHuang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>YuzhenHuang</title>
+      <link>https://pris-nlp.github.io/author/yuzhenhuang/</link>
+    </image>
+    
+    <item>
+      <title>B-STaR:Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners</title>
+      <link>https://pris-nlp.github.io/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

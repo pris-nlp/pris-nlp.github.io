@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WeiWang | PRIS-NLP Group</title>
+    <link>https://pris-nlp.github.io/en/author/weiwang/</link>
+      <atom:link href="https://pris-nlp.github.io/en/author/weiwang/index.xml" rel="self" type="application/rss+xml" />
+    <description>WeiWang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
+      <title>WeiWang</title>
+      <link>https://pris-nlp.github.io/en/author/weiwang/</link>
+    </image>
+    
+    <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

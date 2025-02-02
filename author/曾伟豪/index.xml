@@ -5,12 +5,28 @@
     <link>https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/</link>
       <atom:link href="https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/index.xml" rel="self" type="application/rss+xml" />
     <description>曾伟豪</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>曾伟豪</title>
       <link>https://pris-nlp.github.io/author/%E6%9B%BE%E4%BC%9F%E8%B1%AA/</link>
     </image>
+    
+    <item>
+      <title>AgentRefine:Enhancing Agent Generalization through Refinement Tuning</title>
+      <link>https://pris-nlp.github.io/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/agentrefine-enhancing-agent-generalization-through-refinement-tuning/large-scale-relation-learning-for-question-answering-over-knowledge-bases-with-pre-trained-language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B-STaR:Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners</title>
+      <link>https://pris-nlp.github.io/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS-Bench:A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery</title>

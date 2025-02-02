@@ -5,12 +5,20 @@
     <link>https://pris-nlp.github.io/en/author/lulu-zhao/</link>
       <atom:link href="https://pris-nlp.github.io/en/author/lulu-zhao/index.xml" rel="self" type="application/rss+xml" />
     <description>Lulu Zhao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 07 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© PRIS-NLP 2025</copyright><lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pris-nlp.github.io/images/icon_hufe1d734684b71dfae0212a0699968c34_684004_512x512_fill_lanczos_center_3.png</url>
       <title>Lulu Zhao</title>
       <link>https://pris-nlp.github.io/en/author/lulu-zhao/</link>
     </image>
+    
+    <item>
+      <title>B-STaR:Monitoring and Balancing Exploration and Exploitation in Self-Taught Reasoners</title>
+      <link>https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pris-nlp.github.io/en/publication/b-star-monitoring-and-balancing-exploration-and-exploitation-in-self-taught-reasoners/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Seen to Unseen: Exploring Compositional Generalization of Multi-Attribute Controllable Dialogue Generation</title>
